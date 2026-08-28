@@ -10,15 +10,15 @@ body { background: var(--desk-blue); }
 .desk-scene, .desk-base { position: absolute; inset: 0; width: 100%; height: 100%; }
 .desk-base { display: block; object-fit: contain; user-select: none; }
 
-.desk-overlay { position: absolute; height: auto; opacity: 0; pointer-events: none; user-select: none; transform: scale(1); transform-origin: center; transition: none; z-index: 2; }
-.desk-overlay.is-active { opacity: 1; transform: scale(1.025); transition: opacity 240ms ease, transform 240ms ease; }
+.desk-overlay { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; opacity: 0; pointer-events: none; user-select: none; transition: none; z-index: 2; }
+.desk-overlay.is-active { opacity: 1; transition: opacity 240ms ease; }
 .desk-hotspot { position: absolute; display: block; z-index: 3; outline: none; }
 .desk-hotspot.feature { cursor: pointer; }
 .desk-hotspot.decor { cursor: default; }
 .desk-hotspot.feature:focus-visible { outline: 1px solid rgba(255,255,255,.75); outline-offset: 2px; }
 
 .top-navigation { position: absolute; z-index: 5; top: 2.6%; left: 8.35%; right: 8.35%; display: flex; align-items: flex-start; justify-content: space-between; }
-.nav-item { position: relative; display: inline-flex; flex-direction: column; align-items: center; color: rgba(255,255,255,.97); text-decoration: none; font-family: 'Segoe Print','Comic Sans MS',cursive; font-size: clamp(12px,1.55vw,30px); font-weight: 400; line-height: 1.25; white-space: nowrap; outline: none; }
+.nav-item { position: relative; display: inline-flex; flex-direction: column; align-items: center; color: rgba(255,255,255,.97); text-decoration: none; font-family: 'Caveat', cursive; font-size: clamp(17px,1.72vw,33px); font-weight: 400; font-style: normal; letter-spacing: .01em; line-height: 1.08; white-space: nowrap; outline: none; }
 .navigation-underline { position: relative; display: block; width: 100%; height: .48em; margin-top: .08em; opacity: 0; transform: scaleX(0); transform-origin: left center; transition: opacity 210ms ease, transform 210ms ease; }
 .navigation-underline::before, .navigation-underline::after { content: ''; position: absolute; left: 1%; height: 1px; background: rgba(255,255,255,.96); }
 .navigation-underline::before { top: 12%; width: 98%; transform: rotate(-.25deg); }
