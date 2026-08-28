@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
+@font-face { font-family: 'Noto Serif SC'; src: url('/fonts/noto-serif-sc-about.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Noto Sans SC'; src: url('/fonts/noto-sans-sc-about-400.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Noto Sans SC'; src: url('/fonts/noto-sans-sc-about-500.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'LXGW WenKai'; src: url('/fonts/lxgw-wenkai-about.woff') format('woff'); font-weight: 500; font-style: normal; font-display: swap; }
+
 :root { --desk-blue: #4e7fc8; --font-hand: 'Caveat', cursive; --font-title-cn: 'Noto Serif SC', serif; --font-body-cn: 'Noto Sans SC', sans-serif; --font-note-cn: 'LXGW WenKai', cursive; }
 * { box-sizing: border-box; }
 html, body { width: 100%; min-height: 100%; margin: 0; }
