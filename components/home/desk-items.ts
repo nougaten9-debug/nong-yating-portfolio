@@ -1,0 +1,8 @@
+export type DeskItem = { id: string; label: string; href: string; image: string; position: { left: number; top: number; width: number }; hotspot: { left: number; top: number; width: number; height: number; clipPath?: string } };
+export const deskItems: DeskItem[] = [
+  { id: 'about', label: 'About Me 我的标签', href: '/about', image: '/assets/about.png', position: { left: 31.55, top: 13.2, width: 9.55 }, hotspot: { left: 31.65, top: 13.0, width: 9.35, height: 16.8, clipPath: 'polygon(8% 3%,88% 0,100% 91%,9% 100%,0 12%)' } },
+  { id: 'projects', label: 'Projects 项目档案', href: '/projects', image: '/assets/projects.png', position: { left: 16.6, top: 28.5, width: 27.2 }, hotspot: { left: 18.5, top: 29.2, width: 23.8, height: 29.4, clipPath: 'polygon(9% 4%,89% 0,100% 89%,91% 100%,8% 91%,0 17%)' } },
+  { id: 'content', label: 'Content 个人自然帐', href: '/content', image: '/assets/content.png', position: { left: 27.3, top: 48.7, width: 14.0 }, hotspot: { left: 31.0, top: 49.0, width: 10.2, height: 21.5, clipPath: 'polygon(31% 0,87% 5%,100% 92%,30% 100%,0 7%)' } },
+  { id: 'ai-lab', label: 'AI Lab AI 实践与沉淀', href: '/ai-lab', image: '/assets/ai-lab.png', position: { left: 48.75, top: 46.1, width: 22.65 }, hotspot: { left: 49.1, top: 46.9, width: 21.2, height: 25.7, clipPath: 'polygon(8% 0,96% 7%,100% 91%,92% 100%,0 89%)' } },
+  { id: 'resume', label: 'Resume & Contact 关于我', href: '/resume-contact', image: '/assets/resume.png', position: { left: 71.55, top: 40.1, width: 10.2 }, hotspot: { left: 72.2, top: 42.0, width: 8.1, height: 20.6, clipPath: 'polygon(13% 0,91% 7%,100% 94%,10% 100%,0 8%)' } },
+];
