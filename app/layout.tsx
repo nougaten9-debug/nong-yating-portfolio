@@ -1,5 +1,9 @@
 import type { Metadata } from 'next';
 import '@fontsource/caveat/400.css';
+import '@fontsource/noto-serif-sc/400.css';
+import '@fontsource/noto-sans-sc/400.css';
+import '@fontsource/noto-sans-sc/500.css';
+import '@fontsource/lxgw-wenkai/500.css';
 import './globals.css';
 
 export const metadata: Metadata = {
