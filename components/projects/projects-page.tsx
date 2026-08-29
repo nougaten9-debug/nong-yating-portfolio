@@ -5,7 +5,6 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { Laptop, Leaf, NotebookPen, PenLine, StickyNote } from 'lucide-react';
-import { TopNavigation } from '@/components/home/top-navigation';
 import { ProjectDetailModal } from './project-detail-modal';
 import { ProjectImageStack } from './project-image-stack';
 import { ProjectScrollItem } from './project-scroll-item';
@@ -24,7 +23,6 @@ function ProjectsIntroVisual() {
 }
 
 export function ProjectsPage() {
-  const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const [activeProjectSlug, setActiveProjectSlug] = useState<string | null>(null);
   const rootRef = useRef<HTMLElement | null>(null);
   const visualRef = useRef<HTMLDivElement | null>(null);
@@ -113,7 +111,7 @@ export function ProjectsPage() {
   }, []);
 
   return <main className="projects-page" ref={rootRef} aria-label="项目档案">
-    <TopNavigation activeItem="projects" hoveredItem={hoveredItem} setHoveredItem={setHoveredItem} />
+    <a className="projects-back-home" href="/" aria-label="返回 Home"><span aria-hidden="true">←</span> HOME</a>
     <div className="projects-page-layout">
       <div className="projects-page-copy">
         <section className="projects-page-section projects-page-intro" aria-labelledby="projects-page-title">
