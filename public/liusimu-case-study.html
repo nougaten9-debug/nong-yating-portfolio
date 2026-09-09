@@ -1,0 +1,1820 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>柳丝木 Case Study — 达人内容审稿质控</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=LXGW+WenKai&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet">
+
+
+
+
+  <style>
+    :root{
+      --blue:#3978DE;
+      --blue-deep:#245B9B;
+      --red:#F05A67;
+      --yellow:#FFE45C;
+
+      --cream:#FBF8F1;
+      --cream-soft:#FFFDF8;
+      --white:#FFFFFF;
+      --ink:#20242A;
+      --muted:#6E737B;
+      --line:#DED9CE;
+
+      --serif:'Noto Serif SC',serif;
+      --sans:'Noto Sans SC',sans-serif;
+      --note:'LXGW WenKai',cursive;
+      --hand:'Caveat',cursive;
+
+      --max:1280px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:var(--sans);
+      line-height:1.72;
+      -webkit-font-smoothing:antialiased;
+    }
+    img{display:block;max-width:100%}
+    button{font:inherit}
+    .wrap{width:min(var(--max),calc(100% - 72px));margin:auto}
+    .section{
+      padding:70px 0;
+      background:var(--cream);
+      border-top:1px solid rgba(32,36,42,.08);
+    }
+    .eyebrow{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.16em;
+      color:#7E8590;
+      text-transform:uppercase;
+      margin-bottom:22px;
+    }
+    .eyebrow::before{
+      content:'';
+      width:34px;
+      height:3px;
+      background:var(--yellow);
+    }
+    .section-head{
+      display:flex;
+      align-items:baseline;
+      gap:14px;
+      margin-bottom:34px;
+    }
+    .section-num{
+      font:700 52px/1 var(--serif);
+      color:var(--blue);
+      letter-spacing:-.04em;
+    }
+    .section-title{
+      margin:0;
+      font:700 34px/1.25 var(--serif);
+    }
+    .section-en{
+      font:500 17px/1 var(--hand);
+      color:var(--blue);
+      margin-left:6px;
+    }
+    .muted{color:var(--muted)}
+
+    /* HERO */
+    .hero{
+      min-height:90vh;
+      display:flex;
+      align-items:center;
+      background:var(--cream);
+      border-top:5px solid var(--blue);
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);
+      gap:50px;
+      align-items:center;
+      padding:60px 0 48px;
+    }
+    .hero-brand{
+      font:500 24px/1.1 var(--hand);
+      color:var(--red);
+      margin:0 0 30px;
+    }
+    .hero h1{
+      margin:0;
+      max-width:820px;
+  font:700 clamp(40px,4.3vw,62px)/1.18 var(--serif);
+      letter-spacing:-.045em;
+    }
+    .hero .blue-line{
+      display:block;
+      color:var(--blue);
+      margin-top:8px;
+    }
+    .hero-summary{
+      max-width:880px;
+      margin:34px 0 24px;
+      font-size:19px;
+      color:#3E444C;
+    }
+    .hero-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    .hero-tag{
+      padding:8px 15px;
+      border:1px solid #D8D4CA;
+      border-radius:999px;
+      background:rgba(255,255,255,.35);
+      font-size:12px;
+      font-weight:600;
+    }
+    .hero-scroll{
+      margin-top:78px;
+      font:500 16px var(--hand);
+      color:#8A9098;
+    }
+  .hero-visual{
+  min-height:0;
+  aspect-ratio:3/2;
+  border:1px solid #E3DFD6;
+  background:var(--cream-soft);
+  display:grid;
+  place-items:center;
+  position:relative;
+  overflow:hidden;
+}
+.hero-visual img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+  object-position:center;
+  display:block;
+  padding:0;
+  box-sizing:border-box;
+}
+    .hero-placeholder{
+      position:relative;
+      z-index:2;
+      width:70%;
+      aspect-ratio:4/5;
+      display:grid;
+      place-items:center;
+      text-align:center;
+      padding:24px;
+      color:#8A9098;
+      font-size:12px;
+      border:1px solid #EEEAE2;
+      background:rgba(255,253,248,.94);
+    }
+  
+
+    /* BACKGROUND + ROLE */
+    .challenge-layout{
+      display:grid;
+      grid-template-columns:.62fr 1.38fr;
+      gap:72px;
+      align-items:start;
+    }
+    .challenge-title{
+      position:sticky;
+      top:34px;
+    }
+    .challenge-title .label{
+      font:600 19px var(--hand);
+      color:var(--blue);
+      margin-bottom:6px;
+    }
+    .challenge-title h2{
+      margin:0;
+      font:700 54px/1.15 var(--serif);
+    }
+    .challenge-copy .lead{
+      margin:0 0 24px;
+      font:500 27px/1.65 var(--sans);
+      max-width:900px;
+    }
+    .challenge-copy>p{
+      margin:0 0 30px;
+      color:#5D636B;
+      font-size:15px;
+      max-width:900px;
+    }
+    .challenge-facts{
+      border-top:1px solid var(--line);
+      margin-bottom:30px;
+    }
+    .fact{
+      display:grid;
+      grid-template-columns:220px 1fr;
+      gap:60px;
+      padding:18px 0;
+      border-bottom:1px solid var(--line);
+      align-items:center;
+    }
+    .fact strong{
+      color:var(--blue);
+      font-family:var(--serif);
+      font-size:19px;
+    }
+    .fact span{
+      font-size:14px;
+      color:#555B63;
+    }
+    .role-compact{
+      display:grid;
+      grid-template-columns:170px 1fr;
+      gap:28px;
+      padding-top:6px;
+    }
+    .role-compact h3{
+      margin:0;
+      font:700 22px var(--serif);
+    }
+    .role-chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .role-chip{
+      padding:7px 11px;
+      border-bottom:2px solid var(--blue);
+      background:rgba(255,255,255,.22);
+      font-size:12px;
+      font-weight:600;
+    }
+
+    /* STRATEGY */
+    .strategy-lead{
+      margin:-10px 0 8px;
+      font:600 21px/1.6 var(--serif);
+      color:var(--blue-deep);
+    }
+    .strategy-track{
+      position:relative;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:34px;
+      margin-top:28px;
+    }
+    .strategy-track::before{
+      content:'';
+      position:absolute;
+      left:28px;
+      right:28px;
+      top:27px;
+      height:2px;
+      background:var(--blue);
+    }
+    .strategy-item{
+      position:relative;
+      z-index:1;
+    }
+    .strategy-dot{
+      width:48px;
+      height:48px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      font-size:13px;
+      font-weight:700;
+      color:#fff;
+      margin-bottom:20px;
+      box-shadow:0 0 0 7px var(--cream);
+    }
+    .strategy-item:nth-child(1) .strategy-dot{background:var(--blue)}
+    .strategy-item:nth-child(2) .strategy-dot{background:var(--red)}
+    .strategy-item:nth-child(3) .strategy-dot{
+      background:var(--yellow);
+      color:var(--ink);
+    }
+    .strategy-item h3{
+      margin:0 0 10px;
+      font:700 24px/1.4 var(--serif);
+    }
+    .strategy-item p{
+      margin:0;
+      max-width:340px;
+      font-size:14px;
+      color:#60666E;
+    }
+
+    /* PLANNING */
+    .planning-layout{
+      display:grid;
+      grid-template-columns:.42fr 1.58fr;
+      gap:68px;
+      align-items:start;
+    }
+    .planning-intro{
+      position:sticky;
+      top:34px;
+    }
+    .planning-intro .ghost{
+      font:700 96px/1 var(--serif);
+      color:rgba(57,120,222,.10);
+      margin-bottom:-10px;
+    }
+    .planning-intro h2{
+      margin:0;
+      font:700 34px/1.3 var(--serif);
+    }
+    .planning-intro p{
+      max-width:340px;
+      color:#666C74;
+      font-size:14px;
+    }
+
+   /* CASES — 代表内容 / 爆文精选 */
+.case-row{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:14px;
+}
+
+.case-link{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+}
+
+.case-card{
+  background:var(--cream-soft);
+  border:1px solid #E6E2DA;
+  overflow:hidden;
+  height:100%;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.case-link:hover .case-card{
+  transform:translateY(-6px);
+  box-shadow:0 12px 28px rgba(32,36,42,.10);
+}
+
+.case-image{
+  aspect-ratio:.83/1;
+  background:#F2EFE8;
+  display:grid;
+  place-items:center;
+  color:#8A9098;
+  font-size:11px;
+  border-bottom:1px solid #E6E2DA;
+  overflow:hidden;
+}
+
+.case-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .35s ease;
+}
+
+.case-link:hover .case-image img{
+  transform:scale(1.025);
+}
+
+.case-body{
+  padding:12px 12px 13px;
+}
+
+.case-label{
+  font:500 15px var(--hand);
+  color:var(--blue);
+}
+
+.case-title{
+  margin:6px 0 10px;
+  font-size:12px;
+  font-weight:600;
+  line-height:1.5;
+  min-height:54px;
+}
+
+.case-data{
+  color:var(--red);
+  font:700 23px/1 var(--serif);
+}
+
+.case-data small{
+  font:400 10px var(--sans);
+  color:#747A82;
+  margin-left:3px;
+}
+
+/* responsive */
+@media (max-width:1100px){
+  .case-row{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+
+@media (max-width:700px){
+  .case-row{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+    /* RESULTS */
+    .results-section{
+      padding:72px 0 64px;
+      background:var(--blue);
+      color:#fff;
+      border-top:none;
+    }
+    .results-section .section-num,
+    .results-section .section-en{
+      color:#fff;
+    }
+    .results-section .section-title{
+      color:#fff;
+    }
+    .results-primary{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:0;
+      margin-top:26px;
+    }
+    .metric{
+      padding:24px 28px 26px 0;
+      margin-right:34px;
+      border-top:1px solid rgba(255,255,255,.38);
+      min-height:132px;
+    }
+    .metric strong{
+      display:block;
+      font:700 clamp(42px,4.2vw,66px)/1.08 var(--serif);
+      color:#fff;
+      letter-spacing:-.03em;
+      margin-bottom:11px;
+    }
+    .metric.highlight strong{
+      color:var(--yellow);
+    }
+    .metric span{
+      font-size:13px;
+      color:rgba(255,255,255,.84);
+    }
+    .results-secondary-card{
+      margin-top:38px;
+      background:var(--cream-soft);
+      color:var(--ink);
+      border-radius:4px;
+      padding:24px 28px;
+      display:grid;
+      grid-template-columns:220px 1fr;
+      gap:34px;
+      align-items:start;
+    }
+    .secondary-title{
+      font:700 18px var(--serif);
+    }
+    .secondary-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:28px;
+    }
+    .secondary-item strong{
+      display:block;
+      color:var(--blue);
+      font:700 30px var(--serif);
+      margin-bottom:3px;
+    }
+    .secondary-item span{
+      font-size:11px;
+      color:#727880;
+    }
+    .team-note{
+      margin-top:18px;
+      color:rgba(255,255,255,.78);
+      font-size:11px;
+    }
+
+    /* ENDING */
+    .ending{
+      background:var(--cream);
+      padding:78px 0 86px;
+    }
+    .ending-inner{
+      max-width:980px;
+      margin:auto;
+    }
+    .ending-label{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      color:#818792;
+      font-size:12px;
+      letter-spacing:.14em;
+      margin-bottom:34px;
+    }
+    .ending-label::after{
+      content:'';
+      width:72px;
+      height:3px;
+      background:var(--yellow);
+    }
+    .ending-quote{
+      margin:0;
+      font:700 clamp(32px,4.1vw,54px)/1.55 var(--serif);
+      color:var(--blue-deep);
+      letter-spacing:-.02em;
+      max-width:980px;
+    }
+    .ending-meta{
+      margin-top:32px;
+      color:#9297A0;
+      font-style:italic;
+      font-family:var(--serif);
+      font-size:15px;
+    }
+
+    /* REVEAL */
+    .reveal{
+      opacity:0;
+      transform:translateY(22px);
+      transition:
+        opacity .65s cubic-bezier(.16,1,.3,1),
+        transform .65s cubic-bezier(.16,1,.3,1);
+    }
+    .reveal.visible{
+      opacity:1;
+      transform:none;
+    }
+    .reveal-d1{transition-delay:.08s}
+    .reveal-d2{transition-delay:.16s}
+
+    /* 返回项目档案（与朗诺 Ranova Case Study 当前版本完全一致） */
+    .back-projects{
+      position:fixed;
+      top:28px;
+      left:38px;
+      z-index:9999;
+      display:inline-flex;
+      align-items:center;
+      gap:7px;
+      font-family:'Caveat', cursive;
+      font-size:18px;
+      font-weight:500;
+      line-height:1;
+      color:#3478df;
+      text-decoration:none;
+      padding:0;
+      background:transparent;
+      border:none;
+      border-radius:0;
+      backdrop-filter:none;
+      transition:opacity 0.2s ease;
+    }
+    .back-projects span{
+      font-family:Arial, sans-serif;
+      font-size:19px;
+      font-weight:400;
+      line-height:1;
+    }
+    .back-projects:hover{
+      opacity:0.65;
+      transform:none;
+      background:transparent;
+    }
+
+    /* HERO META（项目信息行） */
+    .hero-meta{
+      margin:0 0 22px;
+      font-size:13px;
+      color:#7E8590;
+    }
+
+    /* ENDING NOTE（补充说明） */
+    .ending-note{
+      margin-top:26px;
+      max-width:640px;
+      color:#6E737B;
+      font-size:14px;
+      line-height:1.9;
+    }
+
+    /* 02 方法区底部金句（蓝色文楷 + 蓝色手绘下划线） */
+    .strategy-quote{
+      margin:52px 0 0;
+      display:flex;
+      align-items:flex-start;
+      gap:14px;
+    }
+    .strategy-quote p{
+      margin:0;
+      color:var(--blue);
+      font:500 22px/1.72 var(--note);
+      max-width:820px;
+    }
+    .strategy-quote .underline{
+      position:relative;
+      display:inline-block;
+    }
+    .strategy-quote .underline::after{
+      content:'';
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:-4px;
+      height:3px;
+      background:var(--blue);
+      transform:rotate(-1.4deg);
+      border-radius:99px;
+    }
+
+    /* 03 内容质控：真实稿件大图案例网格 */
+    .review-grid{
+      display:grid;
+      grid-template-columns:repeat(2,1fr);
+      gap:18px;
+    }
+    .review-card{
+      background:var(--cream-soft);
+      border:1px solid #E7E1D6;
+      overflow:hidden;
+      height:100%;
+    }
+    .review-image{
+      aspect-ratio:4/3;
+      background:#F2EFE8;
+      display:grid;
+      place-items:center;
+      text-align:center;
+      color:#8A9098;
+      font-size:12px;
+      border-bottom:1px solid #E6E2DA;
+      padding:18px;
+    }
+    .review-image b{
+      display:block;
+      font:600 15px var(--serif);
+      color:#5E646C;
+      margin-bottom:6px;
+    }
+    .review-body{
+      padding:14px 16px 16px;
+    }
+    .review-body .case-label{
+      font:500 15px var(--hand);
+      color:var(--blue);
+    }
+    .review-body h3{
+      margin:4px 0 8px;
+      font:700 21px/1.4 var(--serif);
+    }
+    .review-body p{
+      margin:0;
+      font-size:13px;
+      color:#5D636B;
+    }
+
+    /* 爆文卡辅助数据行 */
+    .case-note{
+      margin-top:8px;
+      font-size:11px;
+      color:#7E8590;
+    }
+
+    @media(max-width:1050px){
+      .hero-grid,
+      .challenge-layout,
+      .planning-layout{
+        grid-template-columns:1fr;
+      }
+      .challenge-title,
+      .planning-intro{
+        position:static;
+      }
+      .hero-visual{
+        min-height:0;
+      }
+      .case-row{
+        grid-template-columns:repeat(3,1fr);
+      }
+      .results-primary{
+        grid-template-columns:repeat(2,1fr);
+      }
+      .role-compact{
+        grid-template-columns:1fr;
+      }
+      .review-grid{
+        grid-template-columns:1fr;
+      }
+    }
+
+    @media(max-width:720px){
+      .wrap{
+        width:min(var(--max),calc(100% - 32px));
+      }
+      .hero{
+        min-height:auto;
+      }
+      .hero h1{
+        font-size:44px;
+      }
+      .strategy-track{
+        grid-template-columns:1fr;
+      }
+      .strategy-track::before{
+        display:none;
+      }
+      .case-row{
+        grid-template-columns:repeat(2,1fr);
+      }
+      .results-primary{
+        grid-template-columns:1fr;
+      }
+      .results-secondary-card{
+        grid-template-columns:1fr;
+      }
+      .secondary-grid{
+        grid-template-columns:1fr;
+      }
+      .fact{
+        grid-template-columns:1fr;
+        gap:4px;
+      }
+      .metric{
+        margin-right:0;
+      }
+      .ending-quote{
+        font-size:34px;
+      }
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      .reveal{
+        opacity:1;
+        transform:none;
+        transition:none;
+      }
+    }
+
+
+/* ==========================================
+   CONTENT QUALITY CONTROL
+   ========================================== */
+
+.qc-section{
+  padding-top:96px;
+  padding-bottom:110px;
+}
+
+
+/* SECTION TITLE */
+.qc-heading{
+  display:flex;
+  align-items:flex-start;
+  gap:24px;
+  margin-bottom:54px;
+}
+
+.qc-heading .section-index{
+  flex:none;
+  color:rgba(57,120,222,.14);
+  font:700 76px/1 var(--serif);
+  letter-spacing:-.04em;
+}
+
+.qc-heading-copy{
+  padding-top:6px;
+}
+
+.qc-heading h2{
+  margin:0 0 8px;
+  color:#20242A;
+  font:700 34px/1.2 var(--serif);
+}
+
+.qc-heading p{
+  margin:0;
+  max-width:720px;
+  color:#71767D;
+  font-size:13px;
+  line-height:1.8;
+}
+
+
+/* 2 × 2 GRID */
+.qc-grid{
+  display:grid;
+  grid-template-columns:repeat(2, minmax(0, 1fr));
+  gap:30px;
+}
+
+
+/* CASE CARD */
+.qc-card{
+  min-width:0;
+  padding:28px 28px 24px;
+
+  background:var(--cream-soft);
+  border:1px solid #E7E1D6;
+
+  display:flex;
+  flex-direction:column;
+}
+
+.qc-card{
+  border-bottom:3px solid var(--blue);
+}
+
+
+/* CASE META */
+.qc-case-meta{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+
+  margin-bottom:12px;
+
+  color:#8B9097;
+  font-size:10px;
+  letter-spacing:.04em;
+}
+
+.qc-case-meta span:first-child{
+  color:var(--blue);
+  font-weight:700;
+}
+
+
+/* CASE TITLE */
+.qc-card > h3{
+  margin:0 0 24px;
+
+  color:#20242A;
+
+  font:700 21px/1.45 var(--serif);
+}
+
+
+/* 卡片内部：左文字 + 右截图 */
+.qc-case-body{
+  display:grid;
+  grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);
+  gap:24px;
+
+  align-items:start;
+}
+
+
+/* LEFT COPY */
+.qc-copy{
+  min-width:0;
+}
+
+.qc-point{
+  padding:12px 0;
+
+  border-top:1px solid rgba(32,36,42,.08);
+}
+
+.qc-point:last-child{
+  border-bottom:1px solid rgba(32,36,42,.08);
+}
+
+.qc-label{
+  margin-bottom:5px;
+  color:var(--blue);
+  font-size:15px;
+  font-weight:700;
+  letter-spacing:.04em;
+}
+
+.qc-point p{
+  margin:0;
+
+  color:#626870;
+
+  font-size:13px;
+  line-height:1.75;
+}
+
+
+/* RIGHT EVIDENCE */
+.qc-evidence{
+  min-width:0;
+}
+
+.qc-image-placeholder{
+  width:100%;
+  min-height:250px;
+
+  display:grid;
+  place-items:center;
+
+  padding:24px;
+
+  border:1px solid #E2DDD3;
+  background:#F4F0E8;
+
+  color:#9A9FA5;
+
+  font-size:11px;
+  line-height:1.7;
+  text-align:center;
+}
+
+
+/* 以后放真实图片时直接用这个 class */
+.qc-image{
+  display:block;
+
+  width:100%;
+  height:auto;
+
+  border:1px solid #E2DDD3;
+}
+
+
+/* RESPONSIVE */
+@media (max-width:980px){
+
+  .qc-grid{
+    grid-template-columns:1fr;
+  }
+
+}
+
+
+@media (max-width:680px){
+
+  .qc-heading{
+    gap:14px;
+    margin-bottom:40px;
+  }
+
+  .qc-heading .section-index{
+    font-size:54px;
+  }
+
+  .qc-heading h2{
+    font-size:28px;
+  }
+
+  .qc-card{
+    padding:22px 20px;
+  }
+
+  .qc-case-body{
+    grid-template-columns:1fr;
+    gap:20px;
+  }
+
+}
+/* ==========================================
+   IMAGE LIGHTBOX
+   ========================================== */
+
+.zoomable-image{
+  cursor:zoom-in;
+  transition:opacity .2s ease;
+}
+
+.zoomable-image:hover{
+  opacity:.88;
+}
+
+
+/* 全屏遮罩 */
+.image-lightbox{
+  position:fixed;
+  inset:0;
+
+  z-index:9999;
+
+  display:none;
+  align-items:center;
+  justify-content:center;
+
+  padding:40px;
+
+  background:rgba(18,20,24,.88);
+
+  backdrop-filter:blur(4px);
+}
+
+.image-lightbox.active{
+  display:flex;
+}
+
+
+/* 图片区域 */
+.lightbox-content{
+  width:100%;
+  height:100%;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  overflow:auto;
+}
+
+.lightbox-content img{
+  display:block;
+
+  max-width:95%;
+  max-height:92vh;
+
+  width:auto;
+  height:auto;
+
+  object-fit:contain;
+
+  box-shadow:
+    0 16px 50px rgba(0,0,0,.28);
+
+  cursor:zoom-out;
+}
+
+
+/* 关闭按钮 */
+.lightbox-close{
+  position:absolute;
+
+  top:24px;
+  right:30px;
+
+  z-index:2;
+
+  width:44px;
+  height:44px;
+
+  border:0;
+  border-radius:50%;
+
+  background:rgba(255,255,255,.12);
+
+  color:#fff;
+
+  font-size:30px;
+  line-height:1;
+
+  cursor:pointer;
+}
+
+.lightbox-close:hover{
+  background:rgba(255,255,255,.2);
+}
+
+  
+.qc-image-hint{
+  position:absolute;
+  left:50%;
+  bottom:10px;
+  transform:translateX(-50%);
+  padding:5px 12px;
+  background:#fff;
+  color:#F05A67;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.04em;
+  border:1px solid #F05A67;
+  border-radius:3px;
+  pointer-events:none;
+  white-space:nowrap;
+  opacity:0;
+  transition:opacity .18s ease;
+}
+.qc-evidence:hover .qc-image-hint,
+.qc-image:hover ~ .qc-image-hint,
+.qc-card:hover .qc-image-hint{
+  opacity:1;
+}
+</style>
+</head>
+
+<body>
+
+  <a href="/projects" class="back-projects">
+    <span>←</span>
+    PROJECTS
+  </a>  <!-- 01 HERO -->
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <div class="eyebrow">CASE STUDY · 2026</div>
+        <div class="hero-brand" style="font:500 24px/1.1 var(--hand);color:var(--red);margin:0 0 30px">柳丝木 × 小红书</div>
+
+        <h1>
+          达人内容质控，
+          <span class="blue-line">如何把「品牌要说的」改成「用户愿意看的」？</span>
+        </h1>
+
+        <p class="hero-summary">
+       柳丝木｜达人内容审稿质控与改稿
+        </p>
+
+        <div class="hero-meta">
+达人审稿质控项目（兼职）｜2026.02 — 2026.03｜美妆个护
+        </div>
+
+        <div class="hero-tags">
+          <span class="hero-tag">内容审稿质控</span>
+          <span class="hero-tag">卖点转译</span>
+          <span class="hero-tag">内容优化</span>
+          <span class="hero-tag">达人沟通</span>
+        </div>
+
+        <div class="hero-scroll">scroll to unpack the strategy ↓</div>
+      </div>
+
+      <div class="hero-visual reveal reveal-d1">
+        <img src="/assets/projects/liusimu/liu.png" alt="柳丝木项目主视觉" class="hero-project-image">
+      </div>
+    </div>
+  </header>
+
+  <!-- 02 BACKGROUND + RESPONSIBILITIES -->
+  <section class="section">
+    <div class="wrap challenge-layout">
+      <div class="challenge-title reveal">
+        <div class="label">01 / BACKGROUND</div>
+        <h2>项目背景</h2>
+      </div>
+
+      <div class="challenge-copy reveal reveal-d1">
+        <p class="lead">
+柳丝木围绕美白隔离霜、特护隔离霜、黑茶卸妆油三款核心产品展开小红书达人合作，通过多位达人集中发布，持续强化产品卖点与用户认知。
+
+  <p>
+          我负责篇达人稿件的发布前内容质控，从大纲、初稿到定稿持续跟进，并与达人沟通推进修改及最终发布。
+        </p>
+
+
+        </p>
+
+        <div class="challenge-facts">
+          <div class="fact">
+            <strong>01 三款产品</strong>
+            <span>三款产品同期推进，需要准确区分不同产品的核心卖点与用户诉求。</span>
+          </div>
+          <div class="fact">
+            <strong>02 品牌信息 × 达人原生感</strong>
+            <span>既要保证卖点准确完整，又不能照搬 Brief，需要保留达人语感，避免内容过度广告化。</span>
+          </div>
+          <div class="fact">
+            <strong>03 卖点 × 用户阅读理由</strong>
+            <span>不只把产品“写进去”，还要通过痛点、场景与使用结果，让用户有继续看和相信的理由。</span>
+          </div>
+        </div>
+
+        <div class="role-compact">
+          <h3>我的职责</h3>
+          <div class="role-chips">
+            <span class="role-chip">内容审稿质控</span>
+            <span class="role-chip">卖点转译</span>
+            <span class="role-chip">标题封面优化</span>
+            <span class="role-chip">内容结构优化</span>
+            <span class="role-chip">达人沟通</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 MY APPROACH -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="section-num">02</div>
+        <h2 class="section-title">我的方法 <span class="section-en">/ My Approach</span></h2>
+      </div>
+
+      <p class="strategy-lead reveal">审一篇稿，我主要看三个层面。</p>
+
+      <div class="strategy-track">
+        <article class="strategy-item reveal">
+          <div class="strategy-dot">01</div>
+          <h3>先判断｜这篇内容本身成不成立</h3>
+          <p>先看选题、结构与用户进入理由，判断内容有没有继续往下看的价值。</p>
+        </article>
+
+        <article class="strategy-item reveal reveal-d1">
+          <div class="strategy-dot">02</div>
+          <h3>再转译｜卖点有没有变成用户语言</h3>
+          <p>不照搬品牌话术，把功能卖点转成具体问题、使用场景与可感知结果。</p>
+        </article>
+
+        <article class="strategy-item reveal reveal-d2">
+          <div class="strategy-dot">03</div>
+          <h3>最后落地｜修改能不能真正执行</h3>
+          <p>从标题、开头、结构到卖点位置直接给出修改，并与达人沟通推进至定稿发布。</p>
+        </article>
+      </div>
+
+      <div class="strategy-quote reveal">
+        <p>
+          内容质控不是把稿件改到「没问题」，
+          而是尽可能把它往<span class="underline">「更值得看」</span>的方向推。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- 03 CONTENT QUALITY CONTROL -->
+<section class="section qc-section">
+  <div class="wrap">
+
+    <!-- SECTION TITLE -->
+    <div class="qc-heading reveal">
+      <div class="section-index">03</div>
+
+      <div class="qc-heading-copy">
+        <h2>内容质控 / Evidence</h2>
+        <p>
+          从真实审稿案例中，展示我如何判断问题、转译卖点，
+          并把修改意见落实到具体内容。
+        </p>
+      </div>
+    </div>
+
+
+    <!-- CASE GRID -->
+    <div class="qc-grid">
+
+      <!-- CASE 01 -->
+      <article class="qc-card reveal reveal-d1">
+        <div class="qc-case-meta">
+          <span>CASE 01</span>
+          <span>韩憨憨__－柳丝木卸妆油</span>
+        </div>
+
+        <h3>从「成分介绍」到「内容创意线索」</h3>
+
+        <div class="qc-case-body">
+
+          <div class="qc-copy">
+            <div class="qc-point">
+              <div class="qc-label">原稿问题</div>
+              <p>
+             黑茶成分容易被处理成普通的功能介绍，与博主原本的调酒、生活方式内容割裂。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">我的判断</div>
+              <p>
+                破圈内容植入产品容易说服力不足，让“黑茶”先作为生活兴趣出现，再自然连接到卸妆油成分。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">修改方向</div>
+              <p>
+             通过调制黑茶相关饮品、搭配黑茶酥和分享饮茶习惯建立内容线索，再由“喜欢茶相关产品”过渡到黑茶卸妆油；同时补充质地、卸妆效果和茶香感受。
+              </p>
+            </div>
+          </div>
+
+        <div class="qc-evidence">
+  <img
+   src="/assets/projects/liusimu/case-01-1.png"
+    alt="测试图片"
+    class="qc-image zoomable-image"
+  >
+
+   
+
+  <div class="qc-image-hint">
+    查看大图 ↗
+  </div>
+</div>
+        </div>
+      </article>
+
+
+      <!-- CASE 02 -->
+      <article class="qc-card reveal reveal-d1">
+        <div class="qc-case-meta">
+          <span>CASE 02</span>
+          <span>吴小凡－柳丝木隔离</span>
+        </div>
+
+        <h3>从「主观夸赞」到「可验证的产品表现」</h3>
+
+        <div class="qc-case-body">
+
+          <div class="qc-copy">
+            <div class="qc-point">
+              <div class="qc-label">原稿问题</div>
+              <p>
+          原稿主要用“自然、服帖、不假白”等形容词介绍效果，但缺少足够的对比画面和持续时间证明，容易变成单向种草。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">我的判断</div>
+              <p>
+                底妆产品的核心价值必须让用户直接看见。纠色、融肤和持妆是不同问题，需要分别设计画面证据，不能只靠口播概括。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">修改方向</div>
+              <p>
+           增加自然光原相机实测、四款质地对比、半脸纠色对比和4/8小时持妆记录；分别展示薰衣紫与薄荷绿的适用肤色，并保留适度缺点，让测评更完整可信。
+              </p>
+            </div>
+          </div>
+
+          <div class="qc-evidence">
+        <div class="qc-evidence">
+  <img
+   src="/assets/projects/liusimu/case-01-2.png"
+    alt="柳丝木美白调色隔离审稿案例"
+    class="qc-image zoomable-image"
+  >
+
+  <div class="qc-image-hint">
+    查看大图 ↗
+  </div>
+</div>
+          </div>
+
+        </div>
+      </article>
+
+
+      <!-- CASE 03 -->
+      <article class="qc-card reveal reveal-d1">
+        <div class="qc-case-meta">
+          <span>CASE 03</span>
+          <span>大鼠米－柳丝木黑茶卸妆油</span>
+        </div>
+
+        <h3>从「品牌话术」到「真实个人体验」</h3>
+
+        <div class="qc-case-body">
+
+          <div class="qc-copy">
+            <div class="qc-point">
+              <div class="qc-label">原稿问题</div>
+              <p>
+                原稿可以完整传递卸妆力、抗氧化和性价比，但表达更接近标准产品介绍，与博主“小号说真话”的账号气质不够匹配。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">我的判断</div>
+              <p>
+                去商单感不是简单减少卖点，而是把品牌语言转译成达人平时会说的话，并加入具体使用细节和不过度完美的真实反馈。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">修改方向</div>
+              <p>
+                按照博主原有语气重写，用“普通平价卸妆油没有的buff”“焊我脸上”等账号化表达承接卖点；补充泵头偶尔挤多的小缺点，同时增加料体流动感和半脸卸妆对比。
+              </p>
+            </div>
+          </div>
+
+          <div class="qc-evidence">
+           <div class="qc-evidence">
+  <img
+   src="/assets/projects/liusimu/case-01-3.png"
+    alt="柳丝木美白调色隔离审稿案例"
+    class="qc-image zoomable-image"
+  >
+
+  <div class="qc-image-hint">
+    查看大图 ↗
+  </div>
+</div>
+          </div>
+
+        </div>
+      </article>
+
+
+      <!-- CASE 04 -->
+      <article class="qc-card qc-card-key reveal reveal-d1">
+        <div class="qc-case-meta">
+          <span>CASE 04</span>
+          <span>小小柠檬汽－柳丝木隔离</span>
+        </div>
+
+        <h3>从「卖点堆叠」到「用户解决路径」</h3>
+
+        <div class="qc-case-body">
+
+          <div class="qc-copy">
+            <div class="qc-point">
+              <div class="qc-label">原稿问题</div>
+              <p>
+           原稿同时讲纠色、提亮、保湿、持妆和敏肌成分，信息较多，但新手难以判断自己为什么需要隔离、不同颜色应该怎么使用。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">我的判断</div>
+              <p>
+      教程类内容应先帮助用户识别问题，再提供对应方法。产品卖点必须嵌入解决步骤，而不是脱离使用过程集中罗列。
+              </p>
+            </div>
+
+            <div class="qc-point">
+              <div class="qc-label">修改方向</div>
+              <p>
+                重构为“识别肤色问题 → 局部遮瑕 → 全脸纠色 → 快速完成底妆”：黑眼圈和痘印局部处理，蜡黄暗沉用紫隔，泛红区域用绿隔，再按纠色、轻薄、水润、便捷重新排列卖点。
+              </p>
+            </div>
+          </div>
+
+          <div class="qc-evidence">
+           <div class="qc-evidence">
+  <img
+   src="/assets/projects/liusimu/case-01-4.png"
+    alt="柳丝木美白调色隔离审稿案例"
+    class="qc-image zoomable-image"
+  >
+
+  <div class="qc-image-hint">
+    查看大图 ↗
+  </div>
+</div>
+          </div>
+
+        </div>
+      </article>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- 04 TOP CONTENT / 爆文精选 -->
+  <section class="section">
+    <div class="wrap">
+
+      <div class="section-head reveal">
+        <div class="section-num">04</div>
+        <h2 class="section-title">
+          爆文精选
+          <span class="section-en">/ Selected Content</span>
+        </h2>
+      </div>
+
+      <div class="case-row">
+
+        <!-- Case 01 · 黑茶卸妆油（真实数据） -->
+        <a
+          class="case-link reveal"
+          href="https://www.xiaohongshu.com/explore/69770b18000000000b011b96?xsec_token=ABYZ1GINHusQoEi47X0fXNn0_eIaIGX9yB52J7AA2YE3c=&xsec_source=pc_search"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <article class="case-card">
+            <div class="case-image">
+             <img src="/assets/projects/liusimu/case-01.png" alt="Case 01">
+            </div>
+
+            <div class="case-body">
+              <div class="case-label">Case 01</div>
+
+              <div class="case-title">
+               📢9个，长期主义的惊艳平价爱用：<br>
+              </div>
+
+              <div class="case-data">
+                1.3万<small>赞</small>
+              </div>
+
+          </article>
+        </a>
+
+        <!-- Case 02 · 美白调色隔离（真实数据） -->
+        <a
+          class="case-link reveal reveal-d1"
+          href="https://www.xiaohongshu.com/explore/697c68a0000000002200b2f0?xsec_token=AB92kJ8uYdiIf4kHxAsgrVT_iZ4bXGV4nSeKuGxqYRK6A=&xsec_source=pc_search"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <article class="case-card">
+            <div class="case-image">
+                <img src="/assets/projects/liusimu/case-02.png" alt="Case 02">
+            </div>
+
+            <div class="case-body">
+              <div class="case-label">Case 02</div>
+
+              <div class="case-title">
+               🍹微醺完这杯话梅黑茶威士忌再去睡觉~<br>
+              </div>
+
+              <div class="case-data">
+                3140<small>赞</small>
+              </div>
+
+            
+          </article>
+        </a>
+
+        <!-- Case 03 · 黑茶卸妆油（真实数据） -->
+        <a
+          class="case-link reveal reveal-d2"
+          href="https://www.xiaohongshu.com/explore/69899165000000001a0204bb?xsec_token=ABF_qcnGpv20d1V27I-u8FV2PzbXIafWUcnZYoRebc54c=&xsec_source=pc_search"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <article class="case-card">
+            <div class="case-image">
+             <img src="/assets/projects/liusimu/case-03.png" alt="Case 03">
+            </div>
+
+            <div class="case-body">
+              <div class="case-label">Case 03</div>
+
+              <div class="case-title">
+           纯净感灰粉色白开水妆🧊适合淡颜的新年妆容<br>
+              </div>
+
+              <div class="case-data">
+                3572<small>赞</small>
+              </div>
+
+
+          </article>
+        </a>
+
+        <!-- Case 04 · 待补真实笔记 -->
+        <a
+          class="case-link reveal"
+          href="https://www.xiaohongshu.com/explore/697da503000000001a02e2f1?xsec_token=ABtBcvnHIEsK-0qYns_xVDJ8HOx0PTDi7aoi1qcQ7fTL4=&xsec_source=pc_search"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <article class="case-card">
+            <div class="case-image">
+       <img src="/assets/projects/liusimu/case-04.png" alt="Case 04">
+            </div>
+
+            <div class="case-body">
+              <div class="case-label">Case 04</div>
+
+              <div class="case-title">
+                游泳好物🏊🏻‍♀️极简实用装备分享<br>
+              </div>
+
+              <div class="case-data">
+                3551<small>赞</small>
+              </div>
+
+
+          </article>
+        </a>
+
+        <!-- Case 05 · 待补真实笔记 -->
+        <a
+          class="case-link reveal reveal-d1"
+          href="https://www.xiaohongshu.com/explore/698319ad000000000d00859f?xsec_token=ABFL0o_-IQDI0p1Jtw_pzh1Je55CmzVCGIR8B9SSRkNWM=&xsec_source=pc_search"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <article class="case-card">
+            <div class="case-image">
+               <img src="/assets/projects/liusimu/case-05.png" alt="Case 05">
+            </div>
+
+            <div class="case-body">
+              <div class="case-label">Case 05</div>
+
+              <div class="case-title">
+                方圆脸必学！💫ins韩系亚裔妆｜清冷感拿捏<br>
+              </div>
+
+              <div class="case-data">
+                3558<small>赞</small>
+              </div>
+
+
+          </article>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+   <!-- 05 RESULTS -->
+  <section class="results-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="section-num">05</div>
+        <h2 class="section-title">项目成果 <span class="section-en">/ Results</span></h2>
+      </div>
+
+      <div class="results-primary">
+        <div class="metric reveal">
+          <strong data-count="34" data-suffix="篇">0</strong>
+          <span>审核达人稿件总数</span>
+        </div>
+
+        <div class="metric highlight reveal reveal-d1">
+          <strong data-count="22" data-suffix="篇">0</strong>
+          <span>千赞爆文内容篇数</span>
+        </div>
+
+        <div class="metric highlight reveal reveal-d2">
+          <strong data-count="64.7" data-suffix="%">0</strong>
+          <span>爆文内容占比</span>
+        </div>
+
+        <div class="metric reveal">
+          <strong data-count="606" data-suffix="万+">0</strong>
+          <span>总曝光</span>
+        </div>
+
+        <div class="metric reveal">
+          <strong data-count="8.48" data-suffix="万+">0</strong>
+          <span>总互动</span>
+        </div>
+
+        <div class="metric highlight reveal reveal-d1">
+          <strong data-count="92" data-suffix="万+">0</strong>
+          <span>单篇最高曝光</span>
+        </div>
+      </div>
+
+
+
+      <div class="team-note">
+        数据说明：以上数据来源于项目期间的内容投放与笔记自然流数据统计      </div>
+    </div>
+  </section>
+
+  <!-- 06 ENDING -->
+  <footer class="ending">
+    <div class="wrap">
+      <div class="ending-inner reveal">
+        <div class="ending-label">METHOD TAKEAWAY · 项目方法沉淀</div>
+
+        <p class="ending-quote">
+          改稿的价值，不是改得更多，<br>
+         而是更快找到真正影响内容效果的问题。
+        </p>
+
+        
+        <div class="ending-note">先判断内容是否成立，再判断卖点是否被用户感知，最后把修改落实到可直接执行的表达。
+        </div>
+
+
+        <div class="ending-meta">
+          — 柳丝木 · 达人内容审稿质控 · 2026
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold:.12});
+
+    document.querySelectorAll('.reveal').forEach(
+      el => observer.observe(el)
+    );
+
+/* RESULTS COUNT-UP */
+const countUpElements = document.querySelectorAll('[data-count]');
+
+const countUpObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+
+    const el = entry.target;
+    const target = parseFloat(el.dataset.count);
+    const suffix = el.dataset.suffix || '';
+    const hasDecimal = String(el.dataset.count).includes('.');
+
+    const duration = 1600;
+    const startTime = performance.now();
+
+    function updateCount(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = target * eased;
+
+      if (hasDecimal) {
+        el.textContent = current.toFixed(1) + suffix;
+      } else {
+        el.textContent = Math.floor(current) + suffix;
+      }
+
+      if (progress < 1) {
+        requestAnimationFrame(updateCount);
+      } else {
+        el.textContent = target + suffix;
+      }
+    }
+
+    requestAnimationFrame(updateCount);
+    observer.unobserve(el);
+  });
+}, {
+  threshold: 0.35
+});
+
+countUpElements.forEach((el) => {
+  countUpObserver.observe(el);
+});
+
+
+  </script>
+
+  <!--
+    yafafa-design-system derivative work.
+    Preserve attribution to the original esther-design-system author and
+    the applicable CC BY-NC-SA 4.0 license notice in distributed copies.
+  -->
+
+<!-- IMAGE LIGHTBOX -->
+<div class="image-lightbox" id="imageLightbox">
+  <button class="lightbox-close" aria-label="关闭预览">×</button>
+
+  <div class="lightbox-content">
+    <img src="" alt="" id="lightboxImage">
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  const lightbox = document.getElementById('imageLightbox');
+  const lightboxImage = document.getElementById('lightboxImage');
+  const closeButton = lightbox.querySelector('.lightbox-close');
+
+  document.querySelectorAll('.zoomable-image').forEach(function (image) {
+
+    image.addEventListener('click', function () {
+      lightboxImage.src = image.src;
+      lightboxImage.alt = image.alt || '';
+      lightbox.classList.add('active');
+
+      document.body.style.overflow = 'hidden';
+    });
+
+  });
+
+
+  function closeLightbox() {
+    lightbox.classList.remove('active');
+    lightboxImage.src = '';
+
+    document.body.style.overflow = '';
+  }
+
+
+  closeButton.addEventListener('click', closeLightbox);
+
+
+  /* 点击黑色背景关闭 */
+  lightbox.addEventListener('click', function (event) {
+
+    if (
+      event.target === lightbox ||
+      event.target.classList.contains('lightbox-content') ||
+      event.target === lightboxImage
+    ) {
+      closeLightbox();
+    }
+
+  });
+
+
+  /* ESC关闭 */
+  document.addEventListener('keydown', function (event) {
+
+    if (event.key === 'Escape' && lightbox.classList.contains('active')) {
+      closeLightbox();
+    }
+
+  });
+
+});
+</script>
+</body>
+</html>

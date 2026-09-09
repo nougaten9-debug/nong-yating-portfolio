@@ -1,0 +1,56 @@
+.opening-animation {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: #fefcf6;
+  isolation: isolate;
+}
+
+.opening-animation__lettering {
+  display: block;
+  width: min(760px, 86vw);
+  height: auto;
+  overflow: visible;
+  color: var(--desk-blue);
+}
+
+.opening-animation__glyph {
+  fill: currentColor;
+  fill-opacity: 0;
+  stroke: currentColor;
+  stroke-dasharray: 900 900;
+  stroke-dashoffset: 900;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  paint-order: stroke fill;
+  vector-effect: non-scaling-stroke;
+}
+
+.opening-animation__hi .opening-animation__glyph {
+  font-family: "Caveat", cursive;
+  font-size: 76px;
+  font-weight: 400;
+  stroke-width: .65;
+}
+
+.opening-animation__welcome .opening-animation__glyph {
+  font-family: "LXGW WenKai", cursive;
+  font-size: 40px;
+  font-weight: 400;
+  stroke-width: .45;
+}
+
+@media (max-width: 600px) {
+  .opening-animation__lettering {
+    width: min(720px, 96vw);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .opening-animation {
+    display: none;
+  }
+}

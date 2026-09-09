@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Work desk opening line illustration</title>
+  <desc id="desc">Transparent, animation-ready white line illustration grouped for sequential GSAP stroke drawing.</desc>
+
+  <style>
+    .draw-path {
+      fill: none;
+      stroke: #ffffff;
+      stroke-width: 3.2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .draw-path.soft {
+      opacity: .78;
+      stroke-width: 2.25;
+    }
+  </style>
+
+  <g id="desk" data-draw-order="1">
+    <path id="desk-outline" class="draw-path" d="M270 273 Q272 260 286 258 C451 256 719 258 895 262 Q908 263 911 276 L950 470 Q952 483 938 486 C751 493 474 493 264 486 Q249 485 253 471 Z"/>
+    <path id="desk-edge-upper" class="draw-path soft" d="M253 471 Q464 480 950 470"/>
+    <path id="desk-edge-lower" class="draw-path soft" d="M264 486 Q471 496 938 486"/>
+    <path id="desk-leg-left" class="draw-path" d="M279 488 L304 489 L326 626 L308 630 Z"/>
+    <path id="desk-leg-right" class="draw-path" d="M884 490 L910 488 L889 630 L871 628 Z"/>
+    <path id="desk-drawer-left" class="draw-path" d="M311 489 L423 491 L420 531 Q365 535 317 531 Z"/>
+    <path id="desk-drawer-left-handle" class="draw-path" d="M351 508 Q365 512 380 508"/>
+    <path id="desk-drawer-right" class="draw-path" d="M789 491 L904 489 L896 531 Q843 535 792 531 Z"/>
+    <path id="desk-drawer-right-handle" class="draw-path" d="M831 508 Q846 512 861 508"/>
+  </g>
+
+  <g id="chair" data-draw-order="2">
+    <path id="chair-back" class="draw-path" d="M493 489 Q499 469 521 466 Q600 454 678 466 Q701 470 706 490 L696 559 Q691 580 668 589 Q599 609 531 589 Q508 580 503 558 Z"/>
+    <path id="chair-back-inner" class="draw-path soft" d="M514 493 Q600 472 686 493 L679 550 Q675 566 659 572 Q600 589 541 572 Q525 567 521 550 Z"/>
+    <path id="chair-seat" class="draw-path" d="M520 575 Q600 601 680 575 L687 593 Q648 618 600 619 Q551 617 513 593 Z"/>
+    <path id="chair-stem-left" class="draw-path" d="M595 620 L596 649"/>
+    <path id="chair-stem-right" class="draw-path" d="M605 620 L604 649"/>
+    <path id="chair-leg-left" class="draw-path" d="M600 648 L548 674 L532 673 Q520 676 519 686 Q525 694 535 688 L544 678"/>
+    <path id="chair-leg-front-left" class="draw-path" d="M600 648 L563 696"/>
+    <path id="chair-leg-front-right" class="draw-path" d="M600 648 L637 696"/>
+    <path id="chair-leg-right" class="draw-path" d="M600 648 L656 674 L672 673 Q683 676 682 686 Q676 694 666 688 L657 678"/>
+    <path id="chair-caster-left" class="draw-path soft" d="M556 693 Q565 699 569 691"/>
+    <path id="chair-caster-right" class="draw-path soft" d="M631 691 Q635 700 644 694"/>
+  </g>
+
+  <g id="laptop" data-draw-order="3">
+    <path id="laptop-screen" class="draw-path" d="M492 202 Q494 194 503 194 L694 195 Q704 195 705 204 L699 347 L500 347 Z"/>
+    <path id="laptop-screen-inner" class="draw-path soft" d="M509 211 Q599 207 689 212 L684 331 Q598 327 514 331 Z"/>
+    <path id="laptop-body" class="draw-path" d="M500 347 L699 347 L718 432 Q720 441 708 444 Q600 450 490 444 Q479 442 482 432 Z"/>
+    <path id="laptop-keyboard" class="draw-path soft" d="M508 365 Q600 361 691 365 L698 400 Q600 397 501 400 Z"/>
+    <path id="laptop-trackpad" class="draw-path soft" d="M557 411 Q600 408 643 411 L641 433 Q600 436 559 433 Z"/>
+  </g>
+
+  <g id="notebook" data-draw-order="4">
+    <path id="notebook-cover" class="draw-path" d="M287 345 Q353 303 427 302 L463 394 Q397 401 334 438 Z"/>
+    <path id="notebook-page-left" class="draw-path" d="M299 350 Q352 318 374 326 L397 406 Q368 408 337 426 Z"/>
+    <path id="notebook-page-right" class="draw-path" d="M374 326 Q404 308 424 314 L451 385 Q424 392 397 406 Z"/>
+    <path id="notebook-spine" class="draw-path soft" d="M374 326 Q382 366 397 406"/>
+    <path id="notebook-page-line-left" class="draw-path soft" d="M318 358 Q344 344 367 341"/>
+    <path id="notebook-page-line-right" class="draw-path soft" d="M405 330 Q420 326 435 331"/>
+  </g>
+
+  <g id="phone" data-draw-order="5">
+    <path id="phone-outline" class="draw-path" d="M432 376 Q434 367 443 365 L478 360 Q487 360 490 369 L507 430 Q509 439 500 442 L462 450 Q452 451 449 442 Z"/>
+    <path id="phone-screen" class="draw-path soft" d="M444 380 L478 374 L492 425 L458 432 Z"/>
+    <path id="phone-home-indicator" class="draw-path soft" d="M471 439 L483 437"/>
+  </g>
+
+  <g id="coffee" data-draw-order="6">
+    <path id="coffee-saucer" class="draw-path" d="M718 394 Q760 372 806 395 Q766 427 718 394 Z"/>
+    <path id="coffee-cup" class="draw-path" d="M728 363 Q730 348 754 344 Q780 341 793 355 L786 388 Q765 405 739 388 Z"/>
+    <path id="coffee-rim" class="draw-path" d="M730 360 Q758 342 792 357 Q765 376 730 360 Z"/>
+    <path id="coffee-handle" class="draw-path" d="M790 360 Q817 357 813 375 Q809 389 788 383"/>
+    <path id="coffee-steam-left" class="draw-path soft" d="M748 338 Q738 323 751 310"/>
+    <path id="coffee-steam-right" class="draw-path soft" d="M769 338 Q782 324 770 309"/>
+  </g>
+
+  <g id="lamp" data-draw-order="7">
+    <path id="lamp-head" class="draw-path" d="M806 224 Q816 194 844 177 Q861 165 874 176 L899 205 Q908 217 898 231 Q877 262 837 268 Q817 270 806 252 Q799 239 806 224 Z"/>
+    <path id="lamp-cap" class="draw-path" d="M856 173 Q858 158 871 151 Q884 151 889 163 L879 183 Z"/>
+    <path id="lamp-arm-upper" class="draw-path" d="M887 177 L945 190 L910 273"/>
+    <path id="lamp-arm-upper-inner" class="draw-path" d="M895 191 L930 201 L899 268"/>
+    <path id="lamp-joint-upper" class="draw-path" d="M938 190 Q947 181 956 190 Q961 200 950 207"/>
+    <path id="lamp-joint-lower" class="draw-path" d="M901 266 Q912 261 918 271 Q920 281 909 286"/>
+    <path id="lamp-arm-lower" class="draw-path" d="M908 279 L872 347"/>
+    <path id="lamp-arm-lower-inner" class="draw-path" d="M919 284 L883 352"/>
+    <path id="lamp-base" class="draw-path" d="M871 344 Q889 342 904 354 L917 383 Q913 401 879 406 Q844 405 837 389 L852 358 Q859 348 871 344 Z"/>
+    <path id="lamp-base-edge" class="draw-path" d="M839 388 Q875 407 916 383"/>
+  </g>
+</svg>

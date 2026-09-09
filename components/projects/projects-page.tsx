@@ -1,10 +1,12 @@
 'use client';
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
-import { Laptop, Leaf, NotebookPen, PenLine, StickyNote } from 'lucide-react';
+
 import { ProjectDetailModal } from './project-detail-modal';
 import { ProjectImageStack } from './project-image-stack';
 import { ProjectScrollItem } from './project-scroll-item';
@@ -14,19 +16,37 @@ gsap.registerPlugin(ScrollTrigger);
 
 function ProjectsIntroVisual() {
   return <div className="projects-page-intro-visual" aria-hidden="true">
-    <div className="projects-page-illus-laptop"><Laptop /></div>
-    <div className="projects-page-illus-note"><NotebookPen /><span>content plan</span></div>
-    <div className="projects-page-illus-sticky"><StickyNote /><span>why?</span></div>
-    <div className="projects-page-illus-pen"><PenLine /></div>
-    <div className="projects-page-illus-plant"><Leaf /></div>
+    <img className="projects-page-illus-character" src="/assets/projects/zhu-transparent.png" alt="" />
   </div>;
 }
 
 export function ProjectsPage() {
+  const router = useRouter();
   const [activeProjectSlug, setActiveProjectSlug] = useState<string | null>(null);
   const rootRef = useRef<HTMLElement | null>(null);
   const visualRef = useRef<HTMLDivElement | null>(null);
+  const lenisRef = useRef<Lenis | null>(null);
   const activeProject = useMemo(() => projects.find((project) => project.slug === activeProjectSlug) ?? null, [activeProjectSlug]);
+const handleProjectOpen = (slug: string) => {
+  if (slug === 'ranova') {
+    router.push('/projects/ranova');
+    return;
+  }
+
+  if (slug === 'vivo-x200') {
+    router.push('/projects/vivo');
+    return;
+  }
+
+
+if (slug === 'beauty-content') {
+  router.push('/projects/liusimu');
+  return;
+}
+
+
+  setActiveProjectSlug(slug);
+};
 
   useEffect(() => {
     if (!rootRef.current) return;
@@ -36,6 +56,7 @@ export function ProjectsPage() {
 
     if (!reduceMotion) {
       lenis = new Lenis({ lerp: 0.08, smoothWheel: true });
+      lenisRef.current = lenis;
       lenis.on('scroll', ScrollTrigger.update);
       const raf = (time: number) => {
         lenis?.raf(time);
@@ -85,7 +106,7 @@ export function ProjectsPage() {
             scrollTrigger: {
               trigger: item,
               start: 'top 76%',
-              end: 'top 34%',
+              end: 'top 60%',
               scrub: true,
             },
           });
@@ -107,11 +128,22 @@ export function ProjectsPage() {
       context.revert();
       if (rafId) cancelAnimationFrame(rafId);
       lenis?.destroy();
+      lenisRef.current = null;
     };
   }, []);
 
+  useEffect(() => {
+    if (!lenisRef.current) return;
+  
+    if (activeProjectSlug) {
+      lenisRef.current.stop();
+    } else {
+      lenisRef.current.start();
+    }
+  }, [activeProjectSlug]);
+
   return <main className="projects-page" ref={rootRef} aria-label="项目档案">
-    <a className="projects-back-home" href="/" aria-label="返回 Home"><span aria-hidden="true">←</span> HOME</a>
+    <Link className="projects-back-home" href="/" aria-label="返回 Home"><span aria-hidden="true">←</span> HOME</Link>
     <div className="projects-page-layout">
       <div className="projects-page-copy">
         <section className="projects-page-section projects-page-intro" aria-labelledby="projects-page-title">
@@ -120,10 +152,20 @@ export function ProjectsPage() {
           <p className="projects-page-quote">好的内容，不止解决「说什么」<br />更要解决「为什么说、对谁说、怎么说，以及说得对不对」</p>
           <p className="projects-page-scroll-hint">SCROLL TO EXPLORE ↓</p>
         </section>
-        {projects.map((project, index) => <ProjectScrollItem key={project.slug} project={project} index={index} onProjectOpen={setActiveProjectSlug} />)}
+
+{projects.map((project, index) => (
+  <ProjectScrollItem
+    key={project.slug}
+    project={project}
+    index={index}
+    onProjectOpen={handleProjectOpen}
+  />
+))}
+
+
         <section className="projects-page-section projects-page-clients" aria-labelledby="projects-page-clients-title">
           <p className="projects-page-section-label">SELECTED CLIENTS</p>
-          <h2 id="projects-page-clients-title">曾服务品牌</h2>
+          <h2 id="projects-page-clients-title">曾服务过的品牌</h2>
           <div className="projects-page-clients-grid">
             {clientGroups.map((group) => <article className="projects-page-client-group" key={group.name}>
               <h3>{group.name}</h3>
@@ -134,7 +176,11 @@ export function ProjectsPage() {
       </div>
       <div className="projects-page-visuals">
         <div className="projects-page-intro-pin"><ProjectsIntroVisual /></div>
-        <ProjectImageStack projects={projects} ref={visualRef} />
+        <ProjectImageStack
+  projects={projects}
+  ref={visualRef}
+  onProjectOpen={handleProjectOpen}
+/>
       </div>
     </div>
     <ProjectDetailModal project={activeProject} onClose={() => setActiveProjectSlug(null)} />

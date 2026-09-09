@@ -40,7 +40,7 @@ const projects = [
 
 const clientGroups = [
   { name: '美妆个护', lines: ['943 / 苾莱宝 / 雨洁 / 妇炎洁', '花近 / 阿芙 / 德美乐嘉', '柳丝木 / 爱舒屋'] },
-  { name: '宠物', lines: ['朗诺 / 海洋之星', '弗列家特 / 小佩'] },
+  { name: '宠物', lines: ['朗诺 / 海洋之星', '弗列加特 / 小佩'] },
   { name: '母婴服饰', lines: ['溜溜侠 / 迪辅乐', '安唯伊 / TKY', 'Kidsland / 贝亲'] },
   { name: '数码3C', lines: ['vivo / 森海塞尔'] },
   { name: '家居', lines: ['志邦 / 住范儿', '视贝 / 爱空间'] },

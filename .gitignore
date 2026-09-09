@@ -36,3 +36,13 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# local design previews and packaged builds
+/screenshot-*.png
+/reader-*.png
+/site-build*.tar.gz
+/card-back*.png
+/exp-*.png
+/tsconfig.tsbuildinfo
+/add-fonts.js
+/add-quote.cjs

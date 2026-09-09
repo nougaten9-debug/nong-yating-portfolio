@@ -1,0 +1,1561 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>vivo X200系列新品内容策略 — Case Study</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=LXGW+WenKai&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --blue:#3978DE;
+      --blue-deep:#245B9B;
+      --red:#F05A67;
+      --yellow:#F2C94C;
+
+      --cream:#FBF8F1;
+      --cream-soft:#FFFDF8;
+      --white:#FFFFFF;
+      --ink:#20242A;
+      --muted:#6E737B;
+      --line:#DED9CE;
+
+      --serif:'Noto Serif SC',serif;
+      --sans:'Noto Sans SC',sans-serif;
+      --note:'LXGW WenKai',cursive;
+      --hand:'Caveat',cursive;
+
+      --max:1280px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:var(--sans);
+      line-height:1.72;
+      -webkit-font-smoothing:antialiased;
+    }
+    img{display:block;max-width:100%}
+    button{font:inherit}
+    a{color:inherit}
+    ::selection{background:var(--blue);color:#fff}
+    .wrap{width:min(var(--max),calc(100% - 72px));margin:auto}
+    .section{
+      padding:70px 0;
+      background:var(--cream);
+      border-top:1px solid rgba(32,36,42,.08);
+    }
+    .eyebrow{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      font-size:12px;
+      font-weight:700;
+      letter-spacing:.16em;
+      color:#7E8590;
+      text-transform:uppercase;
+      margin-bottom:22px;
+    }
+    .eyebrow::before{
+      content:'';
+      width:34px;
+      height:3px;
+      background:var(--yellow);
+    }
+    .section-head{
+      display:flex;
+      align-items:baseline;
+      gap:14px;
+      margin-bottom:34px;
+    }
+    .section-num{
+      font:700 52px/1 var(--serif);
+      color:var(--blue);
+      letter-spacing:-.04em;
+    }
+    .section-title{
+      margin:0;
+      font:700 34px/1.25 var(--serif);
+    }
+    .section-en{
+      font:500 17px/1 var(--hand);
+      color:var(--blue);
+      margin-left:6px;
+    }
+    .muted{color:var(--muted)}
+
+    /* 返回作品集 */
+    /* 返回项目档案（与朗诺 Ranova Case Study 当前版本完全一致） */
+    .back-projects{
+      position:fixed;
+      top:28px;
+      left:38px;
+      z-index:9999;
+      display:inline-flex;
+      align-items:center;
+      gap:7px;
+      font-family:'Caveat', cursive;
+      font-size:18px;
+      font-weight:500;
+      line-height:1;
+      color:#3478df;
+      text-decoration:none;
+      /* 去掉底框 */
+      padding:0;
+      background:transparent;
+      border:none;
+      border-radius:0;
+      backdrop-filter:none;
+      transition:opacity 0.2s ease;
+    }
+    .back-projects span{
+      font-family:Arial, sans-serif;
+      font-size:19px;
+      font-weight:400;
+      line-height:1;
+    }
+    .back-projects:hover{
+      opacity:0.65;
+      transform:none;
+      background:transparent;
+    }
+
+    /* HERO */
+    .hero{
+      min-height:88vh;
+      display:flex;
+      align-items:center;
+      background:var(--cream);
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:70px;
+      align-items:center;
+      padding:46px 0 48px;
+    }
+    .hero h1{
+      margin:0;
+      max-width:820px;
+      font:700 clamp(46px,5.2vw,74px)/1.18 var(--serif);
+      letter-spacing:-.045em;
+    }
+    .hero .blue-line{
+      display:block;
+      color:var(--blue);
+      margin-top:8px;
+    }
+    .hero-summary{
+      max-width:880px;
+      margin:34px 0 24px;
+      font-size:19px;
+      color:#3E444C;
+    }
+    .hero-meta{
+      margin:-14px 0 26px;
+      font-size:13px;
+      color:#8A9098;
+      letter-spacing:.04em;
+    }
+    .hero-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+    }
+    .hero-tag{
+      padding:8px 15px;
+      border:1px solid #D8D4CA;
+      border-radius:999px;
+      background:rgba(255,255,255,.35);
+      font-size:12px;
+      font-weight:600;
+    }
+    .hero-scroll{
+      margin-top:66px;
+      font:500 16px var(--hand);
+      color:#8A9098;
+    }
+    .hero-visual{
+      min-height:510px;
+      border:1px solid #E3DFD6;
+      background:var(--cream-soft);
+      display:grid;
+      place-items:center;
+      position:relative;
+      overflow:hidden;
+    }
+    .hero-visual::after{
+      content:'';
+      position:absolute;
+      width:58%;
+      height:58%;
+      border-radius:50%;
+      background:var(--blue);
+      right:-9%;
+      bottom:-15%;
+      opacity:.9;
+    }
+    .hero-placeholder{
+      position:relative;
+      z-index:2;
+      width:70%;
+      aspect-ratio:4/5;
+      display:grid;
+      place-items:center;
+      text-align:center;
+      padding:24px;
+      color:#8A9098;
+      font-size:12px;
+      border:1px dashed #C9D2DE;
+      background:rgba(255,253,248,.94);
+    }
+    .hero-yellow-line{
+      position:absolute;
+      top:24px;
+      right:28px;
+      width:110px;
+      height:2px;
+      background:var(--yellow);
+    }
+
+    /* 01 项目背景 + 品牌命题 */
+    .challenge-layout{
+      display:grid;
+      grid-template-columns:.62fr 1.38fr;
+      gap:72px;
+      align-items:start;
+    }
+    .challenge-title{
+      position:sticky;
+      top:34px;
+    }
+    .challenge-title .label{
+      font:600 19px var(--hand);
+      color:var(--blue);
+      margin-bottom:6px;
+    }
+    .challenge-title h2{
+      margin:0;
+      font:700 54px/1.15 var(--serif);
+    }
+    .challenge-copy .lead{
+      margin:0 0 24px;
+      font:500 27px/1.65 var(--sans);
+      max-width:900px;
+    }
+    .challenge-copy>p{
+      margin:0 0 30px;
+      color:#5D636B;
+      font-size:15px;
+      max-width:900px;
+    }
+    .props{
+      display:grid;
+      gap:30px;
+    }
+    .prop{
+      border-top:3px solid var(--blue);
+      padding-top:18px;
+    }
+    .prop-head{
+      display:flex;
+      align-items:baseline;
+      gap:16px;
+      margin-bottom:12px;
+    }
+    .prop-num{
+      font:700 30px/1 var(--serif);
+      color:var(--blue);
+      letter-spacing:-.02em;
+    }
+    .prop-title{
+      margin:0;
+      font:700 25px/1.3 var(--serif);
+    }
+    .prop-title .kw{
+      color:var(--blue);
+    }
+    .prop p{
+      margin:0 0 14px;
+      max-width:640px;
+      color:#5D636B;
+      font-size:15px;
+    }
+
+    /* 我的职责（与朗诺 role-compact 一致） */
+    .role-compact{
+      display:grid;
+      grid-template-columns:170px 1fr;
+      gap:28px;
+      padding-top:6px;
+      margin-top:34px;
+      border-top:1px solid var(--line);
+    }
+    .role-compact h3{
+      margin:0;
+      font:700 22px var(--serif);
+    }
+    .role-chips{
+      display:flex;
+      flex-wrap:wrap;
+      gap:8px;
+    }
+    .role-chip{
+      padding:7px 11px;
+      border-bottom:2px solid var(--blue);
+      background:rgba(255,255,255,.22);
+      font-size:12px;
+      font-weight:600;
+    }
+
+    /* 05 策略 */
+    .strategy-lead{
+      margin:-10px 0 8px;
+      font:600 21px/1.6 var(--serif);
+      color:var(--blue-deep);
+    }
+    .strategy-track{
+      position:relative;
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:34px;
+      margin-top:28px;
+    }
+    .strategy-track::before{
+      content:'';
+      position:absolute;
+      left:28px;
+      right:28px;
+      top:27px;
+      height:2px;
+      background:var(--blue);
+    }
+    .strategy-item{
+      position:relative;
+      z-index:1;
+    }
+    .strategy-dot{
+      width:48px;
+      height:48px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      font-size:13px;
+      font-weight:700;
+      color:#fff;
+      margin-bottom:20px;
+      box-shadow:0 0 0 7px var(--cream);
+    }
+    .strategy-item:nth-child(1) .strategy-dot{background:var(--blue)}
+    .strategy-item:nth-child(2) .strategy-dot{background:var(--red)}
+    .strategy-item:nth-child(3) .strategy-dot{
+      background:var(--yellow);
+      color:var(--ink);
+    }
+    .strategy-item h3{
+      margin:0 0 10px;
+      font:700 24px/1.4 var(--serif);
+    }
+    .strategy-item p{
+      margin:0 0 12px;
+      max-width:360px;
+      font-size:14px;
+      color:#60666E;
+    }
+    .strategy-sub{
+      margin:0 0 8px;
+      max-width:360px;
+      font-size:13px;
+      line-height:1.75;
+      color:#5D636B;
+    }
+    .strategy-sub strong{
+      color:var(--blue);
+      font-weight:700;
+      margin-right:4px;
+    }
+    .strategy-tags{
+      display:flex;
+      flex-wrap:wrap;
+      gap:7px;
+      margin-bottom:12px;
+    }
+    .strategy-tags span{
+      padding:4px 10px;
+      border:1px solid #D8D4CA;
+      border-radius:999px;
+      background:rgba(255,255,255,.4);
+      font-size:11px;
+      color:#4A5058;
+    }
+    .strategy-list{
+      display:grid;
+      gap:7px;
+      margin-bottom:12px;
+      max-width:360px;
+    }
+    .strategy-list div{
+      font-size:13px;
+      line-height:1.65;
+      color:#5D636B;
+    }
+    .strategy-list strong{
+      color:var(--blue);
+      font-weight:700;
+    }
+    .strategy-why{
+      margin:0;
+      max-width:360px;
+      color:var(--blue-deep) !important;
+      font:600 15px/1.8 var(--serif);
+    }
+
+    /* 06 内容规划 */
+    .planning-layout{
+      display:grid;
+      grid-template-columns:.42fr 1.58fr;
+      gap:68px;
+      align-items:start;
+    }
+    .planning-intro{
+      position:sticky;
+      top:34px;
+    }
+    .planning-intro .ghost{
+      font:700 96px/1 var(--serif);
+      color:rgba(57,120,222,.10);
+      margin-bottom:-10px;
+    }
+    .planning-intro h2{
+      margin:0;
+      font:700 34px/1.3 var(--serif);
+    }
+    .planning-intro p{
+      max-width:340px;
+      color:#666C74;
+      font-size:14px;
+    }
+    .planning-stack{
+      display:grid;
+      gap:26px;
+    }
+    .planning-box{
+      background:var(--cream-soft);
+      border:1px solid #E7E1D6;
+      padding:26px;
+    }
+    .planning-box.yellow-accent{
+      border-bottom:4px solid var(--yellow);
+    }
+    .planning-box.blue-accent{
+      border-bottom:4px solid var(--blue);
+    }
+    .plan-topline{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:18px;
+      margin-bottom:14px;
+    }
+    .plan-topline h3{
+      margin:0;
+      font:700 22px/1.45 var(--serif);
+    }
+    .plan-meta{
+      font-size:11px;
+      color:#8B9097;
+      white-space:nowrap;
+    }
+    .page-tabs{
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+      margin:12px 0 18px;
+    }
+    .page-tab{
+      border:0;
+      background:#F3EFE7;
+      color:#666C74;
+      padding:7px 11px;
+      border-radius:6px;
+      cursor:pointer;
+      font-size:11px;
+    }
+    .page-tab.active{
+      background:#EAF1FF;
+      color:var(--blue);
+      font-weight:700;
+    }
+    .plan-slide{display:none}
+    .plan-slide.active{display:block}
+    .plan-placeholder{
+      min-height:330px;
+      border:1px dashed #C8D3E2;
+      display:grid;
+      place-items:center;
+      text-align:center;
+      padding:28px;
+      background:var(--cream);
+      color:#7A818A;
+      font-size:12px;
+    }
+    .ph-text{
+      max-width:360px;
+    }
+    .ph-text b{
+      display:block;
+      font:600 15px var(--serif);
+      color:#5E646C;
+      margin-bottom:6px;
+    }
+    .planning-image{
+      width:100%;
+      height:auto;
+      display:block;
+      object-fit:contain;
+    }
+    .plan-caption{
+      margin-top:12px;
+      color:#5E646C;
+      font-size:13px;
+    }
+
+    /* 规划图片贴边（仅在真实图片出现时生效） */
+    .planning-box .plan-placeholder:has(.planning-image){
+      width:calc(100% + 52px);
+      max-width:none;
+      margin-left:-26px;
+      margin-right:-26px;
+      padding:0 !important;
+      border:0 !important;
+      overflow:hidden;
+    }
+    .planning-box .plan-placeholder:has(.planning-image) .planning-image{
+      width:100%;
+      max-width:none;
+      height:auto;
+      margin:0;
+      padding:0;
+      display:block;
+    }
+
+    .planning-insight{
+      margin-top:24px;
+      padding:10px 8px 2px;
+      display:flex;
+      align-items:flex-start;
+      gap:14px;
+    }
+    .planning-insight .quote-mark{
+      color:var(--red);
+      font:700 54px/1 var(--serif);
+      transform:translateY(-2px);
+    }
+    .planning-insight p{
+      margin:0;
+      color:var(--blue);
+      font:500 22px/1.72 var(--note);
+      max-width:900px;
+    }
+    .planning-insight .underline{
+      position:relative;
+      display:inline-block;
+    }
+    .planning-insight .underline::after{
+      content:'';
+      position:absolute;
+      left:0;
+      right:0;
+      bottom:-4px;
+      height:3px;
+      background:var(--red);
+      transform:rotate(-1.4deg);
+      border-radius:99px;
+    }
+    .insight-note{
+      margin:18px 0 0 68px;
+      color:#6E737B;
+      font-size:13px;
+    }
+
+    /* CASES */
+   .case-row{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:14px;
+}
+
+.case-link{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+}
+
+.case-card{
+  background:var(--cream-soft);
+  border:1px solid #E6E2DA;
+  overflow:hidden;
+  height:100%;
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+
+.case-link:hover .case-card{
+  transform:translateY(-6px);
+  box-shadow:0 12px 28px rgba(32,36,42,.10);
+}
+    .case-image{
+      aspect-ratio:.83/1;
+      background:#F2EFE8;
+      display:grid;
+      place-items:center;
+      color:#8A9098;
+      font-size:11px;
+      border-bottom:1px solid #E6E2DA;
+    }
+    .case-body{
+      padding:12px 12px 13px;
+    }
+    .case-label{
+      font:500 15px var(--hand);
+      color:var(--blue);
+    }
+    .case-title{
+      margin:6px 0 10px;
+      font-size:12px;
+      font-weight:600;
+      line-height:1.5;
+      min-height:54px;
+    }
+    .case-data{
+      color:var(--red);
+      font:700 23px/1 var(--serif);
+    }
+    .case-data small{
+      font:400 10px var(--sans);
+      color:#747A82;
+      margin-left:3px;
+    }
+
+
+
+
+    /* 08 成果 */
+    .results-section{
+      padding:72px 0 64px;
+      background:var(--blue);
+      color:#fff;
+      border-top:none;
+    }
+    .results-section .section-num,
+    .results-section .section-en{
+      color:#fff;
+    }
+    .results-section .section-title{
+      color:#fff;
+    }
+    .results-primary{
+      display:grid;
+      grid-template-columns:repeat(4,1fr);
+      gap:0;
+      margin-top:26px;
+    }
+    .metric{
+      padding:24px 28px 26px 0;
+      margin-right:34px;
+      border-top:1px solid rgba(255,255,255,.38);
+      min-height:132px;
+    }
+    .metric strong{
+      display:block;
+      font:700 clamp(42px,4.2vw,66px)/1.08 var(--serif);
+      color:#fff;
+      letter-spacing:-.03em;
+      margin-bottom:11px;
+    }
+    .metric.highlight strong{
+      color:#FFE45C;
+    }
+    .metric span{
+      font-size:13px;
+      color:rgba(255,255,255,.84);
+    }
+    .results-secondary-card{
+      margin-top:38px;
+      background:var(--cream-soft);
+      color:var(--ink);
+      border-radius:4px;
+      padding:24px 28px;
+      display:grid;
+      grid-template-columns:220px 1fr;
+      gap:34px;
+      align-items:start;
+    }
+    .secondary-title{
+      font:700 18px var(--serif);
+    }
+    .secondary-grid{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:28px;
+    }
+    .secondary-item strong{
+      display:block;
+      color:var(--blue);
+      font:700 30px var(--serif);
+      margin-bottom:3px;
+    }
+    .secondary-item span{
+      font-size:11px;
+      color:#727880;
+    }
+    .team-note{
+      margin-top:18px;
+      color:rgba(255,255,255,.78);
+      font-size:11px;
+    }
+
+    /* ENDING */
+    .ending{
+      background:var(--cream);
+      padding:78px 0 86px;
+    }
+    .ending-inner{
+      max-width:980px;
+      margin:auto;
+    }
+    .ending-label{
+      display:flex;
+      align-items:center;
+      gap:14px;
+      color:#818792;
+      font-size:12px;
+      letter-spacing:.14em;
+      margin-bottom:34px;
+    }
+    .ending-label::after{
+      content:'';
+      width:72px;
+      height:3px;
+      background:var(--yellow);
+    }
+    .ending-quote{
+      margin:0;
+      font:700 clamp(30px,3.6vw,46px)/1.6 var(--serif);
+      color:var(--blue-deep);
+      letter-spacing:-.02em;
+      max-width:980px;
+    }
+    .ending-note{
+      margin-top:26px;
+      max-width:640px;
+      color:#6E737B;
+      font-size:14px;
+      line-height:1.9;
+    }
+    .ending-meta{
+      margin-top:30px;
+      color:#9297A0;
+      font-style:italic;
+      font-family:var(--serif);
+      font-size:15px;
+    }
+
+    /* REVEAL */
+    .reveal{
+      opacity:0;
+      transform:translateY(22px);
+      transition:
+        opacity .65s cubic-bezier(.16,1,.3,1),
+        transform .65s cubic-bezier(.16,1,.3,1);
+    }
+    .reveal.visible{
+      opacity:1;
+      transform:none;
+    }
+    .reveal-d1{transition-delay:.08s}
+    .reveal-d2{transition-delay:.16s}
+
+    @media(max-width:1050px){
+      .hero-grid,
+      .challenge-layout,
+      .planning-layout{
+        grid-template-columns:1fr;
+      }
+      .challenge-title,
+      .planning-intro{
+        position:static;
+      }
+      .hero-visual{
+        min-height:340px;
+      }
+      .case-row{
+        grid-template-columns:repeat(3,1fr);
+      }
+      .results-primary{
+        grid-template-columns:repeat(2,1fr);
+      }
+      .strategy-track{
+        grid-template-columns:1fr;
+        gap:30px;
+      }
+      .strategy-track::before{
+        display:none;
+      }
+    }
+
+    @media(max-width:720px){
+      .wrap{
+        width:min(var(--max),calc(100% - 32px));
+      }
+      .hero{
+        min-height:auto;
+      }
+      .hero h1{
+        font-size:44px;
+      }
+      .case-row{
+        grid-template-columns:repeat(2,1fr);
+      }
+      .results-primary{
+        grid-template-columns:1fr;
+      }
+      .results-secondary-card{
+        grid-template-columns:1fr;
+      }
+      .secondary-grid{
+        grid-template-columns:1fr;
+      }
+      .role-compact{
+        grid-template-columns:1fr;
+      }
+      .metric{
+        margin-right:0;
+      }
+      .insight-note{
+        margin-left:0;
+      }
+      .ending-quote{
+        font-size:30px;
+      }
+    }
+
+    @media(prefers-reduced-motion:reduce){
+      .reveal{
+        opacity:1;
+        transform:none;
+        transition:none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="/projects" class="back-projects">
+    <span>←</span>
+    PROJECTS
+  </a>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <div class="eyebrow">CASE STUDY · 2024</div>
+        <div class="hero-brand" style="font:500 24px/1.1 var(--hand);color:var(--red);margin:0 0 30px">vivo X200 Series × 小红书</div>
+
+        <h1>
+        当大家都在讲参数
+          <span class="blue-line">新机还能怎么讲出差异？</span>
+        </h1>
+
+        <p class="hero-summary">
+          vivo X200 Pro / Pro mini 新品内容策略
+        </p>
+
+        <div class="hero-meta">
+          2024 ｜ 数码3C / 新品上市 ｜ 小红书
+        </div>
+
+        <div class="hero-tags">
+          <span class="hero-tag">内容策略规划</span>
+          <span class="hero-tag">产品内容转译</span>
+          <span class="hero-tag">达人创意规划</span>
+          <span class="hero-tag">Brief输出</span>
+        </div>
+
+        <div class="hero-scroll">scroll to unpack the strategy ↓</div>
+      </div>
+
+      <div class="hero-visual reveal reveal-d1">
+        <div class="hero-yellow-line"></div>
+        <div class="hero-placeholder">
+          REAL PROJECT VISUAL<br><br>
+          替换为真实项目主视觉 / 产品图 / 项目截图
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 01 项目背景 + 品牌命题 + 我的职责 -->
+  <section class="section">
+    <div class="wrap challenge-layout">
+      <div class="challenge-title reveal">
+        <div class="label">01 / BACKGROUND</div>
+        <h2>项目背景</h2>
+      </div>
+
+      <div class="challenge-copy reveal reveal-d1">
+        <p class="lead">
+          vivo X200系列新品上市，品牌已明确 Pro「极致」、mini「Chill」两大传播命题。项目围绕两款产品展开小红书内容传播，短时间内完成集中强化新品影像实力与产品认知。
+        </p>
+
+        <p>
+          明确的产品传播命题与项目难点——
+        </p>
+
+      <div class="prop">
+  <div class="prop-head">
+    <span class="prop-num">01</span>
+    <h3 class="prop-title">Pro 要「<span class="kw">极致</span>」</h3>
+  </div>
+  <p>围绕影像、设计与体验，用极致场景放大旗舰实力，重点强化 Pro 的影像能力与旗舰感。</p>
+</div>
+
+<div class="prop">
+  <div class="prop-head">
+    <span class="prop-num">02</span>
+    <h3 class="prop-title">mini 要「<span class="kw">Chill</span>」</h3>
+  </div>
+  <p>围绕色彩、穿搭、人像与生活场景，把产品转译成一种轻松、有审美的生活态度。</p>
+</div>
+
+<div class="prop">
+  <div class="prop-head">
+    <span class="prop-num">03</span>
+    <h3 class="prop-title">策略反复调整</h3>
+  </div>
+  <p>内容策略与 Brief 历经近2周多轮调整，在反复校准中确定最终内容方向。</p>
+</div>
+
+<div class="prop">
+  <div class="prop-head">
+    <span class="prop-num">04</span>
+    <h3 class="prop-title">集中快速执行</h3>
+  </div>
+  <p>方向确认后进入约3周集中执行期，需要快速完成达人内容落地与集中发布。</p>
+</div>
+
+        <div class="role-compact reveal">
+          <h3>我的职责</h3>
+          <div class="role-chips">
+            <span class="role-chip">内容策略规划</span>
+            <span class="role-chip">产品卖点拆解</span>
+            <span class="role-chip">Pro &amp; mini 内容方向规划</span>
+            <span class="role-chip">达人创意方向</span>
+            <span class="role-chip">Brief 输出</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 我的策略 -->
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="section-num">02</div>
+        <h2 class="section-title">我的策略 <span class="section-en">/ Strategy</span></h2>
+      </div>
+
+      <p class="strategy-lead reveal">先守住产品，再把创意空间打开</p>
+
+      <div class="strategy-track">
+        <article class="strategy-item reveal">
+          <div class="strategy-dot">01</div>
+          <h3>先把品牌命题拆成内容框架</h3>
+          <p>不是直接开始想选题，而是先确定两个产品分别需要传递什么感受。</p>
+          <div class="strategy-sub"><strong>Pro</strong> 极致 / Power —— 影像 × 设计 × 体验，用更极致的场景放大旗舰实力，影像能力是核心。</div>
+          <div class="strategy-sub"><strong>mini</strong> Chill —— 色彩 × 穿搭 × 人像 × 生活场景，把「小巧、好看、好拍」转化成轻松、有审美的生活态度。</div>
+        </article>
+
+        <article class="strategy-item reveal reveal-d1">
+          <div class="strategy-dot">02</div>
+          <h3>再把产品卖点变成具体场景</h3>
+          <p>例如 Pro 的「影像强」，不直接停留在参数表达，而是继续拆成真实可感的场景：</p>
+          <div class="strategy-tags">
+            <span>极致风光</span>
+            <span>文遗美学</span>
+            <span>演唱会</span>
+            <span>人文人像</span>
+            <span>Live 瞬间</span>
+            <span>旅行记录</span>
+          </div>
+          <p class="strategy-why">让用户不是只看到「这台手机影像很强」，而是直接看到：这个影像能力，到底能帮我拍到什么？</p>
+        </article>
+
+        <article class="strategy-item reveal reveal-d2">
+          <div class="strategy-dot">03</div>
+          <h3>最后给不同达人不同创意入口</h3>
+          <p>根据达人本身的内容优势设计表达方式：</p>
+          <div class="strategy-list">
+            <div><strong>摄影达人</strong> → 放大影像与视觉表现</div>
+            <div><strong>旅行达人</strong> → 把影像能力放进真实目的地与风景</div>
+            <div><strong>穿搭达人</strong> → 将 mini 的色彩、尺寸、外观变成造型的一部分</div>
+            <div><strong>生活方式达人</strong> → 自然放入 CityWalk、探店、拍照、日常记录</div>
+          </div>
+          <p class="strategy-why">产品卖点不变，表达方式跟着达人变。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+<!-- 03 内容规划 -->
+<section class="section">
+  <div class="wrap planning-layout">
+
+    <aside class="planning-intro reveal">
+      <div class="ghost">03</div>
+      <h2>内容规划 /<br>Evidence</h2>
+      <p>两款产品的真实内容策略与 Brief 资料，点击按钮切换查看。</p>
+    </aside>
+
+    <div class="planning-stack reveal reveal-d1">
+
+      <!-- X200 Pro -->
+      <div class="planning-box yellow-accent" id="plan-pro">
+
+        <div class="plan-topline">
+          <h3>X200 Pro｜Pro一下，很Power</h3>
+          <div class="plan-meta">
+            极致影像 / 极致风光 / 文遗美学 / 极致舞台 / 人文人像 / 神级Live / 静奢设计 / 综合体验
+          </div>
+        </div>
+
+        <div class="page-tabs">
+          <button class="page-tab active" data-slide="pro-1">
+            内容策略&Brief-01
+          </button>
+
+          <button class="page-tab" data-slide="pro-2">
+            内容策略&Brief-02
+          </button>
+        </div>
+
+        <div class="plan-slide active" id="pro-1">
+          <img
+            src="/assets/projects/vivo/vivo-pro-01.jpg"
+            alt="vivo X200 Pro 内容策略与Brief 01"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
+
+        <div class="plan-slide" id="pro-2">
+          <img
+            src="/assets/projects/vivo/vivo-pro-02.jpg"
+            alt="vivo X200 Pro 内容策略与Brief 02"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
+
+      </div>
+      <!-- X200 Pro END -->
+
+
+      <!-- X200 Pro mini -->
+      <div class="planning-box blue-accent" id="plan-mini">
+
+        <div class="plan-topline">
+          <h3>X200 Pro mini｜mini一下，很Chill</h3>
+
+          <div class="plan-meta">
+            色彩 / 穿搭 / 握持 / 人像 / 日常生活 / 系统体验
+          </div>
+        </div>
+
+        <div class="page-tabs">
+          <button class="page-tab active" data-slide="mini-1">
+            内容策略&Brief-01
+          </button>
+
+          <button class="page-tab" data-slide="mini-2">
+            内容策略&Brief-02
+          </button>
+        </div>
+
+        <div class="plan-slide active" id="mini-1">
+          <img
+            src="/assets/projects/vivo/vivo-mini-01.jpg"
+            alt="vivo X200 Pro mini 内容策略与Brief 01"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
+
+        <div class="plan-slide" id="mini-2">
+          <img
+            src="/assets/projects/vivo/vivo-mini-02.jpg"
+            alt="vivo X200 Pro mini 内容策略与Brief 02"
+            style="width:100%; height:auto; display:block;"
+          >
+        </div>
+
+      </div>
+      <!-- X200 Pro mini END -->
+
+
+      <!-- 内容规划总结 -->
+      <div class="planning-insight reveal">
+        <div class="quote-mark">“</div>
+
+        <p>
+          好的创意不是跳出品牌框架，而是在框架里，
+          找到更多<span class="underline">让人愿意看的表达</span>。
+        </p>
+      </div>
+
+
+    </div>
+    <!-- planning-stack END -->
+
+  </div>
+  <!-- planning-layout END -->
+
+</section>
+<!-- 03 内容规划 END -->
+
+
+
+<!-- 04 爆文精选 -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="section-num">04</div>
+      <h2 class="section-title">
+        爆文精选
+        <span class="section-en">/ Selected Content</span>
+      </h2>
+    </div>
+
+ <div class="case-row">
+
+  <!-- CASE 01 -->
+  <a
+    class="case-link"
+     href="https://www.xiaohongshu.com/explore/670c88840000000016023119?xsec_token=ABdyTwHY9bC4SP-q7QuWJmpzFdwpLj4qpln_TuJ3DRxXw=&xsec_source=pc_search&source=web_note_detail_r10"
+     target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal">
+    <div class="case-image">
+  <img src="/assets/projects/vivo/case-01.png" alt="Case 01">
+</div>
+
+      <div class="case-body">
+        <div class="case-label">Case 01 极致风光</div>
+
+        <div class="case-title">
+         我好像拍到了油画里的视界
+        </div>
+
+        <div class="case-data">
+          1.3万<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+
+  <!-- CASE 02 -->
+  <a
+    class="case-link"
+   href="https://www.xiaohongshu.com/explore/670d1de9000000001b03c39a?xsec_token=ABZgwWaPsXmkQgsAqqu0k--X6AH3jZ-O28Kp2ZEFqaKwQ=&xsec_source=pc_search&source=web_search_result_notes"
+  target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d1">
+     <div class="case-image">
+  <img src="/assets/projects/vivo/case-02.png" alt="Case 02">
+</div>
+
+      <div class="case-body">
+        <div class="case-label">Case 02 人文人像</div>
+
+        <div class="case-title">
+       live | vivo X200 Pro也可以拍实况图了！
+        </div>
+
+        <div class="case-data">
+         4972<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+
+  <!-- CASE 03 -->
+  <a
+    class="case-link"
+   href="https://www.xiaohongshu.com/explore/671658cc0000000021001615?xsec_token=ABui2X8CX_AwBq3Dbsom2DjATMoyTP9Pk-A4G6WlvOhv0=&xsec_source=pc_search&source=web_search_result_notes
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d2">
+     <div class="case-image">
+  <img src="/assets/projects/vivo/case-03.png" alt="Case 03">
+</div>
+
+      <div class="case-body">
+        <div class="case-label">Case 03 神级Live</div>
+
+        <div class="case-title">
+          这就是我买vivo X200 Pro的意义…人生live📸
+        </div>
+
+        <div class="case-data">
+          1.1万<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+
+  <!-- CASE 04 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/670cb03d000000001b011de5?xsec_token=ABdyTwHY9bC4SP-q7QuWJmp16Wy1E4JnqQiWTnmYZegP8=&xsec_source=pc_search&source=web_search_result_notes"
+      target="_blank"
+    rel="noopener noreferrer"
+
+  >
+    <article class="case-card reveal">
+   <div class="case-image">
+  <img src="/assets/projects/vivo/case-04.png" alt="Case 04">
+</div>
+
+      <div class="case-body">
+        <div class="case-label">Case 04 极致舞台神器</div>
+
+        <div class="case-title">
+       带演唱会神器vivo X200 Pro看邓紫棋啦
+        </div>
+
+        <div class="case-data">
+         3214<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+
+  <!-- CASE 05 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/670bb885000000001b02d8ea?xsec_token=ABvzeKpwOdT62dmi6tgQTWW8MpK0S3zFczQ3vwxMbkdnY=&xsec_source=pc_search&source=web_note_detail_r10
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d1">
+  <div class="case-image">
+  <img src="/assets/projects/vivo/case-05.png" alt="Case 05">
+</div>
+
+      <div class="case-body">
+        <div class="case-label">Case 05 静奢外观</div>
+
+        <div class="case-title">
+        vivo X200 Pro | 属于白月光的魅力
+        </div>
+
+        <div class="case-data">
+          1593<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+  <!-- CASE 06 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/670ceffa0000000021006c82?xsec_token=ABdyTwHY9bC4SP-q7QuWJmp1aW2ZSOKs9IrmChYHgZKGI=&xsec_source=pc_search&source=web_explore_feed"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d2">
+      <div class="case-image">
+        <img src="/assets/projects/vivo/case-06.jpg" alt="Case 06 用X200拍摄的第一张照片">
+      </div>
+
+      <div class="case-body">
+        <div class="case-label">Case 06 极致风光</div>
+
+        <div class="case-title">
+          用X200拍摄的第一张照片
+        </div>
+
+        <div class="case-data">
+          2310<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+  <!-- CASE 07 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/670fade9000000001b02d297?xsec_token=AB1Zlc0WJo3osob6-6d4ACkYaeMH3Y4vx5vJ2F3fYJpCA=&xsec_source=pc_search"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d1">
+      <div class="case-image">
+        <img src="/assets/projects/vivo/case-07.jpg" alt="Case 07 用vivo X200 Pro解锁宝莲寺的细节之美">
+      </div>
+
+      <div class="case-body">
+        <div class="case-label">Case 07 文遗美学</div>
+
+        <div class="case-title">
+          用vivo X200 Pro解锁宝莲寺的细节之美
+        </div>
+
+        <div class="case-data">
+          1024<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+  <!-- CASE 08 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/67499ccf0000000002038703?xsec_token=ABKGBurk6-KHMv3IrPy-SJ6WxOAXPx0PCoQ2z1h1SFkHI=&xsec_source=pc_search&source=web_explore_feed"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal">
+      <div class="case-image">
+        <img src="/assets/projects/vivo/case-08.jpg" alt="Case 08 救命！真的太出片啦！">
+      </div>
+
+      <div class="case-body">
+        <div class="case-label">Case 08 人文人像</div>
+
+        <div class="case-title">
+          救命！真的太出片啦！
+        </div>
+
+        <div class="case-data">
+          2799<small>赞</small>
+        </div>
+      </div>
+    </article>
+  </a>
+
+  <!-- CASE 09 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/670f36ac000000002100814a?xsec_token=AB6DHc7BUlD2QrhhMm7Y0tI_9oVxn4x8zm4_plqcF1Vjg=&xsec_source=pc_search&source=web_note_detail_r10"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d1">
+      <div class="case-image">
+        <img src="/assets/projects/vivo/case-09.jpg" alt="Case 09 我用vivo X200 Pro在迪士尼拍到了人生烟花">
+      </div>
+      <div class="case-body">
+        <div class="case-label">Case 09 神级 Live</div>
+        <div class="case-title">我用vivo X200 Pro在迪士尼拍到了人生烟花</div>
+        <div class="case-data">9000<small>赞</small></div>
+      </div>
+    </article>
+  </a>
+
+  <!-- CASE 10 -->
+  <a
+    class="case-link"
+    href="https://www.xiaohongshu.com/explore/670d0592000000001b03d780?xsec_token=AB5d6l6Sp7eUPkcFFX_1Mz6NXHkX5S5kf-83vuiMIpDI8=&xsec_source=pc_search"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <article class="case-card reveal reveal-d2">
+      <div class="case-image">
+        <img src="/assets/projects/vivo/case-10.png" alt="Case 10 终于发布！vivo X200 Pro影像灭霸值得买吗">
+      </div>
+      <div class="case-body">
+        <div class="case-label">Case 10 测评体验</div>
+        <div class="case-title">终于发布！vivo X200 Pro影像灭霸值得买吗</div>
+        <div class="case-data">2461<small>赞</small></div>
+      </div>
+    </article>
+  </a>
+
+</div>
+
+    </div>
+  </section>
+
+
+
+
+  </div>
+</section>
+
+
+  <!-- 05 X200 Pro 项目成果 -->
+  <section class="results-section">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="section-num">05</div>
+        <h2 class="section-title">X200 Pro 项目成果 <span class="section-en">/ Results</span></h2>
+      </div>
+
+      <div class="results-primary">
+        <div class="metric highlight reveal">
+          <strong data-count="4070" data-suffix="万">0万</strong>
+          <span>总曝光</span>
+        </div>
+
+        <div class="metric reveal reveal-d1">
+          <strong data-count="441" data-suffix="万">0万</strong>
+          <span>总阅读</span>
+        </div>
+
+        <div class="metric highlight reveal reveal-d2">
+          <strong data-count="20" data-suffix="万">0万</strong>
+          <span>总互动</span>
+        </div>
+
+        <div class="metric reveal">
+          <strong data-count="561" data-suffix="万">0万</strong>
+          <span>自然曝光</span>
+        </div>
+
+        <div class="metric reveal reveal-d1">
+          <strong data-count="78" data-suffix="万">0万</strong>
+          <span>自然阅读</span>
+        </div>
+      </div>
+
+      <div class="results-secondary-card reveal">
+        <div class="secondary-title">更多数据（辅助）</div>
+
+        <div class="secondary-grid">
+          <div class="secondary-item">
+            <strong data-count="3" data-suffix="篇">0篇</strong>
+            <span>高点达人内容</span>
+          </div>
+
+          <div class="secondary-item">
+            <strong data-count="30" data-suffix="万+">0万+</strong>
+            <span>高点达人总曝光</span>
+          </div>
+
+          <div class="secondary-item">
+            <strong data-count="10" data-suffix="万+">0万+</strong>
+            <span>高点达人总阅读</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-note">
+        以上数据均为 X200 Pro 专项传播数据，不包含 X200 Pro mini。我的核心贡献集中于 X200 Pro / Pro mini 内容策略规划、达人创意方向与 Brief 输出。
+      </div>
+    </div>
+  </section>
+
+  <!-- ENDING -->
+  <footer class="ending">
+    <div class="wrap">
+      <div class="ending-inner reveal">
+        <div class="ending-label">METHOD TAKEAWAY · 项目方法沉淀</div>
+
+        <p class="ending-quote">
+          在品牌规定的范围里，<br>
+          让同一个产品拥有更多种<br>
+          被看见的方式。
+        </p>
+
+        <div class="ending-note">
+          在明确品牌命题与产品卖点后，通过场景、达人与内容形式的变化持续打开创意空间，让产品信息既准确，又真正值得用户看。
+        </div>
+
+        <div class="ending-meta">
+          — vivo X200系列 · 新品内容策略 · 2024
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {threshold:.12});
+
+    document.querySelectorAll('.reveal').forEach(
+      el => observer.observe(el)
+    );
+
+    document.querySelectorAll('.page-tabs').forEach(group => {
+      const box = group.closest('.planning-box');
+
+      group.querySelectorAll('.page-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          group.querySelectorAll('.page-tab').forEach(
+            t => t.classList.remove('active')
+          );
+
+          box.querySelectorAll('.plan-slide').forEach(
+            s => s.classList.remove('active')
+          );
+
+          tab.classList.add('active');
+          document.getElementById(tab.dataset.slide).classList.add('active');
+        });
+      });
+    });
+
+    /* Results 数字滚动：进入视口后从 0 滚动到最终值 */
+    const easeOutCubic = t => 1 - Math.pow(1 - t, 3);
+
+    const countObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        countObserver.unobserve(el);
+
+        const target = parseInt(el.dataset.count, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1200;
+        const start = performance.now();
+
+        const step = (now) => {
+          const p = Math.min((now - start) / duration, 1);
+          el.textContent = Math.round(target * easeOutCubic(p)) + suffix;
+          if (p < 1) requestAnimationFrame(step);
+        };
+        requestAnimationFrame(step);
+      });
+    }, { threshold: 0.4 });
+
+    document.querySelectorAll('[data-count]').forEach(
+      el => countObserver.observe(el)
+    );
+  </script>
+
+  <!--
+    yafafa-design-system derivative work.
+    Preserve attribution to the original esther-design-system author and
+    the applicable CC BY-NC-SA 4.0 license notice in distributed copies.
+  -->
+
+</body>
+</html>

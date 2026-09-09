@@ -16,7 +16,7 @@ export function SectionOverlay({ open, onClose, label, children }: { open: boole
   return <div className="section-overlay" role="presentation">
     <div className="section-dim" aria-hidden="true" />
     <section className="section-board" role="dialog" aria-modal="true" aria-label={label}>
-      <button className="section-close" type="button" onClick={onClose} aria-label="关闭 About Me"><X aria-hidden="true" /></button>
+      <button className="section-close" type="button" onClick={onClose} aria-label={`关闭 ${label}`}><X aria-hidden="true" /></button>
       {children}
     </section>
   </div>;
