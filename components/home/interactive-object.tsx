@@ -8,6 +8,6 @@ export function InteractiveObject({ item, active, setHoveredItem, onOpen }: { it
   const hotspotStyle = { left: `${item.hotspot.left}%`, top: `${item.hotspot.top}%`, width: `${item.hotspot.width}%`, height: `${item.hotspot.height}%`, clipPath: item.hotspot.clipPath };
   return <>
     <img className={`desk-overlay${active ? ' is-active' : ''}`} src={item.image} alt="" aria-hidden="true" draggable={false} />
-    {item.href ? <Link className="desk-hotspot feature" href={item.href} aria-label={item.label} onClick={(event) => { if (onOpen?.(item.id)) event.preventDefault(); }} onPointerEnter={enter} onPointerLeave={leave} onFocus={enter} onBlur={leave} onKeyDown={(event) => { if (event.key === ' ') { event.preventDefault(); event.currentTarget.click(); } }} style={hotspotStyle} /> : <span className="desk-hotspot decor" aria-hidden="true" onPointerEnter={enter} onPointerLeave={leave} style={hotspotStyle} />}
+    {item.href ? <Link className="desk-hotspot feature" href={item.href} prefetch={false} aria-label={item.label} onClick={(event) => { if (onOpen?.(item.id)) event.preventDefault(); }} onPointerEnter={enter} onPointerLeave={leave} onFocus={enter} onBlur={leave} onKeyDown={(event) => { if (event.key === ' ') { event.preventDefault(); event.currentTarget.click(); } }} style={hotspotStyle} /> : <span className="desk-hotspot decor" aria-hidden="true" onPointerEnter={enter} onPointerLeave={leave} style={hotspotStyle} />}
   </>;
 }

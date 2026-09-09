@@ -14,6 +14,6 @@ export function TopNavigation({ activeItem, hoveredItem, setHoveredItem, onNavig
     const current = item.id === activeItem; const linked = hoveredItem === item.id;
     const enter = () => setHoveredItem(item.id);
     const leave = () => setHoveredItem((value) => value === item.id ? null : value);
-    return <Link key={item.id} className={`nav-item${current ? ' is-current' : ''}${linked ? ' is-linked' : ''}`} href={item.href} aria-current={current ? 'page' : undefined} onClick={(event) => { if (!event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && onNavigate?.(item.id)) event.preventDefault(); }} onPointerEnter={enter} onPointerLeave={leave} onFocus={enter} onBlur={leave}><span>{item.label}</span><i className="navigation-underline" aria-hidden="true" /></Link>;
+    return <Link key={item.id} className={`nav-item${current ? ' is-current' : ''}${linked ? ' is-linked' : ''}`} href={item.href} prefetch={false} aria-current={current ? 'page' : undefined} onClick={(event) => { if (!event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey && onNavigate?.(item.id)) event.preventDefault(); }} onPointerEnter={enter} onPointerLeave={leave} onFocus={enter} onBlur={leave}><span>{item.label}</span><i className="navigation-underline" aria-hidden="true" /></Link>;
   })}</nav>;
 }
