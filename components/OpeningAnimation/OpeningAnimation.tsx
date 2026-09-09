@@ -6,7 +6,9 @@ import gsap from "gsap";
 
 import "./OpeningAnimation.css";
 
-gsap.registerPlugin(useGSAP);
+if (typeof window !== "undefined") {
+  gsap.registerPlugin(useGSAP);
+}
 
 const CHINESE_GLYPHS = Array.from("欢迎来到我的书桌～");
 
