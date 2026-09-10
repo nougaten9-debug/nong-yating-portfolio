@@ -8633,7 +8633,7 @@ font-family: var(--font-body-cn);
 .id-hello span{font-size:.75em}
 .id-profile-copy h1{position:relative;display:inline-block;margin:9px 0 6px;color:#274b68;font:700 clamp(45px,4.6vw,67px)/1.06 "Noto Serif SC","Source Han Serif SC","Songti SC",serif;letter-spacing:.05em}
 .id-profile-copy h1:after{content:'';position:absolute;left:0;right:-8px;bottom:-7px;height:7px;border-bottom:3px solid rgba(57,120,222,.55);border-radius:50%;transform:rotate(-.6deg)}
-.id-profile-copy h1:before{content:'';position:absolute;right:-43px;top:0;width:38px;height:40px;background:url('/assets/resume-contact/name-accent.png') center/contain no-repeat}
+.id-profile-copy h1:before{content:'';position:absolute;right:-43px;top:0;width:38px;height:40px;background:url('/assets/resume-contact/name-accent.webp') center/contain no-repeat}
 .id-role{margin:18px 0 22px;color:var(--id-blue-deep);font:700 clamp(19px,1.8vw,25px) "Noto Serif SC","Source Han Serif SC","Songti SC",serif}
 .id-lead{margin:0 0 18px;color:#5a6878;font:400 clamp(17px,1.5vw,21px)/1.75 var(--font-body-cn)}
 .id-bio{margin:0;color:#5f7180;font:400 clamp(13px,1.13vw,15px)/1.9 var(--font-body-cn)}
@@ -8767,7 +8767,7 @@ font-family: var(--font-body-cn);
 .id-fixed-profile .id-principle:after{content:'';position:absolute;z-index:-1;right:0;bottom:-4px;left:0;height:10px;background:linear-gradient(135deg,#fff7de 7px,transparent 0) 0 0/14px 10px repeat-x;opacity:.96}
 .id-fixed-profile .id-principle:before{display:none}
 .id-fixed-profile .id-principle p{position:relative;z-index:2;margin:0;color:#38536b;font:500 clamp(16px,1.3vw,20px)/1.9 var(--font-note-cn);letter-spacing:.05em;text-align:center}
-.id-note-sprig,.id-note-flower{position:absolute;display:block;background-image:url('/assets/resume-contact/note-style-reference.png');background-repeat:no-repeat;background-size:526px 563px;mix-blend-mode:multiply;pointer-events:none}
+.id-note-sprig,.id-note-flower{position:absolute;display:block;background-image:url('/assets/resume-contact/note-style-reference.webp');background-repeat:no-repeat;background-size:526px 563px;mix-blend-mode:multiply;pointer-events:none}
 .id-note-sprig{z-index:-2;right:5px;top:-108px;width:92px;height:155px;background-position:-240px -42px;transform:rotate(-1.2deg)}
 .id-note-flower{z-index:3;right:-12px;bottom:-19px;width:55px;height:61px;background-position:-294px -331px}
 .id-story-note{position:absolute;z-index:3;right:1.8%;top:5.5%;margin:0;color:var(--id-blue);font:400 clamp(15px,1.18vw,20px)/1.08 var(--font-hand);text-align:left;transform:rotate(-5deg)}

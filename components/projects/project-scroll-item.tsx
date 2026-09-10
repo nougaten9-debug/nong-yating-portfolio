@@ -72,6 +72,8 @@ export function ProjectScrollItem({
         <img
           src={project.image}
           alt={`${project.brand} 项目图片`}
+          loading="lazy"
+          decoding="async"
           draggable={false}
           onError={(event) => {
             event.currentTarget.hidden = true;
@@ -81,5 +83,4 @@ export function ProjectScrollItem({
     </section>
   );
 }
-
 

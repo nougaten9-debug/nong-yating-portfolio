@@ -1,0 +1,2698 @@
+{
+  "count": 152,
+  "total_bytes": 18850459,
+  "total_megabytes": 17.977,
+  "over_500kb": 2,
+  "over_1mb": 0,
+  "over_3mb": 0,
+  "records": [
+    {
+      "file": "case-01.webp",
+      "path": "public/assets/projects/vivo/case-01.webp",
+      "url": "/assets/projects/vivo/case-01.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1439,
+      "bytes": 658126,
+      "megabytes": 0.628,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-03.webp",
+      "path": "public/assets/projects/vivo/case-03.webp",
+      "url": "/assets/projects/vivo/case-03.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1589,
+      "bytes": 607282,
+      "megabytes": 0.579,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-09.webp",
+      "path": "public/assets/projects/vivo/case-09.webp",
+      "url": "/assets/projects/vivo/case-09.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1589,
+      "bytes": 406342,
+      "megabytes": 0.388,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-stage01-02.webp",
+      "path": "public/assets/projects/ranova/planning-stage01-02.webp",
+      "url": "/assets/projects/ranova/planning-stage01-02.webp",
+      "format": "WEBP",
+      "width": 1829,
+      "height": 1060,
+      "bytes": 392956,
+      "megabytes": 0.375,
+      "used_by": [
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-stage01-01.webp",
+      "path": "public/assets/projects/ranova/planning-stage01-01.webp",
+      "url": "/assets/projects/ranova/planning-stage01-01.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1039,
+      "bytes": 384492,
+      "megabytes": 0.367,
+      "used_by": [
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-03.webp",
+      "path": "public/assets/projects/ranova/planning-core-03.webp",
+      "url": "/assets/projects/ranova/planning-core-03.webp",
+      "format": "WEBP",
+      "width": 1830,
+      "height": 1060,
+      "bytes": 357914,
+      "megabytes": 0.341,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-02.webp",
+      "path": "public/assets/projects/ranova/planning-core-02.webp",
+      "url": "/assets/projects/ranova/planning-core-02.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1034,
+      "bytes": 339080,
+      "megabytes": 0.323,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-05.webp",
+      "path": "public/assets/projects/ranova/planning-core-05.webp",
+      "url": "/assets/projects/ranova/planning-core-05.webp",
+      "format": "WEBP",
+      "width": 1830,
+      "height": 1064,
+      "bytes": 334580,
+      "megabytes": 0.319,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-04.webp",
+      "path": "public/assets/projects/ranova/planning-core-04.webp",
+      "url": "/assets/projects/ranova/planning-core-04.webp",
+      "format": "WEBP",
+      "width": 1880,
+      "height": 1061,
+      "bytes": 332476,
+      "megabytes": 0.317,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-01.webp",
+      "path": "public/assets/projects/ranova/planning-core-01.webp",
+      "url": "/assets/projects/ranova/planning-core-01.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1042,
+      "bytes": 326048,
+      "megabytes": 0.311,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "guihua-03.webp",
+      "path": "public/assets/ai-lab/reader/guihua-03.webp",
+      "url": "/assets/ai-lab/reader/guihua-03.webp",
+      "format": "WEBP",
+      "width": 1800,
+      "height": 933,
+      "bytes": 320812,
+      "megabytes": 0.306,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01.webp",
+      "path": "public/assets/projects/liusimu/case-01.webp",
+      "url": "/assets/projects/liusimu/case-01.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 313304,
+      "megabytes": 0.299,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-pro-planning-02.webp",
+      "path": "public/assets/projects/vivo/vivo-pro-planning-02.webp",
+      "url": "/assets/projects/vivo/vivo-pro-planning-02.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 931,
+      "bytes": 312994,
+      "megabytes": 0.298,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-pro-planning-01.webp",
+      "path": "public/assets/projects/vivo/vivo-pro-planning-01.webp",
+      "url": "/assets/projects/vivo/vivo-pro-planning-01.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 940,
+      "bytes": 290364,
+      "megabytes": 0.277,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-021.webp",
+      "path": "public/assets/projects/vivo/case-021.webp",
+      "url": "/assets/projects/vivo/case-021.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1594,
+      "bytes": 288370,
+      "megabytes": 0.275,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-08.webp",
+      "path": "public/assets/projects/vivo/case-08.webp",
+      "url": "/assets/projects/vivo/case-08.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1594,
+      "bytes": 288370,
+      "megabytes": 0.275,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "yafafa-working-on-books.webp",
+      "path": "public/assets/resume-contact/yafafa-working-on-books.webp",
+      "url": "/assets/resume-contact/yafafa-working-on-books.webp",
+      "format": "WEBP",
+      "width": 1141,
+      "height": 1200,
+      "bytes": 281722,
+      "megabytes": 0.269,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "1hero.webp",
+      "path": "public/assets/projects/ranova/1hero.webp",
+      "url": "/assets/projects/ranova/1hero.webp",
+      "format": "WEBP",
+      "width": 1774,
+      "height": 887,
+      "bytes": 268522,
+      "megabytes": 0.256,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "desk-base.webp",
+      "path": "public/assets/desk-base.webp",
+      "url": "/assets/desk-base.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 256072,
+      "megabytes": 0.244,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-mini-planning-01.webp",
+      "path": "public/assets/projects/vivo/vivo-mini-planning-01.webp",
+      "url": "/assets/projects/vivo/vivo-mini-planning-01.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 862,
+      "bytes": 251560,
+      "megabytes": 0.24,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "lang.webp",
+      "path": "public/assets/projects/lang.webp",
+      "url": "/assets/projects/lang.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 238580,
+      "megabytes": 0.228,
+      "used_by": [
+        "components/projects/projects-data.ts"
+      ],
+      "pages": [
+        "03 Projects / project detail"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "hero.webp",
+      "path": "public/assets/projects/ranova/hero.webp",
+      "url": "/assets/projects/ranova/hero.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 238580,
+      "megabytes": 0.228,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-mini-planning-02.webp",
+      "path": "public/assets/projects/vivo/vivo-mini-planning-02.webp",
+      "url": "/assets/projects/vivo/vivo-mini-planning-02.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 965,
+      "bytes": 234400,
+      "megabytes": 0.224,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "guihua-02.webp",
+      "path": "public/assets/ai-lab/reader/guihua-02.webp",
+      "url": "/assets/ai-lab/reader/guihua-02.webp",
+      "format": "WEBP",
+      "width": 1496,
+      "height": 1060,
+      "bytes": 233710,
+      "megabytes": 0.223,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "2hero.webp",
+      "path": "public/assets/projects/ranova/2hero.webp",
+      "url": "/assets/projects/ranova/2hero.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 227300,
+      "megabytes": 0.217,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "sop-character.webp",
+      "path": "public/assets/ai-lab/reader/sop-character.webp",
+      "url": "/assets/ai-lab/reader/sop-character.webp",
+      "format": "WEBP",
+      "width": 1324,
+      "height": 1188,
+      "bytes": 225536,
+      "megabytes": 0.215,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "fupan-03.webp",
+      "path": "public/assets/ai-lab/reader/fupan-03.webp",
+      "url": "/assets/ai-lab/reader/fupan-03.webp",
+      "format": "WEBP",
+      "width": 1605,
+      "height": 894,
+      "bytes": 215288,
+      "megabytes": 0.205,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-07.webp",
+      "path": "public/assets/projects/vivo/case-07.webp",
+      "url": "/assets/projects/vivo/case-07.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1590,
+      "bytes": 207912,
+      "megabytes": 0.198,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-02.webp",
+      "path": "public/assets/projects/vivo/case-02.webp",
+      "url": "/assets/projects/vivo/case-02.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1595,
+      "bytes": 206276,
+      "megabytes": 0.197,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "1about-01-infjpgreen.webp",
+      "path": "public/assets/白底/1about-01-infjpgreen.webp",
+      "url": "/assets/白底/1about-01-infjpgreen.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 204582,
+      "megabytes": 0.195,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "home-base-bw.webp",
+      "path": "public/assets/home-base-bw.webp",
+      "url": "/assets/home-base-bw.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 202728,
+      "megabytes": 0.193,
+      "used_by": [
+        "components/home/desk-scene.tsx"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "209438f2-a905-4fcf-ad8a-b45a7ffc5400.webp",
+      "path": "public/assets/209438f2-a905-4fcf-ad8a-b45a7ffc5400.webp",
+      "url": "/assets/209438f2-a905-4fcf-ad8a-b45a7ffc5400.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 200680,
+      "megabytes": 0.191,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "content.webp",
+      "path": "public/assets/content.webp",
+      "url": "/assets/content.webp",
+      "format": "WEBP",
+      "width": 1034,
+      "height": 1098,
+      "bytes": 194124,
+      "megabytes": 0.185,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-04.webp",
+      "path": "public/assets/projects/vivo/case-04.webp",
+      "url": "/assets/projects/vivo/case-04.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 192696,
+      "megabytes": 0.184,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-3.webp",
+      "path": "public/assets/projects/liusimu/case-01-3.webp",
+      "url": "/assets/projects/liusimu/case-01-3.webp",
+      "format": "WEBP",
+      "width": 1393,
+      "height": 939,
+      "bytes": 190564,
+      "megabytes": 0.182,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "zhu-transparent.webp",
+      "path": "public/assets/projects/zhu-transparent.webp",
+      "url": "/assets/projects/zhu-transparent.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 190256,
+      "megabytes": 0.181,
+      "used_by": [
+        "components/projects/projects-page.tsx"
+      ],
+      "pages": [
+        "03 Projects / project detail"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ip-03.webp",
+      "path": "public/assets/ai-lab/reader/ip-03.webp",
+      "url": "/assets/ai-lab/reader/ip-03.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 185080,
+      "megabytes": 0.177,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ip-01.webp",
+      "path": "public/assets/ai-lab/reader/ip-01.webp",
+      "url": "/assets/ai-lab/reader/ip-01.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 181108,
+      "megabytes": 0.173,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "tu-02.webp",
+      "path": "public/assets/ai-lab/reader/tu-02.webp",
+      "url": "/assets/ai-lab/reader/tu-02.webp",
+      "format": "WEBP",
+      "width": 1461,
+      "height": 1189,
+      "bytes": 178642,
+      "megabytes": 0.17,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-06.webp",
+      "path": "public/assets/projects/vivo/case-06.webp",
+      "url": "/assets/projects/vivo/case-06.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1589,
+      "bytes": 174652,
+      "megabytes": 0.167,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-4.webp",
+      "path": "public/assets/ai-lab/reader/side-4.webp",
+      "url": "/assets/ai-lab/reader/side-4.webp",
+      "format": "WEBP",
+      "width": 1050,
+      "height": 976,
+      "bytes": 171224,
+      "megabytes": 0.163,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-02.webp",
+      "path": "public/assets/ai-lab/reader/shen-02.webp",
+      "url": "/assets/ai-lab/reader/shen-02.webp",
+      "format": "WEBP",
+      "width": 1800,
+      "height": 818,
+      "bytes": 163790,
+      "megabytes": 0.156,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "badge-frame-raw.webp",
+      "path": "public/assets/resume-contact/badge-frame-raw.webp",
+      "url": "/assets/resume-contact/badge-frame-raw.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 161294,
+      "megabytes": 0.154,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-1.webp",
+      "path": "public/assets/projects/liusimu/case-01-1.webp",
+      "url": "/assets/projects/liusimu/case-01-1.webp",
+      "format": "WEBP",
+      "width": 1055,
+      "height": 949,
+      "bytes": 160206,
+      "megabytes": 0.153,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "principle-note.webp",
+      "path": "public/assets/resume-contact/principle-note.webp",
+      "url": "/assets/resume-contact/principle-note.webp",
+      "format": "WEBP",
+      "width": 1373,
+      "height": 1145,
+      "bytes": 154076,
+      "megabytes": 0.147,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-1.webp",
+      "path": "public/assets/ai-lab/reader/side-1.webp",
+      "url": "/assets/ai-lab/reader/side-1.webp",
+      "format": "WEBP",
+      "width": 1414,
+      "height": 1171,
+      "bytes": 152932,
+      "megabytes": 0.146,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "fupan-02.webp",
+      "path": "public/assets/ai-lab/reader/fupan-02.webp",
+      "url": "/assets/ai-lab/reader/fupan-02.webp",
+      "format": "WEBP",
+      "width": 1595,
+      "height": 891,
+      "bytes": 149530,
+      "megabytes": 0.143,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-4.webp",
+      "path": "public/assets/projects/liusimu/case-01-4.webp",
+      "url": "/assets/projects/liusimu/case-01-4.webp",
+      "format": "WEBP",
+      "width": 865,
+      "height": 969,
+      "bytes": 140858,
+      "megabytes": 0.134,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "badge-background.webp",
+      "path": "public/assets/resume-contact/badge-background.webp",
+      "url": "/assets/resume-contact/badge-background.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 140808,
+      "megabytes": 0.134,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "zhu.webp",
+      "path": "public/assets/projects/zhu.webp",
+      "url": "/assets/projects/zhu.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 139456,
+      "megabytes": 0.133,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-01-infjpgreen.webp",
+      "path": "public/assets/白底/about-01-infjpgreen.webp",
+      "url": "/assets/白底/about-01-infjpgreen.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 139018,
+      "megabytes": 0.133,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-04.webp",
+      "path": "public/assets/ai-lab/reader/shen-04.webp",
+      "url": "/assets/ai-lab/reader/shen-04.webp",
+      "format": "WEBP",
+      "width": 1800,
+      "height": 802,
+      "bytes": 136720,
+      "megabytes": 0.13,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "tu-01.webp",
+      "path": "public/assets/ai-lab/reader/tu-01.webp",
+      "url": "/assets/ai-lab/reader/tu-01.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 131976,
+      "megabytes": 0.126,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-2.webp",
+      "path": "public/assets/projects/liusimu/case-01-2.webp",
+      "url": "/assets/projects/liusimu/case-01-2.webp",
+      "format": "WEBP",
+      "width": 873,
+      "height": 961,
+      "bytes": 130710,
+      "megabytes": 0.125,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-reference.webp",
+      "path": "public/assets/resume-contact/home-reference.webp",
+      "url": "/assets/resume-contact/home-reference.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 922,
+      "bytes": 127982,
+      "megabytes": 0.122,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-05.webp",
+      "path": "public/assets/projects/ranova/case-05.webp",
+      "url": "/assets/projects/ranova/case-05.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 127480,
+      "megabytes": 0.122,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-2.webp",
+      "path": "public/assets/ai-lab/reader/side-2.webp",
+      "url": "/assets/ai-lab/reader/side-2.webp",
+      "format": "WEBP",
+      "width": 1485,
+      "height": 1090,
+      "bytes": 124686,
+      "megabytes": 0.119,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "01-芽发发+小黑1.0纯手绘版-坐在书上办公-透明底.webp",
+      "path": "public/assets/resume-contact/01-芽发发+小黑1.0纯手绘版-坐在书上办公-透明底.webp",
+      "url": "/assets/resume-contact/01-芽发发+小黑1.0纯手绘版-坐在书上办公-透明底.webp",
+      "format": "WEBP",
+      "width": 1672,
+      "height": 941,
+      "bytes": 123216,
+      "megabytes": 0.118,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "liu.webp",
+      "path": "public/assets/projects/liu.webp",
+      "url": "/assets/projects/liu.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 120754,
+      "megabytes": 0.115,
+      "used_by": [
+        "components/projects/projects-data.ts",
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "liu.webp",
+      "path": "public/assets/projects/liusimu/liu.webp",
+      "url": "/assets/projects/liusimu/liu.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 120754,
+      "megabytes": 0.115,
+      "used_by": [
+        "components/projects/projects-data.ts",
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-01.webp",
+      "path": "public/assets/ai-lab/reader/shen-01.webp",
+      "url": "/assets/ai-lab/reader/shen-01.webp",
+      "format": "WEBP",
+      "width": 1774,
+      "height": 887,
+      "bytes": 119830,
+      "megabytes": 0.114,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-08-design.webp",
+      "path": "public/assets/白底/about-08-design.webp",
+      "url": "/assets/白底/about-08-design.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 117712,
+      "megabytes": 0.112,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "fupan-01.webp",
+      "path": "public/assets/ai-lab/reader/fupan-01.webp",
+      "url": "/assets/ai-lab/reader/fupan-01.webp",
+      "format": "WEBP",
+      "width": 1800,
+      "height": 864,
+      "bytes": 113476,
+      "megabytes": 0.108,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ip-02.webp",
+      "path": "public/assets/ai-lab/reader/ip-02.webp",
+      "url": "/assets/ai-lab/reader/ip-02.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 111802,
+      "megabytes": 0.107,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "photo-frame.webp",
+      "path": "public/assets/resume-contact/photo-frame.webp",
+      "url": "/assets/resume-contact/photo-frame.webp",
+      "format": "WEBP",
+      "width": 1000,
+      "height": 1200,
+      "bytes": 108416,
+      "megabytes": 0.103,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-07-account.webp",
+      "path": "public/assets/白底/about-07-account.webp",
+      "url": "/assets/白底/about-07-account.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 106874,
+      "megabytes": 0.102,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-03-ai.webp",
+      "path": "public/assets/白底/about-03-ai.webp",
+      "url": "/assets/白底/about-03-ai.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 106582,
+      "megabytes": 0.102,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo.webp",
+      "path": "public/assets/projects/vivo.webp",
+      "url": "/assets/projects/vivo.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 106112,
+      "megabytes": 0.101,
+      "used_by": [
+        "components/projects/projects-data.ts"
+      ],
+      "pages": [
+        "03 Projects / project detail"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-3.webp",
+      "path": "public/assets/ai-lab/reader/side-3.webp",
+      "url": "/assets/ai-lab/reader/side-3.webp",
+      "format": "WEBP",
+      "width": 1431,
+      "height": 985,
+      "bytes": 105816,
+      "megabytes": 0.101,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-02-content-years.webp",
+      "path": "public/assets/白底/about-02-content-years.webp",
+      "url": "/assets/白底/about-02-content-years.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 98650,
+      "megabytes": 0.094,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-03.webp",
+      "path": "public/assets/ai-lab/reader/shen-03.webp",
+      "url": "/assets/ai-lab/reader/shen-03.webp",
+      "format": "WEBP",
+      "width": 1800,
+      "height": 759,
+      "bytes": 98164,
+      "megabytes": 0.094,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "guihua-01.webp",
+      "path": "public/assets/ai-lab/reader/guihua-01.webp",
+      "url": "/assets/ai-lab/reader/guihua-01.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 96428,
+      "megabytes": 0.092,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-04-edit.webp",
+      "path": "public/assets/白底/about-04-edit.webp",
+      "url": "/assets/白底/about-04-edit.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 96182,
+      "megabytes": 0.092,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-01.webp",
+      "path": "public/assets/content/pet-post-01.webp",
+      "url": "/assets/content/pet-post-01.webp",
+      "format": "WEBP",
+      "width": 559,
+      "height": 1027,
+      "bytes": 95064,
+      "megabytes": 0.091,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "skill-1.webp",
+      "path": "public/assets/ai-lab/reader/skill-1.webp",
+      "url": "/assets/ai-lab/reader/skill-1.webp",
+      "format": "WEBP",
+      "width": 1105,
+      "height": 1061,
+      "bytes": 91842,
+      "megabytes": 0.088,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-07-account.webp",
+      "path": "public/assets/about-07-account.webp",
+      "url": "/assets/about-07-account.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 91506,
+      "megabytes": 0.087,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-05-viral.webp",
+      "path": "public/assets/白底/about-05-viral.webp",
+      "url": "/assets/白底/about-05-viral.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 90788,
+      "megabytes": 0.087,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "skill-3.webp",
+      "path": "public/assets/ai-lab/reader/skill-3.webp",
+      "url": "/assets/ai-lab/reader/skill-3.webp",
+      "format": "WEBP",
+      "width": 1040,
+      "height": 1075,
+      "bytes": 90466,
+      "megabytes": 0.086,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "badge-frame.webp",
+      "path": "public/assets/resume-contact/badge-frame.webp",
+      "url": "/assets/resume-contact/badge-frame.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 87452,
+      "megabytes": 0.083,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "tu-03.webp",
+      "path": "public/assets/ai-lab/reader/tu-03.webp",
+      "url": "/assets/ai-lab/reader/tu-03.webp",
+      "format": "WEBP",
+      "width": 1479,
+      "height": 1215,
+      "bytes": 86500,
+      "megabytes": 0.082,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-01-infjpgreen.webp",
+      "path": "public/assets/about-01-infjpgreen.webp",
+      "url": "/assets/about-01-infjpgreen.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 84482,
+      "megabytes": 0.081,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-03.webp",
+      "path": "public/assets/content/image-post-03.webp",
+      "url": "/assets/content/image-post-03.webp",
+      "format": "WEBP",
+      "width": 577,
+      "height": 1072,
+      "bytes": 80992,
+      "megabytes": 0.077,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-04-edit.webp",
+      "path": "public/assets/about-04-edit.webp",
+      "url": "/assets/about-04-edit.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 80016,
+      "megabytes": 0.076,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "portrait.webp",
+      "path": "public/assets/resume-contact/portrait.webp",
+      "url": "/assets/resume-contact/portrait.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1260,
+      "bytes": 79500,
+      "megabytes": 0.076,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "drawing_pen.webp",
+      "path": "public/assets/opening/drawing_pen.webp",
+      "url": "/assets/opening/drawing_pen.webp",
+      "format": "WEBP",
+      "width": 1175,
+      "height": 790,
+      "bytes": 77878,
+      "megabytes": 0.074,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-02.webp",
+      "path": "public/assets/content/career-post-02.webp",
+      "url": "/assets/content/career-post-02.webp",
+      "format": "WEBP",
+      "width": 572,
+      "height": 1064,
+      "bytes": 76988,
+      "megabytes": 0.073,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-01.webp",
+      "path": "public/assets/content/image-post-01.webp",
+      "url": "/assets/content/image-post-01.webp",
+      "format": "WEBP",
+      "width": 573,
+      "height": 1067,
+      "bytes": 76244,
+      "megabytes": 0.073,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-04.webp",
+      "path": "public/assets/content/pet-post-04.webp",
+      "url": "/assets/content/pet-post-04.webp",
+      "format": "WEBP",
+      "width": 555,
+      "height": 1028,
+      "bytes": 76244,
+      "megabytes": 0.073,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-02.webp",
+      "path": "public/assets/content/image-post-02.webp",
+      "url": "/assets/content/image-post-02.webp",
+      "format": "WEBP",
+      "width": 577,
+      "height": 1063,
+      "bytes": 73876,
+      "megabytes": 0.07,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-08-design.webp",
+      "path": "public/assets/about-08-design.webp",
+      "url": "/assets/about-08-design.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 73502,
+      "megabytes": 0.07,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-04.webp",
+      "path": "public/assets/content/image-post-04.webp",
+      "url": "/assets/content/image-post-04.webp",
+      "format": "WEBP",
+      "width": 583,
+      "height": 1047,
+      "bytes": 73476,
+      "megabytes": 0.07,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-02.webp",
+      "path": "public/assets/projects/ranova/case-02.webp",
+      "url": "/assets/projects/ranova/case-02.webp",
+      "format": "WEBP",
+      "width": 708,
+      "height": 953,
+      "bytes": 73176,
+      "megabytes": 0.07,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "projects.webp",
+      "path": "public/assets/projects.webp",
+      "url": "/assets/projects.webp",
+      "format": "WEBP",
+      "width": 557,
+      "height": 408,
+      "bytes": 72712,
+      "megabytes": 0.069,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-06-method.webp",
+      "path": "public/assets/about-06-method.webp",
+      "url": "/assets/about-06-method.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 71446,
+      "megabytes": 0.068,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-05.webp",
+      "path": "public/assets/projects/vivo/case-05.webp",
+      "url": "/assets/projects/vivo/case-05.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 71014,
+      "megabytes": 0.068,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-02.webp",
+      "path": "public/assets/content/pet-post-02.webp",
+      "url": "/assets/content/pet-post-02.webp",
+      "format": "WEBP",
+      "width": 566,
+      "height": 1045,
+      "bytes": 70798,
+      "megabytes": 0.068,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-03-ai.webp",
+      "path": "public/assets/about-03-ai.webp",
+      "url": "/assets/about-03-ai.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 70326,
+      "megabytes": 0.067,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-06-method.webp",
+      "path": "public/assets/白底/about-06-method.webp",
+      "url": "/assets/白底/about-06-method.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 68054,
+      "megabytes": 0.065,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-02-content-years.webp",
+      "path": "public/assets/about-02-content-years.webp",
+      "url": "/assets/about-02-content-years.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 64580,
+      "megabytes": 0.062,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-05-viral.webp",
+      "path": "public/assets/about-05-viral.webp",
+      "url": "/assets/about-05-viral.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 1125,
+      "bytes": 64536,
+      "megabytes": 0.062,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "intro_text.svg",
+      "path": "public/assets/opening/intro_text.svg",
+      "url": "/assets/opening/intro_text.svg",
+      "format": "SVG",
+      "width": 1200,
+      "height": 280,
+      "bytes": 62382,
+      "megabytes": 0.059,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-051.webp",
+      "path": "public/assets/projects/vivo/case-051.webp",
+      "url": "/assets/projects/vivo/case-051.webp",
+      "format": "WEBP",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 55892,
+      "megabytes": 0.053,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-04.webp",
+      "path": "public/assets/projects/liusimu/case-04.webp",
+      "url": "/assets/projects/liusimu/case-04.webp",
+      "format": "WEBP",
+      "width": 345,
+      "height": 454,
+      "bytes": 54332,
+      "megabytes": 0.052,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-03.webp",
+      "path": "public/assets/projects/ranova/case-03.webp",
+      "url": "/assets/projects/ranova/case-03.webp",
+      "format": "WEBP",
+      "width": 639,
+      "height": 858,
+      "bytes": 53244,
+      "megabytes": 0.051,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-projects-color.webp",
+      "path": "public/assets/home-projects-color.webp",
+      "url": "/assets/home-projects-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 48076,
+      "megabytes": 0.046,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-03.webp",
+      "path": "public/assets/content/pet-post-03.webp",
+      "url": "/assets/content/pet-post-03.webp",
+      "format": "WEBP",
+      "width": 555,
+      "height": 1032,
+      "bytes": 46632,
+      "megabytes": 0.044,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "hero.webp",
+      "path": "public/assets/projects/vivo/hero.webp",
+      "url": "/assets/projects/vivo/hero.webp",
+      "format": "WEBP",
+      "width": 579,
+      "height": 605,
+      "bytes": 40246,
+      "megabytes": 0.038,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-laptop-color.webp",
+      "path": "public/assets/home-decor-laptop-color.webp",
+      "url": "/assets/home-decor-laptop-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 40050,
+      "megabytes": 0.038,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ai-lab.webp",
+      "path": "public/assets/ai-lab.webp",
+      "url": "/assets/ai-lab.webp",
+      "format": "WEBP",
+      "width": 421,
+      "height": 350,
+      "bytes": 38612,
+      "megabytes": 0.037,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-03.webp",
+      "path": "public/assets/projects/liusimu/case-03.webp",
+      "url": "/assets/projects/liusimu/case-03.webp",
+      "format": "WEBP",
+      "width": 345,
+      "height": 454,
+      "bytes": 36780,
+      "megabytes": 0.035,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "avatar-pet.webp",
+      "path": "public/assets/content/avatar-pet.webp",
+      "url": "/assets/content/avatar-pet.webp",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "bytes": 34198,
+      "megabytes": 0.033,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-01-infjpgreen.webp",
+      "path": "public/assets/原/about-01-infjpgreen.webp",
+      "url": "/assets/原/about-01-infjpgreen.webp",
+      "format": "WEBP",
+      "width": 459,
+      "height": 618,
+      "bytes": 33768,
+      "megabytes": 0.032,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-ai-lab-color.webp",
+      "path": "public/assets/home-ai-lab-color.webp",
+      "url": "/assets/home-ai-lab-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 32648,
+      "megabytes": 0.031,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-resume-color.webp",
+      "path": "public/assets/home-resume-color.webp",
+      "url": "/assets/home-resume-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 32306,
+      "megabytes": 0.031,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "desk_final_transparent.webp",
+      "path": "public/assets/opening/desk_final_transparent.webp",
+      "url": "/assets/opening/desk_final_transparent.webp",
+      "format": "WEBP",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 30798,
+      "megabytes": 0.029,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-05-viral.webp",
+      "path": "public/assets/原/about-05-viral.webp",
+      "url": "/assets/原/about-05-viral.webp",
+      "format": "WEBP",
+      "width": 359,
+      "height": 425,
+      "bytes": 30608,
+      "megabytes": 0.029,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "avatar-career.webp",
+      "path": "public/assets/content/avatar-career.webp",
+      "url": "/assets/content/avatar-career.webp",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "bytes": 30342,
+      "megabytes": 0.029,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about.webp",
+      "path": "public/assets/about.webp",
+      "url": "/assets/about.webp",
+      "format": "WEBP",
+      "width": 295,
+      "height": 372,
+      "bytes": 29602,
+      "megabytes": 0.028,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-02-content-years.webp",
+      "path": "public/assets/原/about-02-content-years.webp",
+      "url": "/assets/原/about-02-content-years.webp",
+      "format": "WEBP",
+      "width": 348,
+      "height": 518,
+      "bytes": 28540,
+      "megabytes": 0.027,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-03.webp",
+      "path": "public/assets/content/career-post-03.webp",
+      "url": "/assets/content/career-post-03.webp",
+      "format": "WEBP",
+      "width": 395,
+      "height": 523,
+      "bytes": 27942,
+      "megabytes": 0.027,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-04.webp",
+      "path": "public/assets/projects/ranova/case-04.webp",
+      "url": "/assets/projects/ranova/case-04.webp",
+      "format": "WEBP",
+      "width": 625,
+      "height": 830,
+      "bytes": 27058,
+      "megabytes": 0.026,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-04-edit.webp",
+      "path": "public/assets/原/about-04-edit.webp",
+      "url": "/assets/原/about-04-edit.webp",
+      "format": "WEBP",
+      "width": 424,
+      "height": 380,
+      "bytes": 26132,
+      "megabytes": 0.025,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-coffee-set-color.webp",
+      "path": "public/assets/home-decor-coffee-set-color.webp",
+      "url": "/assets/home-decor-coffee-set-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 25916,
+      "megabytes": 0.025,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "avatar-image.webp",
+      "path": "public/assets/content/avatar-image.webp",
+      "url": "/assets/content/avatar-image.webp",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "bytes": 25290,
+      "megabytes": 0.024,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-08-design.webp",
+      "path": "public/assets/原/about-08-design.webp",
+      "url": "/assets/原/about-08-design.webp",
+      "format": "WEBP",
+      "width": 323,
+      "height": 356,
+      "bytes": 24742,
+      "megabytes": 0.024,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-04.webp",
+      "path": "public/assets/content/career-post-04.webp",
+      "url": "/assets/content/career-post-04.webp",
+      "format": "WEBP",
+      "width": 397,
+      "height": 527,
+      "bytes": 24726,
+      "megabytes": 0.024,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "01-topic-radar.webp",
+      "path": "public/assets/ai-lab/books/01-topic-radar.webp",
+      "url": "/assets/ai-lab/books/01-topic-radar.webp",
+      "format": "WEBP",
+      "width": 241,
+      "height": 345,
+      "bytes": 24526,
+      "megabytes": 0.023,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-lamp-color.webp",
+      "path": "public/assets/home-decor-lamp-color.webp",
+      "url": "/assets/home-decor-lamp-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 24422,
+      "megabytes": 0.023,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-05.webp",
+      "path": "public/assets/projects/liusimu/case-05.webp",
+      "url": "/assets/projects/liusimu/case-05.webp",
+      "format": "WEBP",
+      "width": 340,
+      "height": 459,
+      "bytes": 24256,
+      "megabytes": 0.023,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-plant-color.webp",
+      "path": "public/assets/home-decor-plant-color.webp",
+      "url": "/assets/home-decor-plant-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 23366,
+      "megabytes": 0.022,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-01.webp",
+      "path": "public/assets/content/career-post-01.webp",
+      "url": "/assets/content/career-post-01.webp",
+      "format": "WEBP",
+      "width": 400,
+      "height": 531,
+      "bytes": 23304,
+      "megabytes": 0.022,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "03-content-skill.webp",
+      "path": "public/assets/ai-lab/books/03-content-skill.webp",
+      "url": "/assets/ai-lab/books/03-content-skill.webp",
+      "format": "WEBP",
+      "width": 241,
+      "height": 345,
+      "bytes": 22890,
+      "megabytes": 0.022,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-content-color.webp",
+      "path": "public/assets/home-content-color.webp",
+      "url": "/assets/home-content-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 22436,
+      "megabytes": 0.021,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "02-ip-visual.webp",
+      "path": "public/assets/ai-lab/books/02-ip-visual.webp",
+      "url": "/assets/ai-lab/books/02-ip-visual.webp",
+      "format": "WEBP",
+      "width": 241,
+      "height": 345,
+      "bytes": 22290,
+      "megabytes": 0.021,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-10.webp",
+      "path": "public/assets/projects/vivo/case-10.webp",
+      "url": "/assets/projects/vivo/case-10.webp",
+      "format": "WEBP",
+      "width": 341,
+      "height": 453,
+      "bytes": 22204,
+      "megabytes": 0.021,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-03-ai.webp",
+      "path": "public/assets/原/about-03-ai.webp",
+      "url": "/assets/原/about-03-ai.webp",
+      "format": "WEBP",
+      "width": 339,
+      "height": 431,
+      "bytes": 21662,
+      "megabytes": 0.021,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-06-method.webp",
+      "path": "public/assets/原/about-06-method.webp",
+      "url": "/assets/原/about-06-method.webp",
+      "format": "WEBP",
+      "width": 343,
+      "height": 428,
+      "bytes": 21538,
+      "megabytes": 0.021,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-02.webp",
+      "path": "public/assets/projects/liusimu/case-02.webp",
+      "url": "/assets/projects/liusimu/case-02.webp",
+      "format": "WEBP",
+      "width": 339,
+      "height": 453,
+      "bytes": 21536,
+      "megabytes": 0.021,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-pencilcase-color.webp",
+      "path": "public/assets/home-decor-pencilcase-color.webp",
+      "url": "/assets/home-decor-pencilcase-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 21282,
+      "megabytes": 0.02,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-07-account.webp",
+      "path": "public/assets/原/about-07-account.webp",
+      "url": "/assets/原/about-07-account.webp",
+      "format": "WEBP",
+      "width": 293,
+      "height": 438,
+      "bytes": 20074,
+      "megabytes": 0.019,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "04-content-workflow.webp",
+      "path": "public/assets/ai-lab/books/04-content-workflow.webp",
+      "url": "/assets/ai-lab/books/04-content-workflow.webp",
+      "format": "WEBP",
+      "width": 241,
+      "height": 345,
+      "bytes": 19026,
+      "megabytes": 0.018,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-03-retro.webp",
+      "path": "public/assets/ai-lab/books/sop-03-retro.webp",
+      "url": "/assets/ai-lab/books/sop-03-retro.webp",
+      "format": "WEBP",
+      "width": 257,
+      "height": 272,
+      "bytes": 18202,
+      "megabytes": 0.017,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-01-planning.webp",
+      "path": "public/assets/ai-lab/books/sop-01-planning.webp",
+      "url": "/assets/ai-lab/books/sop-01-planning.webp",
+      "format": "WEBP",
+      "width": 257,
+      "height": 272,
+      "bytes": 17460,
+      "megabytes": 0.017,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01.webp",
+      "path": "public/assets/projects/ranova/case-01.webp",
+      "url": "/assets/projects/ranova/case-01.webp",
+      "format": "WEBP",
+      "width": 315,
+      "height": 430,
+      "bytes": 17098,
+      "megabytes": 0.016,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-about-color.webp",
+      "path": "public/assets/home-about-color.webp",
+      "url": "/assets/home-about-color.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 16790,
+      "megabytes": 0.016,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-02-review.webp",
+      "path": "public/assets/ai-lab/books/sop-02-review.webp",
+      "url": "/assets/ai-lab/books/sop-02-review.webp",
+      "format": "WEBP",
+      "width": 257,
+      "height": 272,
+      "bytes": 14962,
+      "megabytes": 0.014,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "note-style-reference.webp",
+      "path": "public/assets/resume-contact/note-style-reference.webp",
+      "url": "/assets/resume-contact/note-style-reference.webp",
+      "format": "WEBP",
+      "width": 393,
+      "height": 409,
+      "bytes": 14550,
+      "megabytes": 0.014,
+      "used_by": [
+        "app/globals.css"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-content-color.webp",
+      "path": "public/assets/原/home-content-color.webp",
+      "url": "/assets/原/home-content-color.webp",
+      "format": "WEBP",
+      "width": 900,
+      "height": 506,
+      "bytes": 9282,
+      "megabytes": 0.009,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "desk_line_opening.svg",
+      "path": "public/assets/opening/desk_line_opening.svg",
+      "url": "/assets/opening/desk_line_opening.svg",
+      "format": "SVG",
+      "width": 1200,
+      "height": 700,
+      "bytes": 6149,
+      "megabytes": 0.006,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "bottom-right-doodle.webp",
+      "path": "public/assets/resume-contact/bottom-right-doodle.webp",
+      "url": "/assets/resume-contact/bottom-right-doodle.webp",
+      "format": "WEBP",
+      "width": 1920,
+      "height": 129,
+      "bytes": 5618,
+      "megabytes": 0.005,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "name-accent.webp",
+      "path": "public/assets/resume-contact/name-accent.webp",
+      "url": "/assets/resume-contact/name-accent.webp",
+      "format": "WEBP",
+      "width": 92,
+      "height": 97,
+      "bytes": 2910,
+      "megabytes": 0.003,
+      "used_by": [
+        "app/globals.css"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "favicon.svg",
+      "path": "public/favicon.svg",
+      "url": "/favicon.svg",
+      "format": "SVG",
+      "width": 24,
+      "height": 24,
+      "bytes": 712,
+      "megabytes": 0.001,
+      "used_by": [
+        "app/layout.tsx"
+      ],
+      "pages": [
+        "app/layout.tsx"
+      ],
+      "first_screen": false
+    }
+  ]
+}

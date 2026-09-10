@@ -1,0 +1,2707 @@
+{
+  "count": 153,
+  "total_bytes": 108828920,
+  "total_megabytes": 103.787,
+  "over_500kb": 68,
+  "over_1mb": 52,
+  "over_3mb": 1,
+  "records": [
+    {
+      "file": "1about-01-infjpgreen.png",
+      "path": "public/assets/白底/1about-01-infjpgreen.png",
+      "url": "/assets/白底/1about-01-infjpgreen.png",
+      "format": "PNG",
+      "width": 2000,
+      "height": 2499,
+      "bytes": 3424508,
+      "megabytes": 3.266,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-01-infjpgreen.png",
+      "path": "public/assets/白底/about-01-infjpgreen.png",
+      "url": "/assets/白底/about-01-infjpgreen.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2550628,
+      "megabytes": 2.432,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-02-content-years.png",
+      "path": "public/assets/白底/about-02-content-years.png",
+      "url": "/assets/白底/about-02-content-years.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 2183944,
+      "megabytes": 2.083,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "badge-frame-raw.png",
+      "path": "public/assets/resume-contact/badge-frame-raw.png",
+      "url": "/assets/resume-contact/badge-frame-raw.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2102509,
+      "megabytes": 2.005,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "1hero.jpg",
+      "path": "public/assets/projects/ranova/1hero.jpg",
+      "url": "/assets/projects/ranova/1hero.jpg",
+      "format": "PNG",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2020839,
+      "megabytes": 1.927,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "lang.png",
+      "path": "public/assets/projects/lang.png",
+      "url": "/assets/projects/lang.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1972386,
+      "megabytes": 1.881,
+      "used_by": [
+        "components/projects/projects-data.ts"
+      ],
+      "pages": [
+        "03 Projects / project detail"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "hero.jpg",
+      "path": "public/assets/projects/ranova/hero.jpg",
+      "url": "/assets/projects/ranova/hero.jpg",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1972386,
+      "megabytes": 1.881,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-07-account.png",
+      "path": "public/assets/白底/about-07-account.png",
+      "url": "/assets/白底/about-07-account.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1920612,
+      "megabytes": 1.832,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-08-design.png",
+      "path": "public/assets/白底/about-08-design.png",
+      "url": "/assets/白底/about-08-design.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1897457,
+      "megabytes": 1.81,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-03-ai.png",
+      "path": "public/assets/白底/about-03-ai.png",
+      "url": "/assets/白底/about-03-ai.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1896862,
+      "megabytes": 1.809,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-04-edit.png",
+      "path": "public/assets/白底/about-04-edit.png",
+      "url": "/assets/白底/about-04-edit.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1834024,
+      "megabytes": 1.749,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "2hero.jpg",
+      "path": "public/assets/projects/ranova/2hero.jpg",
+      "url": "/assets/projects/ranova/2hero.jpg",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1801098,
+      "megabytes": 1.718,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "yafafa-working-on-books.png",
+      "path": "public/assets/resume-contact/yafafa-working-on-books.png",
+      "url": "/assets/resume-contact/yafafa-working-on-books.png",
+      "format": "PNG",
+      "width": 1223,
+      "height": 1286,
+      "bytes": 1762500,
+      "megabytes": 1.681,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-05-viral.png",
+      "path": "public/assets/白底/about-05-viral.png",
+      "url": "/assets/白底/about-05-viral.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1747263,
+      "megabytes": 1.666,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "portrait.jpg",
+      "path": "public/assets/resume-contact/portrait.jpg",
+      "url": "/assets/resume-contact/portrait.jpg",
+      "format": "JPEG",
+      "width": 1894,
+      "height": 2651,
+      "bytes": 1727252,
+      "megabytes": 1.647,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ip-01.png",
+      "path": "public/assets/ai-lab/reader/ip-01.png",
+      "url": "/assets/ai-lab/reader/ip-01.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1724074,
+      "megabytes": 1.644,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-pro-planning-02.jpg",
+      "path": "public/assets/projects/vivo/vivo-pro-planning-02.jpg",
+      "url": "/assets/projects/vivo/vivo-pro-planning-02.jpg",
+      "format": "PNG",
+      "width": 2260,
+      "height": 1096,
+      "bytes": 1689793,
+      "megabytes": 1.612,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "209438f2-a905-4fcf-ad8a-b45a7ffc5400.png",
+      "path": "public/assets/209438f2-a905-4fcf-ad8a-b45a7ffc5400.png",
+      "url": "/assets/209438f2-a905-4fcf-ad8a-b45a7ffc5400.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1628913,
+      "megabytes": 1.553,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "badge-frame.png",
+      "path": "public/assets/resume-contact/badge-frame.png",
+      "url": "/assets/resume-contact/badge-frame.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1582499,
+      "megabytes": 1.509,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "liu.png",
+      "path": "public/assets/projects/liu.png",
+      "url": "/assets/projects/liu.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1566877,
+      "megabytes": 1.494,
+      "used_by": [
+        "components/projects/projects-data.ts",
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "liu.png",
+      "path": "public/assets/projects/liusimu/liu.png",
+      "url": "/assets/projects/liusimu/liu.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1566877,
+      "megabytes": 1.494,
+      "used_by": [
+        "components/projects/projects-data.ts",
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "01-芽发发+小黑1.0纯手绘版-坐在书上办公-透明底.png",
+      "path": "public/assets/resume-contact/01-芽发发+小黑1.0纯手绘版-坐在书上办公-透明底.png",
+      "url": "/assets/resume-contact/01-芽发发+小黑1.0纯手绘版-坐在书上办公-透明底.png",
+      "format": "PNG",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1564852,
+      "megabytes": 1.492,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-06-method.png",
+      "path": "public/assets/白底/about-06-method.png",
+      "url": "/assets/白底/about-06-method.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1553472,
+      "megabytes": 1.482,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-pro-planning-01.jpg",
+      "path": "public/assets/projects/vivo/vivo-pro-planning-01.jpg",
+      "url": "/assets/projects/vivo/vivo-pro-planning-01.jpg",
+      "format": "PNG",
+      "width": 2248,
+      "height": 1101,
+      "bytes": 1532395,
+      "megabytes": 1.461,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "zhu.png",
+      "path": "public/assets/projects/zhu.png",
+      "url": "/assets/projects/zhu.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1527128,
+      "megabytes": 1.456,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "ip-03.png",
+      "path": "public/assets/ai-lab/reader/ip-03.png",
+      "url": "/assets/ai-lab/reader/ip-03.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1501252,
+      "megabytes": 1.432,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "tu-01.png",
+      "path": "public/assets/ai-lab/reader/tu-01.png",
+      "url": "/assets/ai-lab/reader/tu-01.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1460368,
+      "megabytes": 1.393,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-07-account.png",
+      "path": "public/assets/about-07-account.png",
+      "url": "/assets/about-07-account.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1445174,
+      "megabytes": 1.378,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ip-02.png",
+      "path": "public/assets/ai-lab/reader/ip-02.png",
+      "url": "/assets/ai-lab/reader/ip-02.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1339892,
+      "megabytes": 1.278,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-08-design.png",
+      "path": "public/assets/about-08-design.png",
+      "url": "/assets/about-08-design.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1334277,
+      "megabytes": 1.272,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "guihua-01.png",
+      "path": "public/assets/ai-lab/reader/guihua-01.png",
+      "url": "/assets/ai-lab/reader/guihua-01.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1333647,
+      "megabytes": 1.272,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-reference.png",
+      "path": "public/assets/resume-contact/home-reference.png",
+      "url": "/assets/resume-contact/home-reference.png",
+      "format": "PNG",
+      "width": 2048,
+      "height": 983,
+      "bytes": 1326797,
+      "megabytes": 1.265,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-mini-planning-01.jpg",
+      "path": "public/assets/projects/vivo/vivo-mini-planning-01.jpg",
+      "url": "/assets/projects/vivo/vivo-mini-planning-01.jpg",
+      "format": "PNG",
+      "width": 2224,
+      "height": 999,
+      "bytes": 1302146,
+      "megabytes": 1.242,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-01-infjpgreen.png",
+      "path": "public/assets/about-01-infjpgreen.png",
+      "url": "/assets/about-01-infjpgreen.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1271670,
+      "megabytes": 1.213,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "content.png",
+      "path": "public/assets/content.png",
+      "url": "/assets/content.png",
+      "format": "PNG",
+      "width": 1034,
+      "height": 1098,
+      "bytes": 1267908,
+      "megabytes": 1.209,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "guihua-03.png",
+      "path": "public/assets/ai-lab/reader/guihua-03.png",
+      "url": "/assets/ai-lab/reader/guihua-03.png",
+      "format": "PNG",
+      "width": 2045,
+      "height": 1060,
+      "bytes": 1253834,
+      "megabytes": 1.196,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "drawing_pen.png",
+      "path": "public/assets/opening/drawing_pen.png",
+      "url": "/assets/opening/drawing_pen.png",
+      "format": "PNG",
+      "width": 1175,
+      "height": 790,
+      "bytes": 1247762,
+      "megabytes": 1.19,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-04-edit.png",
+      "path": "public/assets/about-04-edit.png",
+      "url": "/assets/about-04-edit.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1231537,
+      "megabytes": 1.174,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-01.png",
+      "path": "public/assets/ai-lab/reader/shen-01.png",
+      "url": "/assets/ai-lab/reader/shen-01.png",
+      "format": "PNG",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1225070,
+      "megabytes": 1.168,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-03-ai.png",
+      "path": "public/assets/about-03-ai.png",
+      "url": "/assets/about-03-ai.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1222734,
+      "megabytes": 1.166,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-06-method.png",
+      "path": "public/assets/about-06-method.png",
+      "url": "/assets/about-06-method.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1203067,
+      "megabytes": 1.147,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "fupan-01.png",
+      "path": "public/assets/ai-lab/reader/fupan-01.png",
+      "url": "/assets/ai-lab/reader/fupan-01.png",
+      "format": "PNG",
+      "width": 1810,
+      "height": 869,
+      "bytes": 1195588,
+      "megabytes": 1.14,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "zhu-transparent.png",
+      "path": "public/assets/projects/zhu-transparent.png",
+      "url": "/assets/projects/zhu-transparent.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1192465,
+      "megabytes": 1.137,
+      "used_by": [
+        "components/projects/projects-page.tsx"
+      ],
+      "pages": [
+        "03 Projects / project detail"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-character.png",
+      "path": "public/assets/ai-lab/reader/sop-character.png",
+      "url": "/assets/ai-lab/reader/sop-character.png",
+      "format": "PNG",
+      "width": 1324,
+      "height": 1188,
+      "bytes": 1185586,
+      "megabytes": 1.131,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-02-content-years.png",
+      "path": "public/assets/about-02-content-years.png",
+      "url": "/assets/about-02-content-years.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1160772,
+      "megabytes": 1.107,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-stage01-01.jpg",
+      "path": "public/assets/projects/ranova/planning-stage01-01.jpg",
+      "url": "/assets/projects/ranova/planning-stage01-01.jpg",
+      "format": "PNG",
+      "width": 1950,
+      "height": 1055,
+      "bytes": 1155023,
+      "megabytes": 1.102,
+      "used_by": [
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-05-viral.png",
+      "path": "public/assets/about-05-viral.png",
+      "url": "/assets/about-05-viral.png",
+      "format": "PNG",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1139549,
+      "megabytes": 1.087,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-base-bw.png",
+      "path": "public/assets/home-base-bw.png",
+      "url": "/assets/home-base-bw.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1121102,
+      "megabytes": 1.069,
+      "used_by": [
+        "components/home/desk-scene.tsx"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": true
+    },
+    {
+      "file": "desk-base.jpg",
+      "path": "public/assets/desk-base.jpg",
+      "url": "/assets/desk-base.jpg",
+      "format": "JPEG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1117775,
+      "megabytes": 1.066,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-03.jpg",
+      "path": "public/assets/projects/ranova/planning-core-03.jpg",
+      "url": "/assets/projects/ranova/planning-core-03.jpg",
+      "format": "PNG",
+      "width": 1830,
+      "height": 1060,
+      "bytes": 1082979,
+      "megabytes": 1.033,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-04.jpg",
+      "path": "public/assets/projects/ranova/planning-core-04.jpg",
+      "url": "/assets/projects/ranova/planning-core-04.jpg",
+      "format": "PNG",
+      "width": 1880,
+      "height": 1061,
+      "bytes": 1077449,
+      "megabytes": 1.028,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "principle-note.png",
+      "path": "public/assets/resume-contact/principle-note.png",
+      "url": "/assets/resume-contact/principle-note.png",
+      "format": "PNG",
+      "width": 1373,
+      "height": 1145,
+      "bytes": 1077193,
+      "megabytes": 1.027,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-01.jpg",
+      "path": "public/assets/projects/ranova/planning-core-01.jpg",
+      "url": "/assets/projects/ranova/planning-core-01.jpg",
+      "format": "PNG",
+      "width": 1954,
+      "height": 1060,
+      "bytes": 1048119,
+      "megabytes": 1.0,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-05.jpg",
+      "path": "public/assets/projects/ranova/planning-core-05.jpg",
+      "url": "/assets/projects/ranova/planning-core-05.jpg",
+      "format": "PNG",
+      "width": 1830,
+      "height": 1064,
+      "bytes": 1044775,
+      "megabytes": 0.996,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-stage01-02.jpg",
+      "path": "public/assets/projects/ranova/planning-stage01-02.jpg",
+      "url": "/assets/projects/ranova/planning-stage01-02.jpg",
+      "format": "PNG",
+      "width": 1829,
+      "height": 1060,
+      "bytes": 1033984,
+      "megabytes": 0.986,
+      "used_by": [
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "planning-core-02.jpg",
+      "path": "public/assets/projects/ranova/planning-core-02.jpg",
+      "url": "/assets/projects/ranova/planning-core-02.jpg",
+      "format": "PNG",
+      "width": 1971,
+      "height": 1061,
+      "bytes": 1032919,
+      "megabytes": 0.985,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo-mini-planning-02.jpg",
+      "path": "public/assets/projects/vivo/vivo-mini-planning-02.jpg",
+      "url": "/assets/projects/vivo/vivo-mini-planning-02.jpg",
+      "format": "PNG",
+      "width": 2199,
+      "height": 1105,
+      "bytes": 1003056,
+      "megabytes": 0.957,
+      "used_by": [
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "vivo.png",
+      "path": "public/assets/projects/vivo.png",
+      "url": "/assets/projects/vivo.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 860248,
+      "megabytes": 0.82,
+      "used_by": [
+        "components/projects/projects-data.ts"
+      ],
+      "pages": [
+        "03 Projects / project detail"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "photo-frame.png",
+      "path": "public/assets/resume-contact/photo-frame.png",
+      "url": "/assets/resume-contact/photo-frame.png",
+      "format": "PNG",
+      "width": 1145,
+      "height": 1374,
+      "bytes": 788686,
+      "megabytes": 0.752,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01.png",
+      "path": "public/assets/projects/vivo/case-01.png",
+      "url": "/assets/projects/vivo/case-01.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1439,
+      "bytes": 771284,
+      "megabytes": 0.736,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-03.png",
+      "path": "public/assets/projects/vivo/case-03.png",
+      "url": "/assets/projects/vivo/case-03.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1589,
+      "bytes": 750260,
+      "megabytes": 0.716,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-04.png",
+      "path": "public/assets/ai-lab/reader/shen-04.png",
+      "url": "/assets/ai-lab/reader/shen-04.png",
+      "format": "PNG",
+      "width": 2030,
+      "height": 905,
+      "bytes": 735356,
+      "megabytes": 0.701,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-02.png",
+      "path": "public/assets/projects/ranova/case-02.png",
+      "url": "/assets/projects/ranova/case-02.png",
+      "format": "PNG",
+      "width": 708,
+      "height": 953,
+      "bytes": 690277,
+      "megabytes": 0.658,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "fupan-03.png",
+      "path": "public/assets/ai-lab/reader/fupan-03.png",
+      "url": "/assets/ai-lab/reader/fupan-03.png",
+      "format": "PNG",
+      "width": 1605,
+      "height": 894,
+      "bytes": 651765,
+      "megabytes": 0.622,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "badge-background.png",
+      "path": "public/assets/resume-contact/badge-background.png",
+      "url": "/assets/resume-contact/badge-background.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 629449,
+      "megabytes": 0.6,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "guihua-02.png",
+      "path": "public/assets/ai-lab/reader/guihua-02.png",
+      "url": "/assets/ai-lab/reader/guihua-02.png",
+      "format": "PNG",
+      "width": 1496,
+      "height": 1060,
+      "bytes": 614276,
+      "megabytes": 0.586,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-09.jpg",
+      "path": "public/assets/projects/vivo/case-09.jpg",
+      "url": "/assets/projects/vivo/case-09.jpg",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1589,
+      "bytes": 553186,
+      "megabytes": 0.528,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-03.png",
+      "path": "public/assets/projects/ranova/case-03.png",
+      "url": "/assets/projects/ranova/case-03.png",
+      "format": "PNG",
+      "width": 639,
+      "height": 858,
+      "bytes": 514645,
+      "megabytes": 0.491,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01.png",
+      "path": "public/assets/projects/liusimu/case-01.png",
+      "url": "/assets/projects/liusimu/case-01.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 472539,
+      "megabytes": 0.451,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "desk_final_transparent.png",
+      "path": "public/assets/opening/desk_final_transparent.png",
+      "url": "/assets/opening/desk_final_transparent.png",
+      "format": "PNG",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 444748,
+      "megabytes": 0.424,
+      "used_by": [],
+      "pages": [],
+      "first_screen": true
+    },
+    {
+      "file": "case-01-1.jpg",
+      "path": "public/assets/projects/liusimu/case-01-1.jpg",
+      "url": "/assets/projects/liusimu/case-01-1.jpg",
+      "format": "JPEG",
+      "width": 1910,
+      "height": 925,
+      "bytes": 438267,
+      "megabytes": 0.418,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-021.png",
+      "path": "public/assets/projects/vivo/case-021.png",
+      "url": "/assets/projects/vivo/case-021.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1594,
+      "bytes": 425011,
+      "megabytes": 0.405,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "case-08.jpg",
+      "path": "public/assets/projects/vivo/case-08.jpg",
+      "url": "/assets/projects/vivo/case-08.jpg",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1594,
+      "bytes": 425011,
+      "megabytes": 0.405,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "shen-03.png",
+      "path": "public/assets/ai-lab/reader/shen-03.png",
+      "url": "/assets/ai-lab/reader/shen-03.png",
+      "format": "PNG",
+      "width": 2346,
+      "height": 989,
+      "bytes": 405038,
+      "megabytes": 0.386,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "projects.png",
+      "path": "public/assets/projects.png",
+      "url": "/assets/projects.png",
+      "format": "PNG",
+      "width": 557,
+      "height": 408,
+      "bytes": 385212,
+      "megabytes": 0.367,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "shen-02.png",
+      "path": "public/assets/ai-lab/reader/shen-02.png",
+      "url": "/assets/ai-lab/reader/shen-02.png",
+      "format": "PNG",
+      "width": 2058,
+      "height": 935,
+      "bytes": 363381,
+      "megabytes": 0.347,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-1.png",
+      "path": "public/assets/ai-lab/reader/side-1.png",
+      "url": "/assets/ai-lab/reader/side-1.png",
+      "format": "PNG",
+      "width": 1414,
+      "height": 1171,
+      "bytes": 356483,
+      "megabytes": 0.34,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-04.png",
+      "path": "public/assets/projects/ranova/case-04.png",
+      "url": "/assets/projects/ranova/case-04.png",
+      "format": "PNG",
+      "width": 625,
+      "height": 830,
+      "bytes": 350618,
+      "megabytes": 0.334,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-02.png",
+      "path": "public/assets/projects/vivo/case-02.png",
+      "url": "/assets/projects/vivo/case-02.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1595,
+      "bytes": 341574,
+      "megabytes": 0.326,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-07.jpg",
+      "path": "public/assets/projects/vivo/case-07.jpg",
+      "url": "/assets/projects/vivo/case-07.jpg",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1590,
+      "bytes": 339209,
+      "megabytes": 0.323,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-04.png",
+      "path": "public/assets/projects/vivo/case-04.png",
+      "url": "/assets/projects/vivo/case-04.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 318845,
+      "megabytes": 0.304,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-2.png",
+      "path": "public/assets/ai-lab/reader/side-2.png",
+      "url": "/assets/ai-lab/reader/side-2.png",
+      "format": "PNG",
+      "width": 1485,
+      "height": 1090,
+      "bytes": 301158,
+      "megabytes": 0.287,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "fupan-02.png",
+      "path": "public/assets/ai-lab/reader/fupan-02.png",
+      "url": "/assets/ai-lab/reader/fupan-02.png",
+      "format": "PNG",
+      "width": 1595,
+      "height": 891,
+      "bytes": 298059,
+      "megabytes": 0.284,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-04.png",
+      "path": "public/assets/projects/liusimu/case-04.png",
+      "url": "/assets/projects/liusimu/case-04.png",
+      "format": "PNG",
+      "width": 345,
+      "height": 454,
+      "bytes": 293034,
+      "megabytes": 0.279,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-06.jpg",
+      "path": "public/assets/projects/vivo/case-06.jpg",
+      "url": "/assets/projects/vivo/case-06.jpg",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1589,
+      "bytes": 282148,
+      "megabytes": 0.269,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-laptop-color.png",
+      "path": "public/assets/home-decor-laptop-color.png",
+      "url": "/assets/home-decor-laptop-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 269618,
+      "megabytes": 0.257,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-3.png",
+      "path": "public/assets/ai-lab/reader/side-3.png",
+      "url": "/assets/ai-lab/reader/side-3.png",
+      "format": "PNG",
+      "width": 1431,
+      "height": 985,
+      "bytes": 249909,
+      "megabytes": 0.238,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-projects-color.png",
+      "path": "public/assets/home-projects-color.png",
+      "url": "/assets/home-projects-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 248253,
+      "megabytes": 0.237,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "bottom-right-doodle.png",
+      "path": "public/assets/resume-contact/bottom-right-doodle.png",
+      "url": "/assets/resume-contact/bottom-right-doodle.png",
+      "format": "PNG",
+      "width": 11793,
+      "height": 793,
+      "bytes": 246328,
+      "megabytes": 0.235,
+      "used_by": [
+        "components/resume/resume-contact-page.tsx"
+      ],
+      "pages": [
+        "06 Resume & Contact"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "hero.jpg",
+      "path": "public/assets/projects/vivo/hero.jpg",
+      "url": "/assets/projects/vivo/hero.jpg",
+      "format": "PNG",
+      "width": 579,
+      "height": 605,
+      "bytes": 243965,
+      "megabytes": 0.233,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-05.png",
+      "path": "public/assets/projects/ranova/case-05.png",
+      "url": "/assets/projects/ranova/case-05.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 243403,
+      "megabytes": 0.232,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-03.png",
+      "path": "public/assets/projects/liusimu/case-03.png",
+      "url": "/assets/projects/liusimu/case-03.png",
+      "format": "PNG",
+      "width": 345,
+      "height": 454,
+      "bytes": 239571,
+      "megabytes": 0.228,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-ai-lab-color.png",
+      "path": "public/assets/home-ai-lab-color.png",
+      "url": "/assets/home-ai-lab-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 236365,
+      "megabytes": 0.225,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "ai-lab.png",
+      "path": "public/assets/ai-lab.png",
+      "url": "/assets/ai-lab.png",
+      "format": "PNG",
+      "width": 421,
+      "height": 350,
+      "bytes": 225136,
+      "megabytes": 0.215,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-01.png",
+      "path": "public/assets/content/pet-post-01.png",
+      "url": "/assets/content/pet-post-01.png",
+      "format": "JPEG",
+      "width": 559,
+      "height": 1027,
+      "bytes": 210127,
+      "megabytes": 0.2,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "tu-02.png",
+      "path": "public/assets/ai-lab/reader/tu-02.png",
+      "url": "/assets/ai-lab/reader/tu-02.png",
+      "format": "PNG",
+      "width": 1461,
+      "height": 1189,
+      "bytes": 209953,
+      "megabytes": 0.2,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "note-style-reference.png",
+      "path": "public/assets/resume-contact/note-style-reference.png",
+      "url": "/assets/resume-contact/note-style-reference.png",
+      "format": "PNG",
+      "width": 393,
+      "height": 409,
+      "bytes": 209873,
+      "megabytes": 0.2,
+      "used_by": [
+        "app/globals.css"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-01-infjpgreen.png",
+      "path": "public/assets/原/about-01-infjpgreen.png",
+      "url": "/assets/原/about-01-infjpgreen.png",
+      "format": "PNG",
+      "width": 459,
+      "height": 618,
+      "bytes": 200254,
+      "megabytes": 0.191,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-05.png",
+      "path": "public/assets/projects/liusimu/case-05.png",
+      "url": "/assets/projects/liusimu/case-05.png",
+      "format": "PNG",
+      "width": 340,
+      "height": 459,
+      "bytes": 199016,
+      "megabytes": 0.19,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-02-content-years.png",
+      "path": "public/assets/原/about-02-content-years.png",
+      "url": "/assets/原/about-02-content-years.png",
+      "format": "PNG",
+      "width": 348,
+      "height": 518,
+      "bytes": 196090,
+      "megabytes": 0.187,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-03.png",
+      "path": "public/assets/content/image-post-03.png",
+      "url": "/assets/content/image-post-03.png",
+      "format": "JPEG",
+      "width": 577,
+      "height": 1072,
+      "bytes": 187981,
+      "megabytes": 0.179,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-02.png",
+      "path": "public/assets/content/career-post-02.png",
+      "url": "/assets/content/career-post-02.png",
+      "format": "JPEG",
+      "width": 572,
+      "height": 1064,
+      "bytes": 187629,
+      "megabytes": 0.179,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-04.png",
+      "path": "public/assets/content/pet-post-04.png",
+      "url": "/assets/content/pet-post-04.png",
+      "format": "JPEG",
+      "width": 555,
+      "height": 1028,
+      "bytes": 185308,
+      "megabytes": 0.177,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-04.png",
+      "path": "public/assets/content/image-post-04.png",
+      "url": "/assets/content/image-post-04.png",
+      "format": "JPEG",
+      "width": 583,
+      "height": 1047,
+      "bytes": 179873,
+      "megabytes": 0.172,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-3.png",
+      "path": "public/assets/projects/liusimu/case-01-3.png",
+      "url": "/assets/projects/liusimu/case-01-3.png",
+      "format": "PNG",
+      "width": 1393,
+      "height": 939,
+      "bytes": 178950,
+      "megabytes": 0.171,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-01.png",
+      "path": "public/assets/content/image-post-01.png",
+      "url": "/assets/content/image-post-01.png",
+      "format": "JPEG",
+      "width": 573,
+      "height": 1067,
+      "bytes": 178355,
+      "megabytes": 0.17,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-04-edit.png",
+      "path": "public/assets/原/about-04-edit.png",
+      "url": "/assets/原/about-04-edit.png",
+      "format": "PNG",
+      "width": 424,
+      "height": 380,
+      "bytes": 178334,
+      "megabytes": 0.17,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "side-4.png",
+      "path": "public/assets/ai-lab/reader/side-4.png",
+      "url": "/assets/ai-lab/reader/side-4.png",
+      "format": "PNG",
+      "width": 1050,
+      "height": 976,
+      "bytes": 177207,
+      "megabytes": 0.169,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts",
+        "components/ai-lab/ai-lab-page.tsx"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "image-post-02.png",
+      "path": "public/assets/content/image-post-02.png",
+      "url": "/assets/content/image-post-02.png",
+      "format": "JPEG",
+      "width": 577,
+      "height": 1063,
+      "bytes": 176447,
+      "megabytes": 0.168,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-05-viral.png",
+      "path": "public/assets/原/about-05-viral.png",
+      "url": "/assets/原/about-05-viral.png",
+      "format": "PNG",
+      "width": 359,
+      "height": 425,
+      "bytes": 176170,
+      "megabytes": 0.168,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-02.png",
+      "path": "public/assets/projects/liusimu/case-02.png",
+      "url": "/assets/projects/liusimu/case-02.png",
+      "format": "PNG",
+      "width": 339,
+      "height": 453,
+      "bytes": 167642,
+      "megabytes": 0.16,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-10.png",
+      "path": "public/assets/projects/vivo/case-10.png",
+      "url": "/assets/projects/vivo/case-10.png",
+      "format": "PNG",
+      "width": 341,
+      "height": 453,
+      "bytes": 162228,
+      "megabytes": 0.155,
+      "used_by": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/vivo-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about.png",
+      "path": "public/assets/about.png",
+      "url": "/assets/about.png",
+      "format": "PNG",
+      "width": 295,
+      "height": 372,
+      "bytes": 160120,
+      "megabytes": 0.153,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-03-ai.png",
+      "path": "public/assets/原/about-03-ai.png",
+      "url": "/assets/原/about-03-ai.png",
+      "format": "PNG",
+      "width": 339,
+      "height": 431,
+      "bytes": 147965,
+      "megabytes": 0.141,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-content-color.png",
+      "path": "public/assets/原/home-content-color.png",
+      "url": "/assets/原/home-content-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 147841,
+      "megabytes": 0.141,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-06-method.png",
+      "path": "public/assets/原/about-06-method.png",
+      "url": "/assets/原/about-06-method.png",
+      "format": "PNG",
+      "width": 343,
+      "height": 428,
+      "bytes": 147452,
+      "megabytes": 0.141,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-05.png",
+      "path": "public/assets/projects/vivo/case-05.png",
+      "url": "/assets/projects/vivo/case-05.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 146505,
+      "megabytes": 0.14,
+      "used_by": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "01-topic-radar.png",
+      "path": "public/assets/ai-lab/books/01-topic-radar.png",
+      "url": "/assets/ai-lab/books/01-topic-radar.png",
+      "format": "PNG",
+      "width": 241,
+      "height": 345,
+      "bytes": 144577,
+      "megabytes": 0.138,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-051.png",
+      "path": "public/assets/projects/vivo/case-051.png",
+      "url": "/assets/projects/vivo/case-051.png",
+      "format": "JPEG",
+      "width": 1080,
+      "height": 1440,
+      "bytes": 141938,
+      "megabytes": 0.135,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "about-08-design.png",
+      "path": "public/assets/原/about-08-design.png",
+      "url": "/assets/原/about-08-design.png",
+      "format": "PNG",
+      "width": 323,
+      "height": 356,
+      "bytes": 141469,
+      "megabytes": 0.135,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01.png",
+      "path": "public/assets/projects/ranova/case-01.png",
+      "url": "/assets/projects/ranova/case-01.png",
+      "format": "PNG",
+      "width": 315,
+      "height": 430,
+      "bytes": 138212,
+      "megabytes": 0.132,
+      "used_by": [
+        "components/projects/project-detail-modal.tsx",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "pages": [
+        "03 Projects / project detail",
+        "components/public/ranova-case-study.html",
+        "components/public/vivo-case-study.html",
+        "public/liusimu-case-study.html",
+        "public/ranova-case-study.html",
+        "public/vivo-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "about-07-account.png",
+      "path": "public/assets/原/about-07-account.png",
+      "url": "/assets/原/about-07-account.png",
+      "format": "PNG",
+      "width": 293,
+      "height": 438,
+      "bytes": 137635,
+      "megabytes": 0.131,
+      "used_by": [
+        "components/about/about-board.tsx"
+      ],
+      "pages": [
+        "02 About Me"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-2.png",
+      "path": "public/assets/projects/liusimu/case-01-2.png",
+      "url": "/assets/projects/liusimu/case-01-2.png",
+      "format": "PNG",
+      "width": 873,
+      "height": 961,
+      "bytes": 133304,
+      "megabytes": 0.127,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "03-content-skill.png",
+      "path": "public/assets/ai-lab/books/03-content-skill.png",
+      "url": "/assets/ai-lab/books/03-content-skill.png",
+      "format": "PNG",
+      "width": 241,
+      "height": 345,
+      "bytes": 129488,
+      "megabytes": 0.123,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-4.png",
+      "path": "public/assets/projects/liusimu/case-01-4.png",
+      "url": "/assets/projects/liusimu/case-01-4.png",
+      "format": "PNG",
+      "width": 865,
+      "height": 969,
+      "bytes": 129184,
+      "megabytes": 0.123,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-resume-color.png",
+      "path": "public/assets/home-resume-color.png",
+      "url": "/assets/home-resume-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 128095,
+      "megabytes": 0.122,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-pencilcase-color.png",
+      "path": "public/assets/home-decor-pencilcase-color.png",
+      "url": "/assets/home-decor-pencilcase-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 124650,
+      "megabytes": 0.119,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "04-content-workflow.png",
+      "path": "public/assets/ai-lab/books/04-content-workflow.png",
+      "url": "/assets/ai-lab/books/04-content-workflow.png",
+      "format": "PNG",
+      "width": 241,
+      "height": 345,
+      "bytes": 124278,
+      "megabytes": 0.119,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "02-ip-visual.png",
+      "path": "public/assets/ai-lab/books/02-ip-visual.png",
+      "url": "/assets/ai-lab/books/02-ip-visual.png",
+      "format": "PNG",
+      "width": 241,
+      "height": 345,
+      "bytes": 123078,
+      "megabytes": 0.117,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "case-01-1.png",
+      "path": "public/assets/projects/liusimu/case-01-1.png",
+      "url": "/assets/projects/liusimu/case-01-1.png",
+      "format": "PNG",
+      "width": 1055,
+      "height": 949,
+      "bytes": 115547,
+      "megabytes": 0.11,
+      "used_by": [
+        "public/liusimu-case-study.html"
+      ],
+      "pages": [
+        "public/liusimu-case-study.html"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-01-planning.png",
+      "path": "public/assets/ai-lab/books/sop-01-planning.png",
+      "url": "/assets/ai-lab/books/sop-01-planning.png",
+      "format": "PNG",
+      "width": 257,
+      "height": 272,
+      "bytes": 114007,
+      "megabytes": 0.109,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-content-color.png",
+      "path": "public/assets/home-content-color.png",
+      "url": "/assets/home-content-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 113772,
+      "megabytes": 0.109,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-coffee-set-color.png",
+      "path": "public/assets/home-decor-coffee-set-color.png",
+      "url": "/assets/home-decor-coffee-set-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 111462,
+      "megabytes": 0.106,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-lamp-color.png",
+      "path": "public/assets/home-decor-lamp-color.png",
+      "url": "/assets/home-decor-lamp-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 111236,
+      "megabytes": 0.106,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-decor-plant-color.png",
+      "path": "public/assets/home-decor-plant-color.png",
+      "url": "/assets/home-decor-plant-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 109988,
+      "megabytes": 0.105,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-03-retro.png",
+      "path": "public/assets/ai-lab/books/sop-03-retro.png",
+      "url": "/assets/ai-lab/books/sop-03-retro.png",
+      "format": "PNG",
+      "width": 257,
+      "height": 272,
+      "bytes": 108912,
+      "megabytes": 0.104,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "sop-02-review.png",
+      "path": "public/assets/ai-lab/books/sop-02-review.png",
+      "url": "/assets/ai-lab/books/sop-02-review.png",
+      "format": "PNG",
+      "width": 257,
+      "height": 272,
+      "bytes": 103863,
+      "megabytes": 0.099,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "tu-03.png",
+      "path": "public/assets/ai-lab/reader/tu-03.png",
+      "url": "/assets/ai-lab/reader/tu-03.png",
+      "format": "PNG",
+      "width": 1479,
+      "height": 1215,
+      "bytes": 94858,
+      "megabytes": 0.09,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "skill-1.png",
+      "path": "public/assets/ai-lab/reader/skill-1.png",
+      "url": "/assets/ai-lab/reader/skill-1.png",
+      "format": "PNG",
+      "width": 1105,
+      "height": 1061,
+      "bytes": 93891,
+      "megabytes": 0.09,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "skill-3.png",
+      "path": "public/assets/ai-lab/reader/skill-3.png",
+      "url": "/assets/ai-lab/reader/skill-3.png",
+      "format": "PNG",
+      "width": 1040,
+      "height": 1075,
+      "bytes": 85757,
+      "megabytes": 0.082,
+      "used_by": [
+        "components/ai-lab/ai-lab-data.ts"
+      ],
+      "pages": [
+        "05 AI Lab"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "home-about-color.png",
+      "path": "public/assets/home-about-color.png",
+      "url": "/assets/home-about-color.png",
+      "format": "PNG",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 84892,
+      "megabytes": 0.081,
+      "used_by": [
+        "components/home/desk-items.ts"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-02.png",
+      "path": "public/assets/content/pet-post-02.png",
+      "url": "/assets/content/pet-post-02.png",
+      "format": "JPEG",
+      "width": 566,
+      "height": 1045,
+      "bytes": 73479,
+      "megabytes": 0.07,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-03.png",
+      "path": "public/assets/content/career-post-03.png",
+      "url": "/assets/content/career-post-03.png",
+      "format": "JPEG",
+      "width": 395,
+      "height": 523,
+      "bytes": 66483,
+      "megabytes": 0.063,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "intro_text.svg",
+      "path": "public/assets/opening/intro_text.svg",
+      "url": "/assets/opening/intro_text.svg",
+      "format": "SVG",
+      "width": 1200,
+      "height": 280,
+      "bytes": 62382,
+      "megabytes": 0.059,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-04.png",
+      "path": "public/assets/content/career-post-04.png",
+      "url": "/assets/content/career-post-04.png",
+      "format": "JPEG",
+      "width": 397,
+      "height": 527,
+      "bytes": 61819,
+      "megabytes": 0.059,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "career-post-01.png",
+      "path": "public/assets/content/career-post-01.png",
+      "url": "/assets/content/career-post-01.png",
+      "format": "JPEG",
+      "width": 400,
+      "height": 531,
+      "bytes": 61383,
+      "megabytes": 0.059,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "pet-post-03.png",
+      "path": "public/assets/content/pet-post-03.png",
+      "url": "/assets/content/pet-post-03.png",
+      "format": "JPEG",
+      "width": 555,
+      "height": 1032,
+      "bytes": 55853,
+      "megabytes": 0.053,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "avatar-pet.png",
+      "path": "public/assets/content/avatar-pet.png",
+      "url": "/assets/content/avatar-pet.png",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "bytes": 33978,
+      "megabytes": 0.032,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "avatar-career.png",
+      "path": "public/assets/content/avatar-career.png",
+      "url": "/assets/content/avatar-career.png",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "bytes": 29950,
+      "megabytes": 0.029,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "avatar-image.png",
+      "path": "public/assets/content/avatar-image.png",
+      "url": "/assets/content/avatar-image.png",
+      "format": "WEBP",
+      "width": 540,
+      "height": 540,
+      "bytes": 24896,
+      "megabytes": 0.024,
+      "used_by": [
+        "components/content/content-data.ts"
+      ],
+      "pages": [
+        "04 Content"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "name-accent.png",
+      "path": "public/assets/resume-contact/name-accent.png",
+      "url": "/assets/resume-contact/name-accent.png",
+      "format": "PNG",
+      "width": 92,
+      "height": 97,
+      "bytes": 7491,
+      "megabytes": 0.007,
+      "used_by": [
+        "app/globals.css"
+      ],
+      "pages": [
+        "Home"
+      ],
+      "first_screen": false
+    },
+    {
+      "file": "desk_line_opening.svg",
+      "path": "public/assets/opening/desk_line_opening.svg",
+      "url": "/assets/opening/desk_line_opening.svg",
+      "format": "SVG",
+      "width": 1200,
+      "height": 700,
+      "bytes": 6149,
+      "megabytes": 0.006,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    },
+    {
+      "file": "favicon.svg",
+      "path": "public/favicon.svg",
+      "url": "/favicon.svg",
+      "format": "SVG",
+      "width": 24,
+      "height": 24,
+      "bytes": 712,
+      "megabytes": 0.001,
+      "used_by": [],
+      "pages": [],
+      "first_screen": false
+    }
+  ]
+}

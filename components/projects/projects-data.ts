@@ -7,7 +7,7 @@ export const projects = [
     title: '朗诺｜宠物食品 · 多品内容策略',
     hook: '低声量品牌首次入场，如何搭建多产品内容策略？',
     tags: ['宠物食品', '多品内容策略'],
-    image: '/assets/projects/lang.png',
+    image: '/assets/projects/lang.webp',
   },
   {
     number: '02',
@@ -17,7 +17,7 @@ export const projects = [
     title: 'vivo X200系列｜数码3C · 产品内容创意',
     hook: '既定命题下，如何做出吸引人的内容创意？',
     tags: ['数码3C', '新品内容'],
-    image: '/assets/projects/vivo.png',
+    image: '/assets/projects/vivo.webp',
   },
 
   
@@ -29,7 +29,7 @@ export const projects = [
     title: '柳丝木/安唯伊｜美妆护肤 · 内容质量优化',
     hook: '达人内容质控，如何把「品牌要说的」改成「用户愿意看的」？',
     tags: ['美妆护肤', '内容审稿', '内容优化'],
-    image: '/assets/projects/liu.png',
+    image: '/assets/projects/liu.webp',
   },
 
 ];

@@ -43,10 +43,10 @@ export function ResumeContactPage() {
   return (
     <main className="resume-contact-page id-resume-page id-fixed-page">
       <div className="id-corner-doodle" aria-hidden="true">
-        <img src="/assets/resume-contact/bottom-right-doodle.png" alt="" />
+        <img src="/assets/resume-contact/bottom-right-doodle.webp" alt="" loading="lazy" decoding="async" />
       </div>
       <section className="id-fixed-canvas">
-        <img className="id-fixed-background" src="/assets/resume-contact/badge-background.png" alt="" aria-hidden="true" />
+        <img className="id-fixed-background" src="/assets/resume-contact/badge-background.webp" alt="" width={1920} height={1080} decoding="async" fetchPriority="high" aria-hidden="true" />
         <header className="resume-topbar id-resume-nav">
           <TopNavigation activeItem="resume" hoveredItem={hoveredItem} setHoveredItem={setHoveredItem} />
         </header>
@@ -56,12 +56,12 @@ export function ResumeContactPage() {
           <div className="id-photo-area id-reveal">
             <span className="id-meet-note">Nice<br />to meet<br />you!<br />⌣̈</span>
             <div className="id-polaroid">
-              <img className="id-portrait" src="/assets/resume-contact/portrait.jpg" alt="农雅婷个人照片" />
-              <img className="id-photo-frame" src="/assets/resume-contact/photo-frame.png" alt="" aria-hidden="true" />
+              <img className="id-portrait" src="/assets/resume-contact/portrait.webp" alt="农雅婷个人照片" width={900} height={1260} decoding="async" />
+              <img className="id-photo-frame" src="/assets/resume-contact/photo-frame.webp" alt="" loading="lazy" decoding="async" aria-hidden="true" />
             </div>
-            <div className="id-ip-crop" aria-hidden="true"><img src="/assets/resume-contact/yafafa-working-on-books.png" alt="" /></div>
+            <div className="id-ip-crop" aria-hidden="true"><img src="/assets/resume-contact/yafafa-working-on-books.webp" alt="" /></div>
             <aside className="id-principle">
-              <img src="/assets/resume-contact/principle-note.png" alt="把喜欢的事情，做成有价值的工作。" />
+              <img src="/assets/resume-contact/principle-note.webp" alt="把喜欢的事情，做成有价值的工作。" />
             </aside>
           </div>
 

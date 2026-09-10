@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='zh-CN'>
-      <head></head>
+      <head><link rel="icon" href="/favicon.svg" type="image/svg+xml" /></head>
       <body>{children}<BackgroundMusic /></body>
     </html>
   );

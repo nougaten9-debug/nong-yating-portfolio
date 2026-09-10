@@ -1,0 +1,13 @@
+# Content-hashed application bundles are safe to cache indefinitely.
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Asset URLs are stable but may be replaced in a future portfolio update.
+/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate

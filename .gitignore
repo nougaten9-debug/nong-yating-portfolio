@@ -46,3 +46,4 @@ next-env.d.ts
 /tsconfig.tsbuildinfo
 /add-fonts.js
 /add-quote.cjs
+/.source-assets-original/

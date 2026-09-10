@@ -42,6 +42,9 @@ export const ProjectImageStack = forwardRef<
             <img
               src={project.image}
               alt={`${project.brand} 项目图片`}
+              loading={index === 0 ? 'eager' : 'lazy'}
+              decoding="async"
+              fetchPriority={index === 0 ? 'high' : 'low'}
               draggable={false}
               onError={(event) => {
                 event.currentTarget.hidden = true;

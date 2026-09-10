@@ -17,14 +17,14 @@ const tags = [
 
 function CardArt({ kind }: { kind: string }) {
   const artMap: Record<string, string> = {
-    elder: '/assets/about-01-infjpgreen.png',
-    timeline: '/assets/about-02-content-years.png',
-    ai: '/assets/about-03-ai.png',
-    edit: '/assets/about-04-edit.png',
-    viral: '/assets/about-05-viral.png',
-    method: '/assets/about-06-method.png',
-    account: '/assets/about-07-account.png',
-    design: '/assets/about-08-design.png',
+    elder: '/assets/about-01-infjpgreen.webp',
+    timeline: '/assets/about-02-content-years.webp',
+    ai: '/assets/about-03-ai.webp',
+    edit: '/assets/about-04-edit.webp',
+    viral: '/assets/about-05-viral.webp',
+    method: '/assets/about-06-method.webp',
+    account: '/assets/about-07-account.webp',
+    design: '/assets/about-08-design.webp',
   };
 
   const src = artMap[kind];
@@ -36,6 +36,8 @@ function CardArt({ kind }: { kind: string }) {
       className="tag-art-image"
       src={src}
       alt=""
+      loading="lazy"
+      decoding="async"
       draggable={false}
     />
   );

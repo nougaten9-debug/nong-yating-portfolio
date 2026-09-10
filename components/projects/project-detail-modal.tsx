@@ -7,25 +7,25 @@ import type { Project } from './projects-data';
 const ranovaCases = [
   {
     title: '谁懂！吃小冻干吃出了嗑瓜子的爽感！',
-    image: '/assets/projects/ranova/case-01.png',
+    image: '/assets/projects/ranova/case-01.webp',
     url: 'https://www.xiaohongshu.com/explore/68688b4d000000002001bc0b?xsec_token=ABH6135y74bnYwCQu48niAKnwdpuzAo_Ov385bwJrVYVk=&xsec_source=pc_search',
     data: '6344赞',
   },
   {
     title: '人、咪可是家里漂亮又严谨的安保队长！',
-    image: '/assets/projects/ranova/case-02.png',
+    image: '/assets/projects/ranova/case-02.webp',
     url: 'https://www.xiaohongshu.com/explore/6864dd8a000000001203282a?xsec_token=ABZJXpofhDkgD9FbNyCHNrsWfa5WvyVZNzIi-7bLXJWtM=&xsec_source=pc_search',
     data: '1.7万赞',
   },
   {
     title: '咪看到，咪想要，咪得到',
-    image: '/assets/projects/ranova/case-03.png',
+    image: '/assets/projects/ranova/case-03.webp',
     url: 'https://www.xiaohongshu.com/explore/69412077000000001f00c703?xsec_token=ABkPCxfiGTf7D-mggBK2kCvtC-imM1foMAD_D0GWH3M3U=&xsec_source=pc_search&source=web_search_result_notes',
     data: '7763赞',
   },
   {
     title: '家中无老虎，你小猫称大王',
-    image: '/assets/projects/ranova/case-04.png',
+    image: '/assets/projects/ranova/case-04.webp',
     url: 'https://www.xiaohongshu.com/explore/686a204c0000000012021ef9?xsec_token=ABe3FdZmutmGOo76sX0RJCO0azhoFX5msCLF7uvq0acyE=&xsec_source=pc_search&source=web_search_result_notes',
     data: '3.3万赞',
   },
@@ -125,11 +125,11 @@ export function ProjectDetailModal({
                   <button
                     type="button"
                     className="case-zoom-btn"
-                    onClick={openZoom('/assets/projects/ranova/hero.jpg')}
+                    onClick={openZoom('/assets/projects/ranova/hero.webp')}
                     aria-label="查看大图"
                   >
                     <img
-                      src="/assets/projects/ranova/hero.jpg"
+                      src="/assets/projects/ranova/hero.webp"
                       alt="朗诺项目视觉"
                     />
                     <span className="case-zoom-icon" aria-hidden="true"><ZoomIn size={18} /></span>

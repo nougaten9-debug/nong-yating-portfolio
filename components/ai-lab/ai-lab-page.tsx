@@ -1,15 +1,14 @@
 'use client';
-import Link from 'next/link';
 
 import { useEffect, useState } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, Sparkles, X } from 'lucide-react';
 import { aiLabEntries, type AiLabEntry } from './ai-lab-data';
 
 const SIDE_IMAGES = [
-  { src: '/assets/ai-lab/reader/side-1.png', alt: '数据看板', cardTitle: 'AI每日雷达推送', hint: '追踪 AI 行业重要动态<br /> × 筛选值得关注的信息' },
-  { src: '/assets/ai-lab/reader/side-2.png', alt: '行业资讯', cardTitle: 'AI 优质博主追踪', hint: '追踪海外优质创作者<br />× 高价值内容推送' },
-  { src: '/assets/ai-lab/reader/side-3.png', alt: '摘要卡片', cardTitle: 'GitHub AI 项目雷达', hint: '发现近期优质 AI 项目<br />× 筛选值得体验的工具' },
-  { src: '/assets/ai-lab/reader/side-4.png', alt: '选题推荐', cardTitle: '图文账号选题雷达', hint: '结合图文账号定位<br />× 推荐高潜力选题' },
+  { src: '/assets/ai-lab/reader/side-1.webp', alt: '数据看板', cardTitle: 'AI每日雷达推送', hint: '追踪 AI 行业重要动态<br /> × 筛选值得关注的信息' },
+  { src: '/assets/ai-lab/reader/side-2.webp', alt: '行业资讯', cardTitle: 'AI 优质博主追踪', hint: '追踪海外优质创作者<br />× 高价值内容推送' },
+  { src: '/assets/ai-lab/reader/side-3.webp', alt: '摘要卡片', cardTitle: 'GitHub AI 项目雷达', hint: '发现近期优质 AI 项目<br />× 筛选值得体验的工具' },
+  { src: '/assets/ai-lab/reader/side-4.webp', alt: '选题推荐', cardTitle: '图文账号选题雷达', hint: '结合图文账号定位<br />× 推荐高潜力选题' },
 ];
 
 function Book({ entry, index, onOpen }: { entry: AiLabEntry; index: number; onOpen: (entry: AiLabEntry) => void }) {
@@ -193,7 +192,7 @@ export function AiLabPage() {
 
   return (
     <main className="ai-lab-page">
-      <Link className="ai-lab-home" href="/"><span aria-hidden="true">←</span> HOME</Link>
+      <a className="ai-lab-home" href="/"><span aria-hidden="true">←</span> HOME</a>
       <div className="ai-lab-shell">
         <aside className="ai-lab-intro">
           <p className="ai-lab-kicker"><span>05 /</span><strong>AI LAB</strong></p>
