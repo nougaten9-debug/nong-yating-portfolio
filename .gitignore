@@ -47,3 +47,5 @@ next-env.d.ts
 /add-fonts.js
 /add-quote.cjs
 /.source-assets-original/
+__pycache__/
+*.pyc
