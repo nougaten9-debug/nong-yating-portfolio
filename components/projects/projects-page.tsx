@@ -17,7 +17,7 @@ function ProjectsIntroVisual() {
   </div>;
 }
 
-export function ProjectsPage() {
+export function ProjectsPage({ onHome, onRanova }: { onHome?: () => void; onRanova?: () => void } = {}) {
   const [activeProjectSlug, setActiveProjectSlug] = useState<string | null>(null);
   const rootRef = useRef<HTMLElement | null>(null);
   const visualRef = useRef<HTMLDivElement | null>(null);
@@ -25,6 +25,10 @@ export function ProjectsPage() {
   const activeProject = useMemo(() => projects.find((project) => project.slug === activeProjectSlug) ?? null, [activeProjectSlug]);
 const handleProjectOpen = (slug: string) => {
   if (slug === 'ranova') {
+    if (onRanova) {
+      onRanova();
+      return;
+    }
     window.location.assign('/projects/ranova');
     return;
   }
@@ -139,7 +143,11 @@ if (slug === 'beauty-content') {
   }, [activeProjectSlug]);
 
   return <main className="projects-page" ref={rootRef} aria-label="项目档案">
-    <a className="projects-back-home" href="/" aria-label="返回 Home"><span aria-hidden="true">←</span> HOME</a>
+    <a className="projects-back-home" href="/" aria-label="返回 Home" onClick={(event) => {
+      if (!onHome || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      onHome();
+    }}><span aria-hidden="true">←</span> HOME</a>
     <div className="projects-page-layout">
       <div className="projects-page-copy">
         <section className="projects-page-section projects-page-intro" aria-labelledby="projects-page-title">

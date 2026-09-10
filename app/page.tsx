@@ -1,5 +1,5 @@
-import HomeEntry from '@/components/home/home-entry';
+import PersistentPortfolioShell from '@/components/persistent-portfolio-shell';
 
 export default function HomePage() {
-  return <HomeEntry />;
+  return <PersistentPortfolioShell />;
 }

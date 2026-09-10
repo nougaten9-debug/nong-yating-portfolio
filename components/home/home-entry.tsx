@@ -16,7 +16,7 @@ function isPageReload() {
   return navigation?.type === 'reload';
 }
 
-export default function HomeEntry() {
+export default function HomeEntry({ onProjects }: { onProjects?: () => void }) {
   const [openingVisible, setOpeningVisible] = useState(false);
 
   useLayoutEffect(() => {
@@ -38,7 +38,7 @@ export default function HomeEntry() {
   return (
     <div className={openingVisible ? 'home-entry home-entry--opening' : 'home-entry'}>
       <div className="home-entry__content">
-        <Home />
+        <Home onProjects={onProjects} />
       </div>
       {openingVisible ? (
         <OpeningAnimation onComplete={() => setOpeningVisible(false)} />
