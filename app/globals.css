@@ -8287,7 +8287,7 @@ font-family: var(--font-body-cn);
   align-items:center;
   gap:18px;
   width:82%;
-  margin:6px auto 0;
+  margin:auto auto 0;
   padding:clamp(22px,1.6vw,32px) 0 clamp(18px,1.2vw,24px);
   display:flex
 }
@@ -9050,3 +9050,108 @@ font-family: var(--font-body-cn);
 @media(prefers-reduced-motion:reduce){
   .projects-page-illus-character{animation:none}
 }
+
+/* =====================================================================
+   Responsive layer: mobile + tablet (branch: responsive-mobile-tablet)
+   桌面端 >=1200px 视觉不变；仅在小屏追加覆盖规则。
+   ===================================================================== */
+
+/* --- 平板窄幅 901–1199px：防止标题行/引文行被挤压 --- */
+@media (max-width:1199px){
+  .content-header{gap:20px}
+  .content-quote{
+    white-space:normal;
+    flex:none;
+    margin:6px 0 0;
+    text-align:left;
+    max-width:100%;
+  }
+}
+
+/* --- ≤1050px：Resume 顶部导航不再用 850px 横向滚动方案，允许自适应 --- */
+@media (max-width:1050px){
+  .resume-topbar{overflow-x:visible}
+  .resume-topbar .top-navigation{min-width:0;left:4.5%;right:4.5%}
+}
+
+/* --- ≤900px：平板竖屏 / 大手机 --- */
+@media (max-width:900px){
+  .top-navigation{left:4.5%;right:4.5%;top:14px}
+  .nav-item{font-size:clamp(13px,1.95vw,16px)}
+  /* Resume：背景徽章改为完整显示，避免 cover 放大出巨大挂绳 */
+  .id-fixed-background{object-fit:contain;background:#4e81ce}
+  .id-corner-doodle{width:150vw;right:-16vw}
+  /* Resume：画布不再锁 16:9，避免滚动卡片被 overflow:hidden 裁掉 */
+  .id-fixed-canvas{width:100%;aspect-ratio:auto;height:auto;overflow:visible}
+  /* Content 板块内边距收窄 */
+  .content-board{padding:clamp(24px,4vw,40px) clamp(22px,4vw,44px)}
+}
+
+/* --- ≤680px：手机竖屏 --- */
+@media (max-width:680px){
+  /* 顶部导航：脱离 16:9 场景框，固定到屏幕顶部，允许换行成两行 */
+  .home-page .top-navigation,
+  .section-page .top-navigation,
+  .resume-topbar .top-navigation,
+  .id-resume-nav .top-navigation{
+    display:flex;
+    position:fixed;
+    top:10px;
+    left:3%;
+    right:3%;
+    z-index:50;
+  }
+  .top-navigation{
+    flex-wrap:wrap;
+    justify-content:center;
+    column-gap:16px;
+    row-gap:2px;
+  }
+  .nav-item{font-size:13px;padding:4px 2px}
+  /* AI Lab 阅读弹窗：翻页按钮从外侧 -100px 收进来，弹窗占满可用宽度 */
+  .ai-reader{width:100%}
+  .ai-reader-nav{width:40px}
+  .ai-reader-nav--prev{left:-14px}
+  .ai-reader-nav--next{right:-14px}
+  /* Content 引文：允许换行，去掉超出屏宽的手写下划线 */
+  .content-quote{font-size:14px;line-height:1.9}
+  .content-quote:after{display:none}
+  .content-header{gap:8px}
+  /* AI Lab 回主页按钮不遮内容 */
+  .ai-lab-home{top:18px;left:18px}
+}
+
+/* ============================================================
+   Responsive layer: large 4:3 tablet landscape (iPad Pro 1366×1024)
+   只放宽被 16:9 / 固定上限压矮的容器，≥1440 桌面完全不受影响
+   ============================================================ */
+@media (min-width:1200px) and (max-width:1400px) and (min-height:940px){
+  /* About：面板高度上限放宽，充分利用 4:3 屏高 */
+  .section-board:has(.about-board){
+    height:min(90vh,920px);
+    max-height:90vh;
+  }
+  /* Content：面板高度上限放宽，减少上下留白 */
+  .section-board:has(.content-board){
+    height:min(84vh,900px);
+    max-height:84vh;
+  }
+  /* Projects：主视觉区上限放宽、版心加宽、上下留白收窄 */
+  .projects-page-layout{
+    width:min(90vw,1360px);
+    padding-top:clamp(80px,9svh,112px);
+    padding-bottom:clamp(60px,7svh,92px);
+  }
+  .projects-page-section{min-height:clamp(560px,82svh,880px)}
+  .projects-page-intro{min-height:clamp(600px,86svh,900px)}
+  /* 项目图框 1366 下右缘会超出屏幕被裁 25px，收回到视口内保持完整出血观感 */
+  .projects-visual-frame{width:min(50vw,566px)}
+  /* Resume：画布脱离 16:9，铺满 4:3 屏；内部滚动区按百分比自动变高 */
+  .id-fixed-canvas{width:100vw;height:100svh;aspect-ratio:auto}
+  /* AI Lab：版心加宽、顶部留白收窄 */
+  .ai-lab-shell{
+    width:min(1320px,100% - 80px);
+    padding-top:clamp(110px,12vh,142px);
+  }
+}
+

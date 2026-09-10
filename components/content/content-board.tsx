@@ -457,24 +457,6 @@ label="累计互动"
 </div>
 
 
-<div className="content-card-tags" aria-label={`${account.name}内容标签`}>
-{
-account.tags.map((tag)=>(
-<span
-key={tag}
-className="content-card-tag"
-style={{
-borderColor:account.accentColor,
-color:account.accentColor
-}}
->
-{tag}
-</span>
-))
-}
-</div>
-
-
 
 
 

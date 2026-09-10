@@ -17,7 +17,6 @@ export type ContentAccount = {
   followers: string;
   engagement: string;
   accentColor: string;
-  tags: string[];
   posts: ViralPost[];
 };
 
@@ -76,7 +75,6 @@ export const contentAccounts: ContentAccount[] = [
     followers: '2815',
     engagement: '10.5万',
     accentColor: '#5FB5A5',
-    tags: ['职场方法', '内容运营', 'AI 实践'],
     posts: [
       {
         cover: '/assets/content/career-post-01.webp',
@@ -119,7 +117,6 @@ export const contentAccounts: ContentAccount[] = [
     followers: '360',
     engagement: '1.6万',
     accentColor: '#E07B8A',
-    tags: ['女性成长', '状态管理', '图文选题'],
     posts: [
       {
         cover: '/assets/content/image-post-01.webp',
