@@ -1,7 +1,5 @@
 'use client';
 import { useEffect, useMemo, useRef, useState } from 'react';
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
@@ -20,7 +18,6 @@ function ProjectsIntroVisual() {
 }
 
 export function ProjectsPage() {
-  const router = useRouter();
   const [activeProjectSlug, setActiveProjectSlug] = useState<string | null>(null);
   const rootRef = useRef<HTMLElement | null>(null);
   const visualRef = useRef<HTMLDivElement | null>(null);
@@ -28,18 +25,18 @@ export function ProjectsPage() {
   const activeProject = useMemo(() => projects.find((project) => project.slug === activeProjectSlug) ?? null, [activeProjectSlug]);
 const handleProjectOpen = (slug: string) => {
   if (slug === 'ranova') {
-    router.push('/projects/ranova');
+    window.location.assign('/projects/ranova');
     return;
   }
 
   if (slug === 'vivo-x200') {
-    router.push('/projects/vivo');
+    window.location.assign('/projects/vivo');
     return;
   }
 
 
 if (slug === 'beauty-content') {
-  router.push('/projects/liusimu');
+  window.location.assign('/projects/liusimu');
   return;
 }
 
@@ -142,7 +139,7 @@ if (slug === 'beauty-content') {
   }, [activeProjectSlug]);
 
   return <main className="projects-page" ref={rootRef} aria-label="项目档案">
-    <Link className="projects-back-home" href="/" aria-label="返回 Home"><span aria-hidden="true">←</span> HOME</Link>
+    <a className="projects-back-home" href="/" aria-label="返回 Home"><span aria-hidden="true">←</span> HOME</a>
     <div className="projects-page-layout">
       <div className="projects-page-copy">
         <section className="projects-page-section projects-page-intro" aria-labelledby="projects-page-title">

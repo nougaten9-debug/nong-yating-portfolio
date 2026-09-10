@@ -1,7 +1,6 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import Link from 'next/link';
 import { ArrowDown, ArrowLeft, ArrowRight, Sparkles, X } from 'lucide-react';
 import { aiLabEntries, type AiLabEntry } from './ai-lab-data';
 
@@ -193,7 +192,7 @@ export function AiLabPage() {
 
   return (
     <main className="ai-lab-page">
-      <Link className="ai-lab-home" href="/"><span aria-hidden="true">←</span> HOME</Link>
+      <a className="ai-lab-home" href="/"><span aria-hidden="true">←</span> HOME</a>
       <div className="ai-lab-shell">
         <aside className="ai-lab-intro">
           <p className="ai-lab-kicker"><span>05 /</span><strong>AI LAB</strong></p>
