@@ -49,3 +49,7 @@ next-env.d.ts
 /.source-assets-original/
 __pycache__/
 *.pyc
+
+# local deploy build leftovers
+.deploy-build-*/
+scripts/__pycache__/
