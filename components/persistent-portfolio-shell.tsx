@@ -11,6 +11,9 @@ function sitePath(pathname: string) {
   const base = window.location.pathname.startsWith('/nong-yating-portfolio')
     ? '/nong-yating-portfolio'
     : '';
+  if (base && (pathname === base || pathname.startsWith(`${base}/`))) {
+    return pathname;
+  }
   return `${base}${pathname}`;
 }
 
