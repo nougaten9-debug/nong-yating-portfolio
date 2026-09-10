@@ -1,9 +1,11 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
+import { useRouter } from 'next/navigation';
 
 // Keep the original case-study styles/scripts isolated while the app and audio stay mounted.
 export function CaseStudyPage({ name, title }: { name: string; title: string }) {
+  const router = useRouter();
   const cleanup = useRef<(() => void) | null>(null);
 
   useEffect(() => () => cleanup.current?.(), []);
@@ -20,10 +22,9 @@ export function CaseStudyPage({ name, title }: { name: string; title: string }) 
         const target = event.target as Element | null;
         const link = target?.closest('a');
         if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
-        const url = new URL(link.href);
-        if (url.origin !== window.location.origin || url.pathname !== '/projects') return;
+        if (!link.classList.contains('back-projects')) return;
         event.preventDefault();
-        window.location.assign('/projects');
+        router.push('/projects');
       };
       doc.addEventListener('click', navigate);
       cleanup.current = () => doc.removeEventListener('click', navigate);
