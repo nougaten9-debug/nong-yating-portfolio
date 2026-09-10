@@ -362,6 +362,7 @@
 }
 
 .case-image{
+  position:relative;
   aspect-ratio:.83/1;
   background:#F2EFE8;
   display:grid;
@@ -373,6 +374,8 @@
 }
 
 .case-image img{
+  position:absolute;
+  inset:0;
   width:100%;
   height:100%;
   object-fit:cover;
@@ -1133,7 +1136,7 @@
       </div>
 
       <div class="hero-visual reveal reveal-d1">
-        <img src="/assets/projects/liusimu/liu.webp" alt="柳丝木项目主视觉" class="hero-project-image" width="1536" height="1024" decoding="async" loading="eager" fetchpriority="high">
+        <img src="/assets/responsive/projects/liusimu/liu-640.webp" srcset="/assets/responsive/projects/liusimu/liu-640.webp 640w, /assets/responsive/projects/liusimu/liu-1280.webp 1280w, /assets/projects/liusimu/liu.webp 1536w" sizes="(max-width: 760px) 92vw, 579px" data-full="/assets/projects/liusimu/liu.webp" alt="柳丝木项目主视觉" class="hero-project-image" width="1536" height="1024" decoding="async" loading="eager" fetchpriority="high">
       </div>
     </div>
   </header>
@@ -1283,7 +1286,7 @@
 
         <div class="qc-evidence">
   <img
-   src="/assets/projects/liusimu/case-01-1.webp"
+   data-src="/assets/responsive/projects/liusimu/case-01-1-640.webp" data-srcset="/assets/responsive/projects/liusimu/case-01-1-640.webp 640w, /assets/projects/liusimu/case-01-1.webp 1055w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/liusimu/case-01-1.webp"
     alt="测试图片"
     class="qc-image zoomable-image" width="1055" height="949" decoding="async" loading="lazy">
 
@@ -1334,7 +1337,7 @@
           <div class="qc-evidence">
         <div class="qc-evidence">
   <img
-   src="/assets/projects/liusimu/case-01-2.webp"
+   data-src="/assets/responsive/projects/liusimu/case-01-2-640.webp" data-srcset="/assets/responsive/projects/liusimu/case-01-2-640.webp 640w, /assets/projects/liusimu/case-01-2.webp 873w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/liusimu/case-01-2.webp"
     alt="柳丝木美白调色隔离审稿案例"
     class="qc-image zoomable-image" width="873" height="961" decoding="async" loading="lazy">
 
@@ -1385,7 +1388,7 @@
           <div class="qc-evidence">
            <div class="qc-evidence">
   <img
-   src="/assets/projects/liusimu/case-01-3.webp"
+   data-src="/assets/responsive/projects/liusimu/case-01-3-640.webp" data-srcset="/assets/responsive/projects/liusimu/case-01-3-640.webp 640w, /assets/responsive/projects/liusimu/case-01-3-1280.webp 1280w, /assets/projects/liusimu/case-01-3.webp 1393w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/liusimu/case-01-3.webp"
     alt="柳丝木美白调色隔离审稿案例"
     class="qc-image zoomable-image" width="1393" height="939" decoding="async" loading="lazy">
 
@@ -1436,7 +1439,7 @@
           <div class="qc-evidence">
            <div class="qc-evidence">
   <img
-   src="/assets/projects/liusimu/case-01-4.webp"
+   data-src="/assets/responsive/projects/liusimu/case-01-4-640.webp" data-srcset="/assets/responsive/projects/liusimu/case-01-4-640.webp 640w, /assets/projects/liusimu/case-01-4.webp 865w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/liusimu/case-01-4.webp"
     alt="柳丝木美白调色隔离审稿案例"
     class="qc-image zoomable-image" width="865" height="969" decoding="async" loading="lazy">
 
@@ -1479,7 +1482,7 @@
         >
           <article class="case-card">
             <div class="case-image">
-             <img src="/assets/projects/liusimu/case-01.webp" alt="Case 01" width="1080" height="1440" decoding="async" loading="lazy">
+             <img data-src="/assets/responsive/projects/liusimu/case-01-480.webp" data-srcset="/assets/responsive/projects/liusimu/case-01-480.webp 480w, /assets/responsive/projects/liusimu/case-01-960.webp 960w, /assets/projects/liusimu/case-01.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/liusimu/case-01.webp" alt="Case 01" width="1080" height="1440" decoding="async" loading="lazy">
             </div>
 
             <div class="case-body">
@@ -1505,7 +1508,7 @@
         >
           <article class="case-card">
             <div class="case-image">
-                <img src="/assets/projects/liusimu/case-02.webp" alt="Case 02" width="339" height="453" decoding="async" loading="lazy">
+                <img data-src="/assets/projects/liusimu/case-02.webp" alt="Case 02" width="339" height="453" decoding="async" loading="lazy">
             </div>
 
             <div class="case-body">
@@ -1532,7 +1535,7 @@
         >
           <article class="case-card">
             <div class="case-image">
-             <img src="/assets/projects/liusimu/case-03.webp" alt="Case 03" width="345" height="454" decoding="async" loading="lazy">
+             <img data-src="/assets/projects/liusimu/case-03.webp" alt="Case 03" width="345" height="454" decoding="async" loading="lazy">
             </div>
 
             <div class="case-body">
@@ -1559,7 +1562,7 @@
         >
           <article class="case-card">
             <div class="case-image">
-       <img src="/assets/projects/liusimu/case-04.webp" alt="Case 04" width="345" height="454" decoding="async" loading="lazy">
+       <img data-src="/assets/projects/liusimu/case-04.webp" alt="Case 04" width="345" height="454" decoding="async" loading="lazy">
             </div>
 
             <div class="case-body">
@@ -1586,7 +1589,7 @@
         >
           <article class="case-card">
             <div class="case-image">
-               <img src="/assets/projects/liusimu/case-05.webp" alt="Case 05" width="340" height="459" decoding="async" loading="lazy">
+               <img data-src="/assets/projects/liusimu/case-05.webp" alt="Case 05" width="340" height="459" decoding="async" loading="lazy">
             </div>
 
             <div class="case-body">
@@ -1766,7 +1769,7 @@ document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('.zoomable-image').forEach(function (image) {
 
     image.addEventListener('click', function () {
-      lightboxImage.src = image.src;
+      lightboxImage.src = image.dataset.full || image.currentSrc || image.src;
       lightboxImage.alt = image.alt || '';
       lightbox.classList.add('active');
 
@@ -1811,6 +1814,30 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
 });
+</script>
+
+<script>
+(function () {
+  var images = document.querySelectorAll('img[data-src]');
+  function load(image) {
+    if (image.dataset.srcset) image.srcset = image.dataset.srcset;
+    image.src = image.dataset.src;
+    image.removeAttribute('data-src');
+    image.removeAttribute('data-srcset');
+  }
+  if (!('IntersectionObserver' in window)) {
+    images.forEach(load);
+    return;
+  }
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      load(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '600px 0px' });
+  images.forEach(function (image) { observer.observe(image); });
+})();
 </script>
 </body>
 </html>

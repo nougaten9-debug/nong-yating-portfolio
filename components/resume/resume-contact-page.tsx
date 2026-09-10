@@ -43,7 +43,7 @@ export function ResumeContactPage() {
   return (
     <main className="resume-contact-page id-resume-page id-fixed-page">
       <div className="id-corner-doodle" aria-hidden="true">
-        <img src="/assets/resume-contact/bottom-right-doodle.webp" alt="" loading="lazy" decoding="async" />
+        <img src="/assets/resume-contact/bottom-right-doodle.webp" alt="" width={11793} height={793} loading="lazy" decoding="async" />
       </div>
       <section className="id-fixed-canvas">
         <img className="id-fixed-background" src="/assets/resume-contact/badge-background.webp" alt="" width={1920} height={1080} decoding="async" fetchPriority="high" aria-hidden="true" />

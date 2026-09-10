@@ -598,6 +598,7 @@
   box-shadow:0 12px 28px rgba(32,36,42,.10);
 }
     .case-image{
+      position:relative;
       aspect-ratio:.83/1;
       background:#F2EFE8;
       display:grid;
@@ -605,6 +606,15 @@
       color:#8A9098;
       font-size:11px;
       border-bottom:1px solid #E6E2DA;
+      overflow:hidden;
+    }
+    .case-image img{
+      position:absolute;
+      inset:0;
+      display:block;
+      width:100%;
+      height:100%;
+      object-fit:cover;
     }
     .case-body{
       padding:12px 12px 13px;
@@ -1745,7 +1755,7 @@
         >
           <div class="plan-placeholder">
             <img
-              src="/assets/projects/vivo/vivo-pro-planning-01.webp"
+              data-src="/assets/responsive/projects/vivo/vivo-pro-planning-01-640.webp" data-srcset="/assets/responsive/projects/vivo/vivo-pro-planning-01-640.webp 640w, /assets/responsive/projects/vivo/vivo-pro-planning-01-1280.webp 1280w, /assets/projects/vivo/vivo-pro-planning-01.webp 1920w" sizes="(max-width: 760px) 92vw, (max-width: 1400px) 800px, 1100px" data-full="/assets/projects/vivo/vivo-pro-planning-01.webp"
               alt="vivo X200 Pro 内容策略规划"
               class="vivo-planning-image" width="1920" height="940" decoding="async" loading="lazy">
           <div class="plan-image-hint">查看大图 ↗</div></div>
@@ -1758,7 +1768,7 @@
         >
           <div class="plan-placeholder">
             <img
-              src="/assets/projects/vivo/vivo-pro-planning-02.webp"
+              data-src="/assets/responsive/projects/vivo/vivo-pro-planning-02-640.webp" data-srcset="/assets/responsive/projects/vivo/vivo-pro-planning-02-640.webp 640w, /assets/responsive/projects/vivo/vivo-pro-planning-02-1280.webp 1280w, /assets/projects/vivo/vivo-pro-planning-02.webp 1920w" sizes="(max-width: 760px) 92vw, (max-width: 1400px) 800px, 1100px" data-full="/assets/projects/vivo/vivo-pro-planning-02.webp"
               alt="vivo X200 Pro 达人合作Brief"
               class="vivo-planning-image" width="1920" height="931" decoding="async" loading="lazy">
           <div class="plan-image-hint">查看大图 ↗</div></div>
@@ -1883,7 +1893,7 @@
         >
           <div class="plan-placeholder">
             <img
-              src="/assets/projects/vivo/vivo-mini-planning-01.webp"
+              data-src="/assets/responsive/projects/vivo/vivo-mini-planning-01-640.webp" data-srcset="/assets/responsive/projects/vivo/vivo-mini-planning-01-640.webp 640w, /assets/responsive/projects/vivo/vivo-mini-planning-01-1280.webp 1280w, /assets/projects/vivo/vivo-mini-planning-01.webp 1920w" sizes="(max-width: 760px) 92vw, (max-width: 1400px) 800px, 1100px" data-full="/assets/projects/vivo/vivo-mini-planning-01.webp"
               alt="vivo X200 Pro mini 内容策略规划"
               class="vivo-planning-image" width="1920" height="862" decoding="async" loading="lazy">
           <div class="plan-image-hint">查看大图 ↗</div></div>
@@ -1896,7 +1906,7 @@
         >
           <div class="plan-placeholder">
             <img
-              src="/assets/projects/vivo/vivo-mini-planning-02.webp"
+              data-src="/assets/responsive/projects/vivo/vivo-mini-planning-02-640.webp" data-srcset="/assets/responsive/projects/vivo/vivo-mini-planning-02-640.webp 640w, /assets/responsive/projects/vivo/vivo-mini-planning-02-1280.webp 1280w, /assets/projects/vivo/vivo-mini-planning-02.webp 1920w" sizes="(max-width: 760px) 92vw, (max-width: 1400px) 800px, 1100px" data-full="/assets/projects/vivo/vivo-mini-planning-02.webp"
               alt="vivo X200 Pro mini 达人合作Brief"
               class="vivo-planning-image" width="1920" height="965" decoding="async" loading="lazy">
           <div class="plan-image-hint">查看大图 ↗</div></div>
@@ -1957,7 +1967,7 @@
   >
     <article class="case-card reveal">
     <div class="case-image">
-  <img   src="/assets/projects/vivo/case-01.webp"  alt="Case 01" width="1080" height="1439" decoding="async" loading="lazy"></div>
+  <img   data-src="/assets/responsive/projects/vivo/case-01-480.webp" data-srcset="/assets/responsive/projects/vivo/case-01-480.webp 480w, /assets/responsive/projects/vivo/case-01-960.webp 960w, /assets/projects/vivo/case-01.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-01.webp"  alt="Case 01" width="1080" height="1439" decoding="async" loading="lazy"></div>
 
       <div class="case-body">
         <div class="case-label">Case 01 极致风光</div>
@@ -1983,7 +1993,7 @@
   >
     <article class="case-card reveal reveal-d1">
      <div class="case-image">
-  <img   src="/assets/projects/vivo/case-02.webp"  alt="Case 02" width="1080" height="1595" decoding="async" loading="lazy"></div>
+  <img   data-src="/assets/responsive/projects/vivo/case-02-480.webp" data-srcset="/assets/responsive/projects/vivo/case-02-480.webp 480w, /assets/responsive/projects/vivo/case-02-960.webp 960w, /assets/projects/vivo/case-02.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-02.webp"  alt="Case 02" width="1080" height="1595" decoding="async" loading="lazy"></div>
 
       <div class="case-body">
         <div class="case-label">Case 02 人文人像</div>
@@ -2009,7 +2019,7 @@
   >
     <article class="case-card reveal reveal-d2">
      <div class="case-image">
-  <img   src="/assets/projects/vivo/case-03.webp"  alt="Case 03" width="1080" height="1589" decoding="async" loading="lazy"></div>
+  <img   data-src="/assets/responsive/projects/vivo/case-03-480.webp" data-srcset="/assets/responsive/projects/vivo/case-03-480.webp 480w, /assets/responsive/projects/vivo/case-03-960.webp 960w, /assets/projects/vivo/case-03.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-03.webp"  alt="Case 03" width="1080" height="1589" decoding="async" loading="lazy"></div>
 
       <div class="case-body">
         <div class="case-label">Case 03 神级Live</div>
@@ -2036,7 +2046,7 @@
   >
     <article class="case-card reveal">
    <div class="case-image">
-  <img   src="/assets/projects/vivo/case-04.webp"  alt="Case 04" width="1080" height="1440" decoding="async" loading="lazy"></div>
+  <img   data-src="/assets/responsive/projects/vivo/case-04-480.webp" data-srcset="/assets/responsive/projects/vivo/case-04-480.webp 480w, /assets/responsive/projects/vivo/case-04-960.webp 960w, /assets/projects/vivo/case-04.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-04.webp"  alt="Case 04" width="1080" height="1440" decoding="async" loading="lazy"></div>
 
       <div class="case-body">
         <div class="case-label">Case 04 极致舞台神器</div>
@@ -2062,7 +2072,7 @@
   >
     <article class="case-card reveal reveal-d1">
   <div class="case-image">
-  <img   src="/assets/projects/vivo/case-05.webp"  alt="Case 05" width="1080" height="1440" decoding="async" loading="lazy"></div>
+  <img   data-src="/assets/responsive/projects/vivo/case-05-480.webp" data-srcset="/assets/responsive/projects/vivo/case-05-480.webp 480w, /assets/responsive/projects/vivo/case-05-960.webp 960w, /assets/projects/vivo/case-05.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-05.webp"  alt="Case 05" width="1080" height="1440" decoding="async" loading="lazy"></div>
 
       <div class="case-body">
         <div class="case-label">Case 05 静奢外观</div>
@@ -2087,7 +2097,7 @@
   >
     <article class="case-card reveal reveal-d2">
       <div class="case-image">
-        <img src="/assets/projects/vivo/case-06.webp" alt="Case 06 用X200拍摄的第一张照片" width="1080" height="1589" decoding="async" loading="lazy">
+        <img data-src="/assets/responsive/projects/vivo/case-06-480.webp" data-srcset="/assets/responsive/projects/vivo/case-06-480.webp 480w, /assets/responsive/projects/vivo/case-06-960.webp 960w, /assets/projects/vivo/case-06.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-06.webp" alt="Case 06 用X200拍摄的第一张照片" width="1080" height="1589" decoding="async" loading="lazy">
       </div>
 
       <div class="case-body">
@@ -2113,7 +2123,7 @@
   >
     <article class="case-card reveal reveal-d1">
       <div class="case-image">
-        <img src="/assets/projects/vivo/case-07.webp" alt="Case 07 用vivo X200 Pro解锁宝莲寺的细节之美" width="1080" height="1590" decoding="async" loading="lazy">
+        <img data-src="/assets/responsive/projects/vivo/case-07-480.webp" data-srcset="/assets/responsive/projects/vivo/case-07-480.webp 480w, /assets/responsive/projects/vivo/case-07-960.webp 960w, /assets/projects/vivo/case-07.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-07.webp" alt="Case 07 用vivo X200 Pro解锁宝莲寺的细节之美" width="1080" height="1590" decoding="async" loading="lazy">
       </div>
 
       <div class="case-body">
@@ -2139,7 +2149,7 @@
   >
     <article class="case-card reveal">
       <div class="case-image">
-        <img src="/assets/projects/vivo/case-08.webp" alt="Case 08 救命！真的太出片啦！" width="1080" height="1594" decoding="async" loading="lazy">
+        <img data-src="/assets/responsive/projects/vivo/case-08-480.webp" data-srcset="/assets/responsive/projects/vivo/case-08-480.webp 480w, /assets/responsive/projects/vivo/case-08-960.webp 960w, /assets/projects/vivo/case-08.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-08.webp" alt="Case 08 救命！真的太出片啦！" width="1080" height="1594" decoding="async" loading="lazy">
       </div>
 
       <div class="case-body">
@@ -2165,7 +2175,7 @@
   >
     <article class="case-card reveal reveal-d1">
       <div class="case-image">
-        <img src="/assets/projects/vivo/case-09.webp" alt="Case 09 我用vivo X200 Pro在迪士尼拍到了人生烟花" width="1080" height="1589" decoding="async" loading="lazy">
+        <img data-src="/assets/responsive/projects/vivo/case-09-480.webp" data-srcset="/assets/responsive/projects/vivo/case-09-480.webp 480w, /assets/responsive/projects/vivo/case-09-960.webp 960w, /assets/projects/vivo/case-09.webp 1080w" sizes="(max-width: 760px) 92vw, 260px" data-full="/assets/projects/vivo/case-09.webp" alt="Case 09 我用vivo X200 Pro在迪士尼拍到了人生烟花" width="1080" height="1589" decoding="async" loading="lazy">
       </div>
       <div class="case-body">
         <div class="case-label">Case 09 神级 Live</div>
@@ -2184,7 +2194,7 @@
   >
     <article class="case-card reveal reveal-d2">
       <div class="case-image">
-        <img src="/assets/projects/vivo/case-10.webp" alt="Case 10 终于发布！vivo X200 Pro影像灭霸值得买吗" width="341" height="453" decoding="async" loading="lazy">
+        <img data-src="/assets/projects/vivo/case-10.webp" alt="Case 10 终于发布！vivo X200 Pro影像灭霸值得买吗" width="341" height="453" decoding="async" loading="lazy">
       </div>
       <div class="case-body">
         <div class="case-label">Case 10 测评体验</div>
@@ -2524,7 +2534,7 @@ document.addEventListener('DOMContentLoaded', function () {
     heroBtn.addEventListener('click', function(e){
       e.preventDefault();
       e.stopPropagation();
-      openZoom(heroImg.src, heroImg.alt);
+      openZoom(heroImg.dataset.full || heroImg.currentSrc || heroImg.src, heroImg.alt);
     });
     wrap.appendChild(heroBtn);
   }
@@ -2545,7 +2555,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function(e){
       e.preventDefault();
       e.stopPropagation();
-      openZoom(img.src, img.alt);
+      openZoom(img.dataset.full || img.currentSrc || img.src, img.alt);
     });
     if(container){
       container.appendChild(btn);
@@ -2575,7 +2585,7 @@ document.addEventListener('DOMContentLoaded', function () {
     image.addEventListener('click', function (e) {
       e.preventDefault();
       e.stopPropagation();
-      lightboxImage.src = image.src;
+      lightboxImage.src = image.dataset.full || image.currentSrc || image.src;
       lightboxImage.alt = image.alt || '';
       lightbox.classList.add('active');
       document.body.style.overflow = 'hidden';
@@ -2606,6 +2616,30 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+
+<script>
+(function () {
+  var images = document.querySelectorAll('img[data-src]');
+  function load(image) {
+    if (image.dataset.srcset) image.srcset = image.dataset.srcset;
+    image.src = image.dataset.src;
+    image.removeAttribute('data-src');
+    image.removeAttribute('data-srcset');
+  }
+  if (!('IntersectionObserver' in window)) {
+    images.forEach(load);
+    return;
+  }
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (!entry.isIntersecting) return;
+      load(entry.target);
+      observer.unobserve(entry.target);
+    });
+  }, { rootMargin: '600px 0px' });
+  images.forEach(function (image) { observer.observe(image); });
+})();
+</script>
 </body>
 
 </body>

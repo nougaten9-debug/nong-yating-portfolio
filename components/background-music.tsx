@@ -7,10 +7,14 @@ export function BackgroundMusic() {
   const [playing, setPlaying] = useState(false);
   const [error, setError] = useState(false);
   useEffect(() => {
-    const player = window.portfolioMusic ?? new Audio('/assets/cloud-country.mp3');
+    const repositoryBase = window.location.pathname.startsWith('/nong-yating-portfolio')
+      ? '/nong-yating-portfolio'
+      : '';
+    const player = window.portfolioMusic ?? new Audio(`${repositoryBase}/assets/cloud-country.mp3`);
     window.portfolioMusic = player;
     player.loop = true;
     player.preload = 'none';
+    player.muted = false;
     audio.current = player;
     const sync = () => setPlaying(!player.paused);
     const failed = () => { setPlaying(false); setError(true); };
@@ -29,6 +33,7 @@ export function BackgroundMusic() {
     if (!player) return;
     if (!player.paused) { player.pause(); return; }
     player.volume = 0.3;
+    player.muted = false;
     setError(false);
     try { await player.play(); } catch { setPlaying(false); setError(true); }
   };

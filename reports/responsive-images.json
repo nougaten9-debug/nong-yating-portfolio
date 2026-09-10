@@ -1,0 +1,582 @@
+{
+  "count": 96,
+  "bytes": 6269830,
+  "images": [
+    {
+      "source": "public/assets/home-about-color.webp",
+      "output": "public/assets/responsive/home-about-color-640.webp",
+      "width": 640,
+      "bytes": 2754
+    },
+    {
+      "source": "public/assets/home-about-color.webp",
+      "output": "public/assets/responsive/home-about-color-1280.webp",
+      "width": 1280,
+      "bytes": 7924
+    },
+    {
+      "source": "public/assets/home-ai-lab-color.webp",
+      "output": "public/assets/responsive/home-ai-lab-color-640.webp",
+      "width": 640,
+      "bytes": 4986
+    },
+    {
+      "source": "public/assets/home-ai-lab-color.webp",
+      "output": "public/assets/responsive/home-ai-lab-color-1280.webp",
+      "width": 1280,
+      "bytes": 13794
+    },
+    {
+      "source": "public/assets/home-base-bw.webp",
+      "output": "public/assets/responsive/home-base-bw-640.webp",
+      "width": 640,
+      "bytes": 26352
+    },
+    {
+      "source": "public/assets/home-base-bw.webp",
+      "output": "public/assets/responsive/home-base-bw-1280.webp",
+      "width": 1280,
+      "bytes": 82092
+    },
+    {
+      "source": "public/assets/home-content-color.webp",
+      "output": "public/assets/responsive/home-content-color-640.webp",
+      "width": 640,
+      "bytes": 3418
+    },
+    {
+      "source": "public/assets/home-content-color.webp",
+      "output": "public/assets/responsive/home-content-color-1280.webp",
+      "width": 1280,
+      "bytes": 9822
+    },
+    {
+      "source": "public/assets/home-decor-coffee-set-color.webp",
+      "output": "public/assets/responsive/home-decor-coffee-set-color-640.webp",
+      "width": 640,
+      "bytes": 3776
+    },
+    {
+      "source": "public/assets/home-decor-coffee-set-color.webp",
+      "output": "public/assets/responsive/home-decor-coffee-set-color-1280.webp",
+      "width": 1280,
+      "bytes": 11040
+    },
+    {
+      "source": "public/assets/home-decor-lamp-color.webp",
+      "output": "public/assets/responsive/home-decor-lamp-color-640.webp",
+      "width": 640,
+      "bytes": 3900
+    },
+    {
+      "source": "public/assets/home-decor-lamp-color.webp",
+      "output": "public/assets/responsive/home-decor-lamp-color-1280.webp",
+      "width": 1280,
+      "bytes": 10736
+    },
+    {
+      "source": "public/assets/home-decor-laptop-color.webp",
+      "output": "public/assets/responsive/home-decor-laptop-color-640.webp",
+      "width": 640,
+      "bytes": 5090
+    },
+    {
+      "source": "public/assets/home-decor-laptop-color.webp",
+      "output": "public/assets/responsive/home-decor-laptop-color-1280.webp",
+      "width": 1280,
+      "bytes": 15188
+    },
+    {
+      "source": "public/assets/home-decor-pencilcase-color.webp",
+      "output": "public/assets/responsive/home-decor-pencilcase-color-640.webp",
+      "width": 640,
+      "bytes": 3220
+    },
+    {
+      "source": "public/assets/home-decor-pencilcase-color.webp",
+      "output": "public/assets/responsive/home-decor-pencilcase-color-1280.webp",
+      "width": 1280,
+      "bytes": 9358
+    },
+    {
+      "source": "public/assets/home-decor-plant-color.webp",
+      "output": "public/assets/responsive/home-decor-plant-color-640.webp",
+      "width": 640,
+      "bytes": 3706
+    },
+    {
+      "source": "public/assets/home-decor-plant-color.webp",
+      "output": "public/assets/responsive/home-decor-plant-color-1280.webp",
+      "width": 1280,
+      "bytes": 10770
+    },
+    {
+      "source": "public/assets/home-projects-color.webp",
+      "output": "public/assets/responsive/home-projects-color-640.webp",
+      "width": 640,
+      "bytes": 6148
+    },
+    {
+      "source": "public/assets/home-projects-color.webp",
+      "output": "public/assets/responsive/home-projects-color-1280.webp",
+      "width": 1280,
+      "bytes": 18446
+    },
+    {
+      "source": "public/assets/home-resume-color.webp",
+      "output": "public/assets/responsive/home-resume-color-640.webp",
+      "width": 640,
+      "bytes": 5124
+    },
+    {
+      "source": "public/assets/home-resume-color.webp",
+      "output": "public/assets/responsive/home-resume-color-1280.webp",
+      "width": 1280,
+      "bytes": 14706
+    },
+    {
+      "source": "public/assets/projects/lang.webp",
+      "output": "public/assets/responsive/projects/lang-640.webp",
+      "width": 640,
+      "bytes": 44290
+    },
+    {
+      "source": "public/assets/projects/lang.webp",
+      "output": "public/assets/responsive/projects/lang-1280.webp",
+      "width": 1280,
+      "bytes": 121278
+    },
+    {
+      "source": "public/assets/projects/liu.webp",
+      "output": "public/assets/responsive/projects/liu-640.webp",
+      "width": 640,
+      "bytes": 28236
+    },
+    {
+      "source": "public/assets/projects/liu.webp",
+      "output": "public/assets/responsive/projects/liu-1280.webp",
+      "width": 1280,
+      "bytes": 66718
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01-1.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-1-640.webp",
+      "width": 640,
+      "bytes": 55892
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01-2.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-2-640.webp",
+      "width": 640,
+      "bytes": 53092
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01-3.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-3-640.webp",
+      "width": 640,
+      "bytes": 36404
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01-3.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-3-1280.webp",
+      "width": 1280,
+      "bytes": 119358
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01-4.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-4-640.webp",
+      "width": 640,
+      "bytes": 58484
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-480.webp",
+      "width": 480,
+      "bytes": 65916
+    },
+    {
+      "source": "public/assets/projects/liusimu/case-01.webp",
+      "output": "public/assets/responsive/projects/liusimu/case-01-960.webp",
+      "width": 960,
+      "bytes": 169036
+    },
+    {
+      "source": "public/assets/projects/liusimu/liu.webp",
+      "output": "public/assets/responsive/projects/liusimu/liu-640.webp",
+      "width": 640,
+      "bytes": 28236
+    },
+    {
+      "source": "public/assets/projects/liusimu/liu.webp",
+      "output": "public/assets/responsive/projects/liusimu/liu-1280.webp",
+      "width": 1280,
+      "bytes": 66718
+    },
+    {
+      "source": "public/assets/projects/ranova/1hero.webp",
+      "output": "public/assets/responsive/projects/ranova/1hero-640.webp",
+      "width": 640,
+      "bytes": 42834
+    },
+    {
+      "source": "public/assets/projects/ranova/1hero.webp",
+      "output": "public/assets/responsive/projects/ranova/1hero-1280.webp",
+      "width": 1280,
+      "bytes": 116656
+    },
+    {
+      "source": "public/assets/projects/ranova/2hero.webp",
+      "output": "public/assets/responsive/projects/ranova/2hero-640.webp",
+      "width": 640,
+      "bytes": 43448
+    },
+    {
+      "source": "public/assets/projects/ranova/2hero.webp",
+      "output": "public/assets/responsive/projects/ranova/2hero-1280.webp",
+      "width": 1280,
+      "bytes": 115222
+    },
+    {
+      "source": "public/assets/projects/ranova/case-02.webp",
+      "output": "public/assets/responsive/projects/ranova/case-02-480.webp",
+      "width": 480,
+      "bytes": 32108
+    },
+    {
+      "source": "public/assets/projects/ranova/case-03.webp",
+      "output": "public/assets/responsive/projects/ranova/case-03-480.webp",
+      "width": 480,
+      "bytes": 26510
+    },
+    {
+      "source": "public/assets/projects/ranova/case-04.webp",
+      "output": "public/assets/responsive/projects/ranova/case-04-480.webp",
+      "width": 480,
+      "bytes": 14230
+    },
+    {
+      "source": "public/assets/projects/ranova/case-05.webp",
+      "output": "public/assets/responsive/projects/ranova/case-05-480.webp",
+      "width": 480,
+      "bytes": 29374
+    },
+    {
+      "source": "public/assets/projects/ranova/case-05.webp",
+      "output": "public/assets/responsive/projects/ranova/case-05-960.webp",
+      "width": 960,
+      "bytes": 69610
+    },
+    {
+      "source": "public/assets/projects/ranova/hero.webp",
+      "output": "public/assets/responsive/projects/ranova/hero-640.webp",
+      "width": 640,
+      "bytes": 44290
+    },
+    {
+      "source": "public/assets/projects/ranova/hero.webp",
+      "output": "public/assets/responsive/projects/ranova/hero-1280.webp",
+      "width": 1280,
+      "bytes": 121278
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-01.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-01-640.webp",
+      "width": 640,
+      "bytes": 37724
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-01.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-01-1280.webp",
+      "width": 1280,
+      "bytes": 118014
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-02.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-02-640.webp",
+      "width": 640,
+      "bytes": 39898
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-02.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-02-1280.webp",
+      "width": 1280,
+      "bytes": 122798
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-03.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-03-640.webp",
+      "width": 640,
+      "bytes": 42296
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-03.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-03-1280.webp",
+      "width": 1280,
+      "bytes": 137212
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-04.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-04-640.webp",
+      "width": 640,
+      "bytes": 37394
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-04.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-04-1280.webp",
+      "width": 1280,
+      "bytes": 120562
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-05.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-05-640.webp",
+      "width": 640,
+      "bytes": 39216
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-core-05.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-core-05-1280.webp",
+      "width": 1280,
+      "bytes": 126890
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-stage01-01.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-stage01-01-640.webp",
+      "width": 640,
+      "bytes": 43974
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-stage01-01.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-stage01-01-1280.webp",
+      "width": 1280,
+      "bytes": 142390
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-stage01-02.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-stage01-02-640.webp",
+      "width": 640,
+      "bytes": 46238
+    },
+    {
+      "source": "public/assets/projects/ranova/planning-stage01-02.webp",
+      "output": "public/assets/responsive/projects/ranova/planning-stage01-02-1280.webp",
+      "width": 1280,
+      "bytes": 154242
+    },
+    {
+      "source": "public/assets/projects/vivo.webp",
+      "output": "public/assets/responsive/projects/vivo-640.webp",
+      "width": 640,
+      "bytes": 25896
+    },
+    {
+      "source": "public/assets/projects/vivo.webp",
+      "output": "public/assets/responsive/projects/vivo-1280.webp",
+      "width": 1280,
+      "bytes": 59192
+    },
+    {
+      "source": "public/assets/projects/vivo/case-01.webp",
+      "output": "public/assets/responsive/projects/vivo/case-01-480.webp",
+      "width": 480,
+      "bytes": 99524
+    },
+    {
+      "source": "public/assets/projects/vivo/case-01.webp",
+      "output": "public/assets/responsive/projects/vivo/case-01-960.webp",
+      "width": 960,
+      "bytes": 364286
+    },
+    {
+      "source": "public/assets/projects/vivo/case-02.webp",
+      "output": "public/assets/responsive/projects/vivo/case-02-480.webp",
+      "width": 480,
+      "bytes": 53988
+    },
+    {
+      "source": "public/assets/projects/vivo/case-02.webp",
+      "output": "public/assets/responsive/projects/vivo/case-02-960.webp",
+      "width": 960,
+      "bytes": 127626
+    },
+    {
+      "source": "public/assets/projects/vivo/case-021.webp",
+      "output": "public/assets/responsive/projects/vivo/case-021-480.webp",
+      "width": 480,
+      "bytes": 56206
+    },
+    {
+      "source": "public/assets/projects/vivo/case-021.webp",
+      "output": "public/assets/responsive/projects/vivo/case-021-960.webp",
+      "width": 960,
+      "bytes": 152818
+    },
+    {
+      "source": "public/assets/projects/vivo/case-03.webp",
+      "output": "public/assets/responsive/projects/vivo/case-03-480.webp",
+      "width": 480,
+      "bytes": 100434
+    },
+    {
+      "source": "public/assets/projects/vivo/case-03.webp",
+      "output": "public/assets/responsive/projects/vivo/case-03-960.webp",
+      "width": 960,
+      "bytes": 345124
+    },
+    {
+      "source": "public/assets/projects/vivo/case-04.webp",
+      "output": "public/assets/responsive/projects/vivo/case-04-480.webp",
+      "width": 480,
+      "bytes": 48668
+    },
+    {
+      "source": "public/assets/projects/vivo/case-04.webp",
+      "output": "public/assets/responsive/projects/vivo/case-04-960.webp",
+      "width": 960,
+      "bytes": 113564
+    },
+    {
+      "source": "public/assets/projects/vivo/case-05.webp",
+      "output": "public/assets/responsive/projects/vivo/case-05-480.webp",
+      "width": 480,
+      "bytes": 13946
+    },
+    {
+      "source": "public/assets/projects/vivo/case-05.webp",
+      "output": "public/assets/responsive/projects/vivo/case-05-960.webp",
+      "width": 960,
+      "bytes": 35368
+    },
+    {
+      "source": "public/assets/projects/vivo/case-051.webp",
+      "output": "public/assets/responsive/projects/vivo/case-051-480.webp",
+      "width": 480,
+      "bytes": 15126
+    },
+    {
+      "source": "public/assets/projects/vivo/case-051.webp",
+      "output": "public/assets/responsive/projects/vivo/case-051-960.webp",
+      "width": 960,
+      "bytes": 33242
+    },
+    {
+      "source": "public/assets/projects/vivo/case-06.webp",
+      "output": "public/assets/responsive/projects/vivo/case-06-480.webp",
+      "width": 480,
+      "bytes": 33572
+    },
+    {
+      "source": "public/assets/projects/vivo/case-06.webp",
+      "output": "public/assets/responsive/projects/vivo/case-06-960.webp",
+      "width": 960,
+      "bytes": 91630
+    },
+    {
+      "source": "public/assets/projects/vivo/case-07.webp",
+      "output": "public/assets/responsive/projects/vivo/case-07-480.webp",
+      "width": 480,
+      "bytes": 48010
+    },
+    {
+      "source": "public/assets/projects/vivo/case-07.webp",
+      "output": "public/assets/responsive/projects/vivo/case-07-960.webp",
+      "width": 960,
+      "bytes": 117680
+    },
+    {
+      "source": "public/assets/projects/vivo/case-08.webp",
+      "output": "public/assets/responsive/projects/vivo/case-08-480.webp",
+      "width": 480,
+      "bytes": 56206
+    },
+    {
+      "source": "public/assets/projects/vivo/case-08.webp",
+      "output": "public/assets/responsive/projects/vivo/case-08-960.webp",
+      "width": 960,
+      "bytes": 152818
+    },
+    {
+      "source": "public/assets/projects/vivo/case-09.webp",
+      "output": "public/assets/responsive/projects/vivo/case-09-480.webp",
+      "width": 480,
+      "bytes": 67660
+    },
+    {
+      "source": "public/assets/projects/vivo/case-09.webp",
+      "output": "public/assets/responsive/projects/vivo/case-09-960.webp",
+      "width": 960,
+      "bytes": 205944
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-mini-planning-01.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-mini-planning-01-640.webp",
+      "width": 640,
+      "bytes": 32450
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-mini-planning-01.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-mini-planning-01-1280.webp",
+      "width": 1280,
+      "bytes": 91968
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-mini-planning-02.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-mini-planning-02-640.webp",
+      "width": 640,
+      "bytes": 31156
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-mini-planning-02.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-mini-planning-02-1280.webp",
+      "width": 1280,
+      "bytes": 87868
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-pro-planning-01.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-pro-planning-01-640.webp",
+      "width": 640,
+      "bytes": 38340
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-pro-planning-01.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-pro-planning-01-1280.webp",
+      "width": 1280,
+      "bytes": 110272
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-pro-planning-02.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-pro-planning-02-640.webp",
+      "width": 640,
+      "bytes": 41330
+    },
+    {
+      "source": "public/assets/projects/vivo/vivo-pro-planning-02.webp",
+      "output": "public/assets/responsive/projects/vivo/vivo-pro-planning-02-1280.webp",
+      "width": 1280,
+      "bytes": 115446
+    },
+    {
+      "source": "public/assets/projects/zhu-transparent.webp",
+      "output": "public/assets/responsive/projects/zhu-transparent-640.webp",
+      "width": 640,
+      "bytes": 43238
+    },
+    {
+      "source": "public/assets/projects/zhu-transparent.webp",
+      "output": "public/assets/responsive/projects/zhu-transparent-1280.webp",
+      "width": 1280,
+      "bytes": 105320
+    },
+    {
+      "source": "public/assets/projects/zhu.webp",
+      "output": "public/assets/responsive/projects/zhu-640.webp",
+      "width": 640,
+      "bytes": 31470
+    },
+    {
+      "source": "public/assets/projects/zhu.webp",
+      "output": "public/assets/responsive/projects/zhu-1280.webp",
+      "width": 1280,
+      "bytes": 72028
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "primary_images_before_bytes": 18850459,
+  "primary_images_after_bytes": 18691367,
+  "responsive_derivatives_bytes": 6269830,
+  "deployed_image_inventory_bytes": 24961197,
+  "home_images_bytes": 490020,
+  "home_initial_desktop_before_bytes": 490020,
+  "home_initial_desktop_after_bytes": 202728,
+  "home_requests_before": 11,
+  "home_requests_after": 1,
+  "projects": {
+    "ranova": {
+      "images": 13,
+      "original_bytes": 3004182,
+      "effective_desktop_bytes": 1085718,
+      "initial_bytes": 44290,
+      "deferred_bytes": 1041428,
+      "largest_original_bytes": 392956
+    },
+    "vivo": {
+      "images": 15,
+      "original_bytes": 3695522,
+      "effective_desktop_bytes": 990012,
+      "initial_bytes": 40246,
+      "deferred_bytes": 949766,
+      "largest_original_bytes": 509922
+    },
+    "liusimu": {
+      "images": 10,
+      "original_bytes": 1193300,
+      "effective_desktop_bytes": 434928,
+      "initial_bytes": 28236,
+      "deferred_bytes": 406692,
+      "largest_original_bytes": 313304
+    }
+  },
+  "largest_before": [
+    {
+      "file": "public/assets/projects/vivo/case-01.webp",
+      "bytes": 658126
+    },
+    {
+      "file": "public/assets/projects/vivo/case-03.webp",
+      "bytes": 607282
+    },
+    {
+      "file": "public/assets/projects/vivo/case-09.webp",
+      "bytes": 406342
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-stage01-02.webp",
+      "bytes": 392956
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-stage01-01.webp",
+      "bytes": 384492
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-03.webp",
+      "bytes": 357914
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-02.webp",
+      "bytes": 339080
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-05.webp",
+      "bytes": 334580
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-04.webp",
+      "bytes": 332476
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-01.webp",
+      "bytes": 326048
+    }
+  ],
+  "largest_after": [
+    {
+      "file": "public/assets/projects/vivo/case-01.webp",
+      "bytes": 509922
+    },
+    {
+      "file": "public/assets/projects/vivo/case-03.webp",
+      "bytes": 486570
+    },
+    {
+      "file": "public/assets/projects/vivo/case-09.webp",
+      "bytes": 406342
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-stage01-02.webp",
+      "bytes": 392956
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-stage01-01.webp",
+      "bytes": 384492
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-03.webp",
+      "bytes": 357914
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-02.webp",
+      "bytes": 339080
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-05.webp",
+      "bytes": 334580
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-04.webp",
+      "bytes": 332476
+    },
+    {
+      "file": "public/assets/projects/ranova/planning-core-01.webp",
+      "bytes": 326048
+    }
+  ]
+}
