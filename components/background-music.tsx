@@ -13,7 +13,7 @@ export function BackgroundMusic() {
     const player = window.portfolioMusic ?? new Audio(`${repositoryBase}/assets/cloud-country.mp3`);
     window.portfolioMusic = player;
     player.loop = true;
-    player.preload = 'none';
+    player.preload = 'metadata';
     player.muted = false;
     audio.current = player;
     const sync = () => setPlaying(!player.paused);
@@ -32,7 +32,7 @@ export function BackgroundMusic() {
     const player = audio.current;
     if (!player) return;
     if (!player.paused) { player.pause(); return; }
-    player.volume = 0.3;
+    player.volume = 0.5;
     player.muted = false;
     setError(false);
     try { await player.play(); } catch { setPlaying(false); setError(true); }
