@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 
 // Keep the original case-study styles/scripts isolated while the app and audio stay mounted.
-export function CaseStudyPage({ name, title, onBack }: { name: string; title: string; onBack?: () => void }) {
+export function CaseStudyPage({ name, title }: { name: string; title: string }) {
   const cleanup = useRef<(() => void) | null>(null);
 
   useEffect(() => () => cleanup.current?.(), []);
@@ -21,12 +21,8 @@ export function CaseStudyPage({ name, title, onBack }: { name: string; title: st
         const link = target?.closest('a');
         if (!link || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
         const url = new URL(link.href);
-        if (url.origin !== window.location.origin || !link.classList.contains('back-projects')) return;
+        if (url.origin !== window.location.origin || url.pathname !== '/projects') return;
         event.preventDefault();
-        if (onBack) {
-          onBack();
-          return;
-        }
         window.location.assign('/projects');
       };
       doc.addEventListener('click', navigate);

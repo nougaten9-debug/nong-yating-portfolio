@@ -5,16 +5,12 @@ import { TopNavigation } from '@/components/home/top-navigation';
 import { AboutBoard } from '@/components/about/about-board';
 import { ContentBoard } from '@/components/content/content-board';
 
-export default function Home({ initialSection = 'home', onProjects }: { initialSection?: 'home' | 'about' | 'content'; onProjects?: () => void }) {
+export default function Home({ initialSection = 'home' }: { initialSection?: 'home' | 'about' | 'content' }) {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const [aboutOpen, setAboutOpen] = useState(initialSection === 'about');
   const [contentOpen, setContentOpen] = useState(initialSection === 'content');
 
   const openSection = (id: string) => {
-    if (id === 'projects' && onProjects) {
-      onProjects();
-      return true;
-    }
     if (id === 'about') {
       setHoveredItem(null);
       setAboutOpen(true);
