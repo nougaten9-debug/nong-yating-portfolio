@@ -16,7 +16,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='zh-CN'>
-      <head><link rel="icon" href="/favicon.svg" type="image/svg+xml" /></head>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <script
+          id="ipad-layout-detection"
+          dangerouslySetInnerHTML={{
+            __html: "(()=>{const u=navigator.userAgent;const i=/iPad/.test(u)||(/Macintosh/.test(u)&&navigator.maxTouchPoints>0);if(i){document.documentElement.classList.add('is-ipad')}})();",
+          }}
+        />
+      </head>
       <body>{children}<BackgroundMusic /></body>
     </html>
   );

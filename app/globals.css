@@ -9124,45 +9124,45 @@ font-family: var(--font-body-cn);
 /* ============================================================
    Responsive layer: iPad Pro landscape.
    Safari chrome reduces the CSS viewport height, so do not key this
-   layout off a 940px minimum height. The coarse pointer keeps the
-   desktop/laptop layout unchanged at the same viewport width.
+   layout off a 940px minimum height. The is-ipad class is applied from
+   device capability detection before paint, including desktop-site mode.
    ============================================================ */
-@media (min-width:1024px) and (max-width:1400px) and (orientation:landscape) and (any-pointer:coarse){
+@media (min-width:1024px) and (max-width:1400px) and (orientation:landscape){
   /* About：面板高度上限放宽，充分利用 4:3 屏高 */
-  .section-board:has(.about-board){
+  html.is-ipad .section-board:has(.about-board){
     width:min(92vw,1320px);
     height:min(88svh,920px);
     max-height:88svh;
   }
-  .about-board{padding-left:clamp(44px,4vw,64px);padding-right:clamp(44px,4vw,64px)}
-  .about-carousel-shell,.about-carousel{min-width:0}
+  html.is-ipad .about-board{padding-left:clamp(44px,4vw,64px);padding-right:clamp(44px,4vw,64px)}
+  html.is-ipad .about-carousel-shell,html.is-ipad .about-carousel{min-width:0}
   /* Content：面板高度上限放宽，减少上下留白 */
-  .section-board:has(.content-board){
+  html.is-ipad .section-board:has(.content-board){
     width:min(92vw,1320px);
     height:min(88svh,900px);
     max-height:88svh;
   }
-  .content-board{padding-left:clamp(38px,4vw,58px);padding-right:clamp(38px,4vw,58px)}
-  .content-cards{
+  html.is-ipad .content-board{padding-left:clamp(38px,4vw,58px);padding-right:clamp(38px,4vw,58px)}
+  html.is-ipad .content-cards{
     width:100%;
     grid-template-columns:repeat(3,minmax(0,1fr));
     gap:clamp(10px,1.2vw,18px);
   }
-  .content-account-card{min-width:0}
+  html.is-ipad .content-account-card{min-width:0}
   /* Projects：主视觉区上限放宽、版心加宽、上下留白收窄 */
-  .projects-page-layout{
+  html.is-ipad .projects-page-layout{
     width:min(90vw,1360px);
     padding-top:clamp(80px,9svh,112px);
     padding-bottom:clamp(60px,7svh,92px);
   }
-  .projects-page-section{min-height:clamp(560px,82svh,880px)}
-  .projects-page-intro{min-height:clamp(600px,86svh,900px)}
+  html.is-ipad .projects-page-section{min-height:clamp(560px,82svh,880px)}
+  html.is-ipad .projects-page-intro{min-height:clamp(600px,86svh,900px)}
   /* 项目图框 1366 下右缘会超出屏幕被裁 25px，收回到视口内保持完整出血观感 */
-  .projects-visual-frame{width:min(50vw,566px)}
+  html.is-ipad .projects-visual-frame{width:min(50vw,566px)}
   /* Resume：画布脱离 16:9，铺满 4:3 屏；内部滚动区按百分比自动变高 */
-  .id-fixed-canvas{width:100vw;height:100svh;aspect-ratio:auto}
+  html.is-ipad .id-fixed-canvas{width:100vw;height:100svh;aspect-ratio:auto}
   /* AI Lab：版心加宽、顶部留白收窄 */
-  .ai-lab-shell{
+  html.is-ipad .ai-lab-shell{
     width:min(1320px,100% - 80px);
     padding-top:clamp(110px,12vh,142px);
   }
