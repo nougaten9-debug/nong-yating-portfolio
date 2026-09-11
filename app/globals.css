@@ -9122,20 +9122,33 @@ font-family: var(--font-body-cn);
 }
 
 /* ============================================================
-   Responsive layer: large 4:3 tablet landscape (iPad Pro 1366×1024)
-   只放宽被 16:9 / 固定上限压矮的容器，≥1440 桌面完全不受影响
+   Responsive layer: iPad Pro landscape.
+   Safari chrome reduces the CSS viewport height, so do not key this
+   layout off a 940px minimum height. The coarse pointer keeps the
+   desktop/laptop layout unchanged at the same viewport width.
    ============================================================ */
-@media (min-width:1200px) and (max-width:1400px) and (min-height:940px){
+@media (min-width:1024px) and (max-width:1400px) and (orientation:landscape) and (any-pointer:coarse){
   /* About：面板高度上限放宽，充分利用 4:3 屏高 */
   .section-board:has(.about-board){
-    height:min(90vh,920px);
-    max-height:90vh;
+    width:min(92vw,1320px);
+    height:min(88svh,920px);
+    max-height:88svh;
   }
+  .about-board{padding-left:clamp(44px,4vw,64px);padding-right:clamp(44px,4vw,64px)}
+  .about-carousel-shell,.about-carousel{min-width:0}
   /* Content：面板高度上限放宽，减少上下留白 */
   .section-board:has(.content-board){
-    height:min(84vh,900px);
-    max-height:84vh;
+    width:min(92vw,1320px);
+    height:min(88svh,900px);
+    max-height:88svh;
   }
+  .content-board{padding-left:clamp(38px,4vw,58px);padding-right:clamp(38px,4vw,58px)}
+  .content-cards{
+    width:100%;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:clamp(10px,1.2vw,18px);
+  }
+  .content-account-card{min-width:0}
   /* Projects：主视觉区上限放宽、版心加宽、上下留白收窄 */
   .projects-page-layout{
     width:min(90vw,1360px);
